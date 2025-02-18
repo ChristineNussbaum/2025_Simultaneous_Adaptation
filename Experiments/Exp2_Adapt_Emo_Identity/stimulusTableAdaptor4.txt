@@ -1,0 +1,8 @@
+nm04_w01_ang_70dB	"642"	"nm04"	"w01"	"ang"	"m"
+nm04_w02_ang_70dB	"540"	"nm04"	"w02"	"ang"	"m"
+nm04_w03_ang_70dB	"589"	"nm04"	"w03"	"ang"	"m"
+nm04_w05_ang_70dB	"659"	"nm04"	"w05"	"ang"	"m"
+nm03_w01_fea_70dB	"643"	"nm03"	"w01"	"fea"	"m"
+nm03_w02_fea_70dB	"980"	"nm03"	"w02"	"fea"	"m"
+nm03_w03_fea_70dB	"804"	"nm03"	"w03"	"fea"	"m"
+nm03_w05_fea_70dB	"839"	"nm03"	"w05"	"fea"	"m"

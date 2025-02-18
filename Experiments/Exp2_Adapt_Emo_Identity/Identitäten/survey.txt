@@ -1,0 +1,176 @@
+l: intro_question1
+t: textline
+q: Um als Teilnehmer/in dieser Studie in Frage zu kommen, müssen folgende Kriterien auf Sie zutreffen:
+<ol>
+<li>Ihre Muttersprache ist Deutsch.</li>
+<li>Sie haben eine Tastatur und Kopfhörer an Ihren Computer angeschlossen.</li>
+<li>Sie können das Hörexperiment (ca. 20-25 Minuten) in ruhiger Umgebung und ungestört durchführen.</li>
+<li>Sie können den nachfolgenden Fragebogen (ca. 5 Minuten) ungestört und unabgelenkt beantworten.</li>
+<li>Sie haben einen 7-stelligen Teilnahmecode per Email erhalten.</li>
+</ol>
+Durch Eingabe des 7-stelligen Teilnahmecodes bestätige ich, dass alle Kriterien auf mich zutreffen.
+- Ihr 7-stelliger Teilnahmecode: 
+
+l: 
+t: jump
+- if $intro_question1 != 02072024 then goto endSurvey
+
+
+l: LAge
+t: textline
+q: Vielen lieben Dank für Ihr Interesse und Ihre Bereitschaft zur Teilnahme. <br>
+Es folgt nun eine kurze Befragung zu Ihrer Person (6-8 Fragen).<br>
+<strong>1. Wie alt sind Sie?</strong>
+- Bitte geben Sie Ihr Alter ein: 
+
+l: LSex
+t: radio
+q: <strong>2. Was ist Ihr Geschlecht?</strong>
+- weiblich
+- männlich
+- divers
+
+l: LMotherLanguage
+t: radio
+q: <strong>3. Was ist Ihre Muttersprache?</strong>
+- Deutsch
+- Englisch
+- Sonstiges
+
+
+l: LStudyWork
+t: textline
+q: <strong>5. Was arbeiten/studieren Sie?</strong>
+- Bitte geben Sie Ihren Beruf bzw. Ihren Studiengang (HF/NF, Fachsemester) ein: 
+
+l: LHearingDisabilitiesKnown
+t: radio
+q: <strong>6. Haben Sie bekannte Hörstörungen (z.B. Tinnitus, Schwerhörigkeit)? </strong>
+- Nein
+- Ja
+- Weiß nicht
+
+l: jumplabel1
+t: jump
+- if $LHearingDisabilitiesKnown == 1 then goto introExperiment
+
+l: LHearingDisabilitiesKind
+t: textline
+q: <strong>7. Was für eine Hörstörung haben Sie/glauben Sie zu haben?</strong>
+- Ihre Eingabe:
+
+scale: agreeHearing
+- {score=1} Gar nicht eingeschränkt.
+- {score=2} Ein wenig eingeschränkt.
+- {score=3} Ziemlich eingeschränkt.
+- {score=4} Extrem eingeschränkt.
+
+l: LHearingDisabilitiesConstraint
+t: scale agreeHearing
+q: <strong>8. Wenn ja, wie stark schränkt Sie diese beim alltäglichen Hören ein?</strong>
+- Stärke der Einschränkung:
+
+
+
+l: introExperiment
+t: info
+q: Vielen Dank. Im Folgenden geht es gleich weiter mit dem Hörexperiment. <br>
+Es kann je nach Internetverbindung einen Moment (bis zu mehreren Minuten) Ladezeit benötigen.
+
+
+
+#######################################################################################################
+
+l: StartRatingExperiment
+t: experiment
+- Identitäten_mitTopUp
+
+#######################################################################################################
+
+
+l: afterExp1AllSoundsPlayed
+t: radio
+q: Seite 1/4 zum Hörexperiment:<br>
+<strong>Wurden alle Stimmen abgespielt</strong>?
+- ja
+- nein
+- weiß nicht
+
+l: afterExp2InstructionsClear
+t: textbox
+q: Seite 2/4 zum Hörexperiment:<br>
+<strong>Waren die Instruktionen verständlich? Gab es 
+Momente, in denen Sie unsicher waren, was zu tun war? Kam Ihnen etwas komisch vor?</strong>
+- Bitte stichpunktartig beschreiben: 
+
+scale: easeOfRating
+- {score=1} Stimme überhaupt nicht zu
+- {score=2} Stimme eher nicht zu	
+- {score=3} Teils, teils
+- {score=4} Stimme eher zu
+- {score=5} Stimme voll und ganz zu
+
+l: afterExp3RatingEvaluation
+t: scale easeOfRating
+q: Seite 3/4 zum Hörexperiment<br>
+<strong>Wie stark stimmen Sie den Aussagen zu?</strong>
+- 1) Im Alltag achte ich stets auf den Klang der Stimme einer Person.
+- 2) Es fiel mir äußerst schwer, die Stimmen zu bewerten.
+- 3) Bei den meisten Stimmen hatte ich gar keine Ahnung, was ich drücken sollte.
+- 4) Ich habe die ganze Zeit aufmerksam zugehört.
+- 5) Oft habe ich einfach irgendetwas geklickt.
+- 6) Ich fand dieses Hörexperiment äußerst interessant.
+- 7) Ich habe in jedem Durchgang versucht, die Bewertung so gut wie möglich zu machen.
+- 8) Ich achte normalerweise gar nicht auf die Stimmen von Personen.
+
+
+l: afterExp4Strategy
+t: textbox
+q: Seite 4/4 zum Hörexperiment:<br>
+<strong>Haben Sie eine Strategie entwickelt, um das Rating durchzuführen? Wenn ja, welche? Wonach haben Sie Ihre Bewertung gerichtet?</strong>
+- Bitte stichpunktartig beschreiben: 
+
+
+
+
+############################################################################################
+
+l: LPartCode
+t: textline
+q: Für Studierende der Friedrich-Schiller-Universität: <br>
+Wenn Sie sich eine <b> halbe Versuchspersonenstunde (1/2 h)</b> im Prüfungsamt anerkennen
+lassen möchten, wird ein Code benötigt, um Ihre Teilnahme an dieser Studie zu bestätigen. Der Code
+besteht aus drei Teilen, die durch Punkte getrennt werden. Ein Teilnahme-Code für diese Studie
+könnte so aussehen: <strong>587.AdaptEmoS1.JMK67L</strong>.<br>
+Dabei steht "587" für ID der Studie, der zweite Teil " AdaptEmoS1" steht für diese Studie und der
+dritte Teil " JMK67L" ist ein Beispiel für einen individuellen Probandencode.<br>
+<br>
+Der Code kann frühestens <strong>ab 15. August 2024</strong> eingelöst werden. Sollten Sie
+Probleme beim Einlösen des Codes haben, wenden Sie sich bitte an folgende E-Mail Adresse:
+laura.wuerfel@uni-jena.de <br>
+Bitte geben Sie die Buchstaben und Ziffern für Ihren individuellen Probandencode in u.s. Felder ein.
+Notieren Sie sich bitte Ihren vollständigen dreiteiligen Code
+<strong>587.AdaptEmoS1.xxxxxx</strong>. Nur mit korrektem und vollständigem Code können Sie
+im Prüfungsamt Ihre halbe Versuchspersonenstunde anerkannt bekommen. <br>
+- ZWEITER Buchstabe Ihres Vornamens (zB. A, bei M<strong>a</strong>x):
+- DRITTER Buchstabe Ihres Nachnamens (z.B. S, bei Mu<strong>s</strong>termann):
+- ERSTER Buchstabe Ihres Geburtsorts (z.B. F, bei <strong>F</strong>rankfurt):
+- ZWEITE Zahl Ihres Geburtstags (z.B. 3, bei 2<strong>3</strong>.07.1990):
+- ZWEITE Zahl Ihres GeburtsMONATS (z.B., 7, bei 23.0<strong>7</strong>.1990):
+- ZWEITER Buchstabe des Vornamens Ihrer Mutter (z.B. L, bei E<strong>l</strong>len):
+
+
+
+l: Anmerkungen
+t: textbox
+q: Vielen herzlichen Dank für Ihre Ausdauer und Teilnahme an der Studie zur Wahrnehmung von Emotionen in der Stimme! <br>
+<br>Falls Sie noch Anmerkungen, Hinweise oder Kritik zu diesem Experiment haben, können Sie diese gerne anonym in unten stehendem Eingabefeld hinterlassen.<br>
+- Ihre Anmerkungen: 
+
+
+
+l: endSurvey
+t: info
+q: Vielen Dank für Ihre Teilnahme und Ihr Interesse. <br>
+Sollten Sie gleich zu Beginn auf dieser Seite landen, hat Ihr Teilnahmecode leider nicht gestimmt. <br>
+

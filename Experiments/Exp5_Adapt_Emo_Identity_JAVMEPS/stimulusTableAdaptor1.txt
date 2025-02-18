@@ -1,0 +1,8 @@
+HO05_belam_f_ang_70dB_cut	"764"	"HO05"	"belam"	"ang"	"f"
+HO05_loman_f_ang_70dB_cut	"765"	"HO05"	"loman"	"ang"	"f"
+HO05_molen_f_ang_70dB_cut	"753"	"HO05"	"molen"	"ang"	"f"
+HO05_namil_f_ang_70dB_cut	"758"	"HO05"	"namil"	"ang"	"f"
+JW07_belam_f_fea_70dB_cut	"677"	"JW07"	"belam"	"fea"	"f"
+JW07_loman_f_fea_70dB_cut	"879"	"JW07"	"loman"	"fea"	"f"
+JW07_molen_f_fea_70dB_cut	"760"	"JW07"	"molen"	"fea"	"f"
+JW07_namil_f_fea_70dB_cut	"764"	"JW07"	"namil"	"fea"	"f"

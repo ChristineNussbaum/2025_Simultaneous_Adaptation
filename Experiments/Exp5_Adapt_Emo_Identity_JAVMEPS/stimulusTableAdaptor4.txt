@@ -1,0 +1,8 @@
+TL12_belam_m_fea_70dB_cut	"561"	"TL12"	"belam"	"fea"	"m"
+TL12_loman_m_fea_70dB_cut	"601"	"TL12"	"loman"	"fea"	"m"
+TL12_molen_m_fea_70dB_cut	"559"	"TL12"	"molen"	"fea"	"m"
+TL12_namil_m_fea_70dB_cut	"584"	"TL12"	"namil"	"fea"	"m"
+WK01_belam_m_ang_70dB_cut	"712"	"WK01"	"belam"	"ang"	"m"
+WK01_loman_m_ang_70dB_cut	"998"	"WK01"	"loman"	"ang"	"m"
+WK01_molen_m_ang_70dB_cut	"1201"	"WK01"	"molen"	"ang"	"m"
+WK01_namil_m_ang_70dB_cut	"839"	"WK01"	"namil"	"ang"	"m"

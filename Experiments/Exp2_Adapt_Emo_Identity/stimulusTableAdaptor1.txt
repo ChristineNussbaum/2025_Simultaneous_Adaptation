@@ -1,0 +1,9 @@
+nf01_w01_ang_70dB	"854"	"nf01"	"w01"	"ang"	"f"
+nf01_w02_ang_70dB	"770"	"nf01"	"w02"	"ang"	"f"
+nf01_w03_ang_70dB	"1009"	"nf01"	"w03"	"ang"	"f"
+nf01_w05_ang_70dB	"984"	"nf01"	"w05"	"ang"	"f"
+nf03_w01_fea_70dB	"750"	"nf03"	"w01"	"fea"	"f"
+nf03_w02_fea_70dB	"680"	"nf03"	"w02"	"fea"	"f"
+nf03_w03_fea_70dB	"764"	"nf03"	"w03"	"fea"	"f"
+nf03_w05_fea_70dB	"676"	"nf03"	"w05"	"fea"	"f"
+

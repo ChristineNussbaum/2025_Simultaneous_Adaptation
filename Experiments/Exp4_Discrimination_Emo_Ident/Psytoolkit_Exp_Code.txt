@@ -1,0 +1,243 @@
+################################################### Settings
+
+options
+  fullscreen
+  resolution 1920 1080
+  startbutton text Klicken Sie hier um das Experiment zu starten
+  loading text Laden, bitte warten
+
+################################################### Bitmaps + Sounds
+
+bitmaps
+  EndSlide           Slides/Folie8.PNG
+  FixcrGrün          Slides/Folie10.PNG
+  ResponseTrail      Slides/Folie11.PNG
+  BlackTrail         Slides/Folie9.PNG
+  IntroductionSlide1 Slides/Folie1.PNG
+  IntroductionSlide2 Slides/Folie2.PNG
+  IntroductionSlide3 Slides/Folie3.PNG
+  IntroductionSlide4 Slides/Folie4.PNG
+  IntroductionSlide5 Slides/Folie5.PNG
+  IntroductionSlide6 Slides/Folie6.PNG
+  BreakSlide         Slides/Folie7.PNG
+
+sounds
+  nf01_w01_ang_70dB Sounds/nf01_w01_ang_70dB.wav
+  nf01_w02_ang_70dB Sounds/nf01_w02_ang_70dB.wav
+  nf01_w03_ang_70dB Sounds/nf01_w03_ang_70dB.wav
+  nf01_w05_ang_70dB Sounds/nf01_w05_ang_70dB.wav
+  nf01_w01_fea_70dB Sounds/nf01_w01_fea_70dB.wav
+  nf01_w02_fea_70dB Sounds/nf01_w02_fea_70dB.wav
+  nf01_w03_fea_70dB Sounds/nf01_w03_fea_70dB.wav
+  nf01_w05_fea_70dB Sounds/nf01_w05_fea_70dB.wav
+  nf03_w01_ang_70dB Sounds/nf03_w01_ang_70dB.wav
+  nf03_w02_ang_70dB Sounds/nf03_w02_ang_70dB.wav
+  nf03_w03_ang_70dB Sounds/nf03_w03_ang_70dB.wav
+  nf03_w05_ang_70dB Sounds/nf03_w05_ang_70dB.wav
+  nf03_w01_fea_70dB Sounds/nf03_w01_fea_70dB.wav
+  nf03_w02_fea_70dB Sounds/nf03_w02_fea_70dB.wav
+  nf03_w03_fea_70dB Sounds/nf03_w03_fea_70dB.wav
+  nf03_w05_fea_70dB Sounds/nf03_w05_fea_70dB.wav
+  nm03_w01_ang_70dB Sounds/nm03_w01_ang_70dB.wav
+  nm03_w02_ang_70dB Sounds/nm03_w02_ang_70dB.wav
+  nm03_w03_ang_70dB Sounds/nm03_w03_ang_70dB.wav
+  nm03_w05_ang_70dB Sounds/nm03_w05_ang_70dB.wav
+  nm03_w01_fea_70dB Sounds/nm03_w01_fea_70dB.wav
+  nm03_w02_fea_70dB Sounds/nm03_w02_fea_70dB.wav
+  nm03_w03_fea_70dB Sounds/nm03_w03_fea_70dB.wav
+  nm03_w05_fea_70dB Sounds/nm03_w05_fea_70dB.wav
+  nm04_w01_ang_70dB Sounds/nm04_w01_ang_70dB.wav
+  nm04_w02_ang_70dB Sounds/nm04_w02_ang_70dB.wav
+  nm04_w03_ang_70dB Sounds/nm04_w03_ang_70dB.wav
+  nm04_w05_ang_70dB Sounds/nm04_w05_ang_70dB.wav
+  nm04_w01_fea_70dB Sounds/nm04_w01_fea_70dB.wav
+  nm04_w02_fea_70dB Sounds/nm04_w02_fea_70dB.wav
+  nm04_w03_fea_70dB Sounds/nm04_w03_fea_70dB.wav
+  nm04_w05_fea_70dB Sounds/nm04_w05_fea_70dB.wav
+  HO05_belam_f_ang	Sounds/HO05_belam_f_ang_70dB_cut.wav
+  HO05_belam_f_fea	Sounds/HO05_belam_f_fea_70dB_cut.wav
+  HO05_loman_f_ang	Sounds/HO05_loman_f_ang_70dB_cut.wav
+  HO05_loman_f_fea	Sounds/HO05_loman_f_fea_70dB_cut.wav
+  HO05_molen_f_ang	Sounds/HO05_molen_f_ang_70dB_cut.wav
+  HO05_molen_f_fea	Sounds/HO05_molen_f_fea_70dB_cut.wav
+  HO05_namil_f_ang	Sounds/HO05_namil_f_ang_70dB_cut.wav
+  HO05_namil_f_fea	Sounds/HO05_namil_f_fea_70dB_cut.wav
+  JW07_belam_f_ang	Sounds/JW07_belam_f_ang_70dB_cut.wav
+  JW07_belam_f_fea	Sounds/JW07_belam_f_fea_70dB_cut.wav
+  JW07_loman_f_ang	Sounds/JW07_loman_f_ang_70dB_cut.wav
+  JW07_loman_f_fea	Sounds/JW07_loman_f_fea_70dB_cut.wav
+  JW07_molen_f_ang	Sounds/JW07_molen_f_ang_70dB_cut.wav
+  JW07_molen_f_fea	Sounds/JW07_molen_f_fea_70dB_cut.wav
+  JW07_namil_f_ang	Sounds/JW07_namil_f_ang_70dB_cut.wav
+  JW07_namil_f_fea	Sounds/JW07_namil_f_fea_70dB_cut.wav
+  TL12_belam_m_ang	Sounds/TL12_belam_m_ang_70dB_cut.wav
+  TL12_belam_m_fea	Sounds/TL12_belam_m_fea_70dB_cut.wav
+  TL12_loman_m_ang	Sounds/TL12_loman_m_ang_70dB_cut.wav
+  TL12_loman_m_fea	Sounds/TL12_loman_m_fea_70dB_cut.wav
+  TL12_molen_m_ang	Sounds/TL12_molen_m_ang_70dB_cut.wav
+  TL12_molen_m_fea	Sounds/TL12_molen_m_fea_70dB_cut.wav
+  TL12_namil_m_ang	Sounds/TL12_namil_m_ang_70dB_cut.wav
+  TL12_namil_m_fea	Sounds/TL12_namil_m_fea_70dB_cut.wav
+  WK01_belam_m_ang	Sounds/WK01_belam_m_ang_70dB_cut.wav
+  WK01_belam_m_fea	Sounds/WK01_belam_m_fea_70dB_cut.wav
+  WK01_loman_m_ang	Sounds/WK01_loman_m_ang_70dB_cut.wav
+  WK01_loman_m_fea	Sounds/WK01_loman_m_fea_70dB_cut.wav
+  WK01_molen_m_ang	Sounds/WK01_molen_m_ang_70dB_cut.wav
+  WK01_molen_m_fea	Sounds/WK01_molen_m_fea_70dB_cut.wav
+  WK01_namil_m_ang	Sounds/WK01_namil_m_ang_70dB_cut.wav
+  WK01_namil_m_fea	Sounds/WK01_namil_m_fea_70dB_cut.wav
+  nf01_w01_30_70db      Sounds/nf01_w01_30_70db.wav
+  nf03_w01_30_70db      Sounds/nf03_w01_30_70db.wav
+  nm03_w02_30_70db      Sounds/nm03_w02_30_70db.wav
+  nm04_w02_30_70db      Sounds/nm04_w02_30_70db.wav
+  nf01_w01_70_70db      Sounds/nf01_w01_70_70db.wav
+  nm03_w02_70_70db      Sounds/nm03_w02_70_70db.wav
+
+
+
+################################################### Tables
+
+table practice
+  include practice.txt
+
+table stimuluslist_female
+  include stimuluslist_female.txt
+
+table stimuluslist_male
+  include stimuluslist_male.txt
+
+################################################### Tasks
+
+task practice
+  keys f j
+  show bitmap BlackTrail
+  delay 300
+  clear -1
+  show bitmap FixcrGrün
+  table practice
+  set $x random 1 2
+  if $x == 1
+    sound @1
+    delay @2
+    delay 1000
+    sound @3
+    delay @4
+  fi
+  if $x == 2
+    sound @3
+    delay @4
+    delay 1000
+    sound @1
+    delay @2
+  fi
+  show bitmap ResponseTrail
+  readkey @9 9999
+  show bitmap BlackTrail
+  delay 500
+
+task female
+  keys f j
+  show bitmap BlackTrail
+  delay 300
+  clear -1
+  show bitmap FixcrGrün
+  table stimuluslist_female
+  set $x random 1 2
+  if $x == 1
+    sound @1
+    delay @2
+    delay 1000
+    sound @3
+    delay @4
+  fi
+  if $x == 2
+    sound @3
+    delay @4
+    delay 1000
+    sound @1
+    delay @2
+  fi
+  show bitmap ResponseTrail
+  readkey @9 9999
+  show bitmap BlackTrail
+  delay 500
+  save @1 @2 @3 @4 @5 @6 @7 @8 $x KEY RT STATUS BLOCKORDER
+
+task male
+  keys f j
+  show bitmap BlackTrail
+  delay 300
+  clear -1
+  show bitmap FixcrGrün
+  table stimuluslist_male
+  set $x random 1 2
+  if $x == 1
+    sound @1
+    delay @2
+    delay 1000
+    sound @3
+    delay @4
+  fi
+  if $x == 2
+    sound @3
+    delay @4
+    delay 1000
+    sound @1
+    delay @2
+  fi
+  show bitmap ResponseTrail
+  readkey @9 9999
+  show bitmap BlackTrail
+  delay 500
+  save @1 @2 @3 @4 @5 @6 @7 @8 $x KEY RT STATUS BLOCKORDER
+
+
+
+################################################### Blocks
+
+block Introduction
+  message IntroductionSlide1
+  message IntroductionSlide2
+  message IntroductionSlide3
+  message IntroductionSlide4
+  message IntroductionSlide5
+
+block Practice
+  tasklist
+    practice 4 all_before_repeat
+  end
+  message IntroductionSlide6
+
+block Female_Speaker
+  tasklist
+    female 32 all_before_repeat
+  end
+
+block Break
+  message BreakSlide
+
+block Male_Speaker
+  tasklist
+    male 32 all_before_repeat
+  end
+
+block End
+  message EndSlide
+
+################################################### Blockorder
+
+blockorder
+  Introduction
+  Practice
+  Female_Speaker
+  Break
+  Male_Speaker
+  End
+
+blockorder
+  Introduction
+  Practice
+  Male_Speaker
+  Break
+  Female_Speaker
+  End

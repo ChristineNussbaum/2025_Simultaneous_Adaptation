@@ -1,0 +1,34 @@
+nm03_w05_ang_70dB	"810"	nm03_w05_fea_70dB	"839"	"nm03-03"	"w05"	"m"	"Fruhholz"	2
+nm03_w05_ang_70dB	"810"	nm04_w05_fea_70dB	"896"	"nm03-04"	"w05"	"m"	"Fruhholz"	1
+nm04_w05_ang_70dB	"659"	nm04_w05_fea_70dB	"896"	"nm04-04"	"w05"	"m"	"Fruhholz"	2
+nm04_w05_ang_70dB	"659"	nm03_w05_fea_70dB	"839"	"nm04-03"	"w05"	"m"	"Fruhholz"	1
+nm03_w03_ang_70dB	"930"	nm03_w03_fea_70dB	"804"	"nm03-03"	"w03"	"m"	"Fruhholz"	2
+nm03_w03_ang_70dB	"930"	nm04_w03_fea_70dB	"997"	"nm03-04"	"w03"	"m"	"Fruhholz"	1
+nm04_w03_ang_70dB	"589"	nm04_w03_fea_70dB	"997"	"nm04-04"	"w03"	"m"	"Fruhholz"	2
+nm04_w03_ang_70dB	"589"	nm03_w03_fea_70dB	"804"	"nm04-03"	"w03"	"m"	"Fruhholz"	1
+nm03_w02_ang_70dB	"904"	nm03_w02_fea_70dB	"980"	"nm03-03"	"w02"	"m"	"Fruhholz"	2
+nm03_w02_ang_70dB	"904"	nm04_w02_fea_70dB	"885"	"nm03-04"	"w02"	"m"	"Fruhholz"	1
+nm04_w02_ang_70dB	"540"	nm04_w02_fea_70dB	"885"	"nm04-04"	"w02"	"m"	"Fruhholz"	2
+nm04_w02_ang_70dB	"540"	nm03_w02_fea_70dB	"980"	"nm04-03"	"w02"	"m"	"Fruhholz"	1
+nm03_w01_ang_70dB	"772"	nm03_w01_fea_70dB	"643"	"nm03-03"	"w01"	"m"	"Fruhholz"	2
+nm03_w01_ang_70dB	"772"	nm04_w01_fea_70dB	"785"	"nm03-04"	"w01"	"m"	"Fruhholz"	1
+nm04_w01_ang_70dB	"642"	nm04_w01_fea_70dB	"785"	"nm04-04"	"w01"	"m"	"Fruhholz"	2
+nm04_w01_ang_70dB	"642"	nm03_w01_fea_70dB	"643"	"nm04-03"	"w01"	"m"	"Fruhholz"	1
+TL12_belam_m_ang	"519"	TL12_belam_m_fea	"561"	"TL12-TL12"	"belam"	"m"	"JAVMEPS"	2
+TL12_loman_m_ang	"535"	TL12_loman_m_fea	"602"	"TL12-TL12"	"loman"	"m"	"JAVMEPS"	2
+TL12_molen_m_ang	"544"	TL12_molen_m_fea	"559"	"TL12-TL12"	"molen"	"m"	"JAVMEPS"	2
+TL12_namil_m_ang	"597"	TL12_namil_m_fea	"584"	"TL12-TL12"	"namil"	"m"	"JAVMEPS"	2
+WK01_belam_m_ang	"712"	WK01_belam_m_fea	"599"	"WK01-WK01"	"belam"	"m"	"JAVMEPS"	2
+WK01_loman_m_ang	"998"	WK01_loman_m_fea	"644"	"WK01-WK01"	"loman"	"m"	"JAVMEPS"	2
+WK01_molen_m_ang	"1201"	WK01_molen_m_fea	"918"	"WK01-WK01"	"molen"	"m"	"JAVMEPS"	2
+WK01_namil_m_ang	"839"	WK01_namil_m_fea	"724"	"WK01-WK01"	"namil"	"m"	"JAVMEPS"	2
+TL12_belam_m_ang	"519"	WK01_belam_m_fea	"599"	"TL12-WK01"	"belam"	"m"	"JAVMEPS"	1
+TL12_loman_m_ang	"535"	WK01_loman_m_fea	"644"	"TL12-WK01"	"loman"	"m"	"JAVMEPS"	1
+TL12_molen_m_ang	"544"	WK01_molen_m_fea	"918"	"TL12-WK01"	"molen"	"m"	"JAVMEPS"	1
+TL12_namil_m_ang	"597"	WK01_namil_m_fea	"724"	"TL12-WK01"	"namil"	"m"	"JAVMEPS"	1
+WK01_belam_m_ang	"712"	TL12_belam_m_fea	"561"	"WK01-TL12"	"belam"	"m"	"JAVMEPS"	1
+WK01_loman_m_ang	"998"	TL12_loman_m_fea	"602"	"WK01-TL12"	"loman"	"m"	"JAVMEPS"	1
+WK01_molen_m_ang	"1201"	TL12_molen_m_fea	"559"	"WK01-TL12"	"molen"	"m"	"JAVMEPS"	1
+WK01_namil_m_ang	"839"	TL12_namil_m_fea	"584"	"WK01-TL12"	"namil"	"m"	"JAVMEPS"	1
+
+

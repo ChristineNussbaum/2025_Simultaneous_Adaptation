@@ -1,0 +1,750 @@
+options
+  fullscreen
+  resolution 1000 800
+  set &n 0                 #TINE: ich habe hier eine Trial-Zählvariable definiert, die ich für die Top-Up Adaptoren brauche, sie heißt einfach $n
+
+bitmaps #Folien zur Beschreibung des Experiments
+  EndSlide
+  BlackTrail
+  FixcrRot
+  FixcrGrün
+  ResponseTrail
+  FasterTrail
+  GoTrail
+  IntroductionSlide1
+  IntroductionSlide2
+  IntroductionSlide3
+  IntroductionSlide4
+  IntroductionSlide5
+  Übung1AnfangSlide
+  Übung1EndeSlide
+  Übung2AnfangSlide
+  Übung2EndeSlide1
+  Übung2EndeSlide2
+  Teil1SlideEnde
+  Teil2Slide1
+  Teil2Slide2
+  BreakSlide
+  BreakSlide2
+
+sounds #Stimuli zur Durchführung des Experiments; Adaptoren: müssen nicht zugeordnet werden/Targets: Müssen zu den Kategorien wütend-ängstlich zugeordnet werden
+  #Adaptor2 weiblich_fearful und männlich_angry
+  nf01_w01_fea_70dB
+  nf01_w02_fea_70dB
+  nf01_w03_fea_70dB
+  nf01_w05_fea_70dB
+  nf03_w01_fea_70dB
+  nf03_w02_fea_70dB
+  nf03_w03_fea_70dB
+  nf03_w05_fea_70dB
+  nm03_w01_ang_70dB
+  nm03_w02_ang_70dB
+  nm03_w03_ang_70dB
+  nm03_w05_ang_70dB
+  nm04_w01_ang_70dB
+  nm04_w02_ang_70dB
+  nm04_w03_ang_70dB
+  nm04_w05_ang_70dB
+  #Adaptor1 weiblich_angry und männlich_fearful
+  nf01_w01_ang_70dB
+  nf01_w02_ang_70dB
+  nf01_w03_ang_70dB
+  nf01_w05_ang_70dB
+  nf03_w01_ang_70dB
+  nf03_w02_ang_70dB
+  nf03_w03_ang_70dB
+  nf03_w05_ang_70dB
+  nm03_w01_fea_70dB
+  nm03_w02_fea_70dB
+  nm03_w03_fea_70dB
+  nm03_w05_fea_70dB
+  nm04_w01_fea_70dB
+  nm04_w02_fea_70dB
+  nm04_w03_fea_70dB
+  nm04_w05_fea_70dB
+  #Target: Stimuli, die bewertet werden sollen
+  nf01_w01_20_70db
+  nf01_w01_30_70db
+  nf01_w01_40_70db
+  nf01_w01_50_70db
+  nf01_w01_60_70db
+  nf01_w01_70_70db
+  nf01_w01_80_70db
+  nf01_w02_20_70db
+  nf01_w02_30_70db
+  nf01_w02_40_70db
+  nf01_w02_50_70db
+  nf01_w02_60_70db
+  nf01_w02_70_70db
+  nf01_w02_80_70db
+  nf01_w03_20_70db
+  nf01_w03_30_70db
+  nf01_w03_40_70db
+  nf01_w03_50_70db
+  nf01_w03_60_70db
+  nf01_w03_70_70db
+  nf01_w03_80_70db
+  nf01_w05_20_70db
+  nf01_w05_30_70db
+  nf01_w05_40_70db
+  nf01_w05_50_70db
+  nf01_w05_60_70db
+  nf01_w05_70_70db
+  nf01_w05_80_70db
+  nf03_w01_20_70db
+  nf03_w01_30_70db
+  nf03_w01_40_70db
+  nf03_w01_50_70db
+  nf03_w01_60_70db
+  nf03_w01_70_70db
+  nf03_w01_80_70db
+  nf03_w02_20_70db
+  nf03_w02_30_70db
+  nf03_w02_40_70db
+  nf03_w02_50_70db
+  nf03_w02_60_70db
+  nf03_w02_70_70db
+  nf03_w02_80_70db
+  nf03_w03_20_70db
+  nf03_w03_30_70db
+  nf03_w03_40_70db
+  nf03_w03_50_70db
+  nf03_w03_60_70db
+  nf03_w03_70_70db
+  nf03_w03_80_70db
+  nf03_w05_20_70db
+  nf03_w05_30_70db
+  nf03_w05_40_70db
+  nf03_w05_50_70db
+  nf03_w05_60_70db
+  nf03_w05_70_70db
+  nf03_w05_80_70db
+  nm03_w01_20_70db
+  nm03_w01_30_70db
+  nm03_w01_40_70db
+  nm03_w01_50_70db
+  nm03_w01_60_70db
+  nm03_w01_70_70db
+  nm03_w01_80_70db
+  nm03_w02_20_70db
+  nm03_w02_30_70db
+  nm03_w02_40_70db
+  nm03_w02_50_70db
+  nm03_w02_60_70db
+  nm03_w02_70_70db
+  nm03_w02_80_70db
+  nm03_w03_20_70db
+  nm03_w03_30_70db
+  nm03_w03_40_70db
+  nm03_w03_50_70db
+  nm03_w03_60_70db
+  nm03_w03_70_70db
+  nm03_w03_80_70db
+  nm03_w05_20_70db
+  nm03_w05_30_70db
+  nm03_w05_40_70db
+  nm03_w05_50_70db
+  nm03_w05_60_70db
+  nm03_w05_70_70db
+  nm03_w05_80_70db
+  nm04_w01_20_70db
+  nm04_w01_30_70db
+  nm04_w01_40_70db
+  nm04_w01_50_70db
+  nm04_w01_60_70db
+  nm04_w01_70_70db
+  nm04_w01_80_70db
+  nm04_w02_20_70db
+  nm04_w02_30_70db
+  nm04_w02_40_70db
+  nm04_w02_50_70db
+  nm04_w02_60_70db
+  nm04_w02_70_70db
+  nm04_w02_80_70db
+  nm04_w03_20_70db
+  nm04_w03_30_70db
+  nm04_w03_40_70db
+  nm04_w03_50_70db
+  nm04_w03_60_70db
+  nm04_w03_70_70db
+  nm04_w03_80_70db
+  nm04_w05_20_70db
+  nm04_w05_30_70db
+  nm04_w05_40_70db
+  nm04_w05_50_70db
+  nm04_w05_60_70db
+  nm04_w05_70_70db
+  nm04_w05_80_70db
+
+###########################################################################Stimuli Tabellen, Für jede Stimulisart gibt es eine Tabelle
+
+table target #Stimuli, die zugeordnet werden sollen
+  include stimulusTableTarget.txt
+
+table Adaptor1 #weiblich_angry und männlich_fearful, Adaptation Version 1
+  include stimulusTableAdaptor1.txt
+
+table Adaptor2 #weiblich_fearful und männlich_angry, Adaptation Version 2
+  include stimulusTableAdaptor2.txt
+
+
+############################################################################## Parts für Top-Up Adaptoren
+#DORO: Ich hab zwei verschiedene Variablen definiert, die die Namen von den Male bzw. Female Stimuli annehmen #Zwei verschiedene deshlab, weil dann auch beide Namen abgespeichetr werden. Ich habe sie außerdem nicht "x" genannt, weil ich die befürchtung hatte, dann komplett den Überblick zu verlieren.
+
+part maleAng
+  set $x random 1 8                                        #TINE: ziehe zufällig eine Zahl zwischen 1 und 8
+  if $x == 1
+    sound nm03_w01_ang_70dB
+    set %zwadaptnamemale "nm03_w01_ang_70dB"                             # TINE: schau mal ob das funktioniert.%x müsstest du als zeichenkette speichern können
+    delay 872
+fi
+if $x == 2
+  sound nm03_w02_ang_70dB
+  set %zwadaptnamemale "nm03_w02_ang_70dB"
+  delay 1004
+fi
+if $x == 3
+  sound nm03_w03_ang_70dB
+  set %zwadaptnamemale "nm03_w03_ang_70dB"
+  delay 1030
+fi
+if $x == 4
+  sound nm03_w05_ang_70dB
+  set %zwadaptnamemale "nm03_w05_ang_70dB"
+  delay 910
+fi
+if $x == 5
+  sound nm04_w01_ang_70dB
+  set %zwadaptnamemale "nm04_w01_ang_70dB"
+  delay 742
+fi
+if $x == 6
+  sound nm04_w02_ang_70dB
+  set %zwadaptnamemale "nm04_w02_ang_70dB"
+  delay 640
+fi
+if $x == 7
+  sound nm04_w03_ang_70dB
+  set %zwadaptnamemale "nm04_w03_ang_70dB"
+  delay 689
+fi
+if $x == 8
+  sound nm04_w05_ang_70dB
+  set %zwadaptnamemale "nm04_w05_ang_70dB"
+  delay 759
+fi
+
+part maleFea
+  set $x random 1 8                                             #TINE: ziehe zufällig eine Zahl zwischen 1 und 8
+  if $x == 1
+    sound nm03_w01_fea_70dB
+    set %zwadaptnamemale "nm03_w01_fea_70dB"
+    delay 743
+  fi
+  if $x == 2
+    sound nm03_w02_fea_70dB
+    set %zwadaptnamemale "nm03_w02_fea_70dB"
+    delay 1080
+  fi
+  if $x == 3
+    sound nm03_w03_fea_70dB
+    set %zwadaptnamemale "nm03_w03_fea_70dB"
+    delay 904
+  fi
+  if $x == 4
+    sound nm03_w05_fea_70dB
+    set %zwadaptnamemale "nm03_w05_fea_70dB"
+    delay 939
+  fi
+  if $x == 5
+    sound nm04_w01_fea_70dB
+    set %zwadaptnamemale "nm04_w01_fea_70dB"
+    delay 885
+  fi
+  if $x == 6
+    sound nm04_w02_fea_70dB
+    set %zwadaptnamemale "nm04_w02_fea_70dB"
+    delay 985
+  fi
+  if $x == 7
+    sound nm04_w03_fea_70dB
+    set %zwadaptnamemale "nm04_w03_fea_70dB"
+    delay 1097
+  fi
+  if $x == 8
+    sound nm04_w05_fea_70dB
+    set %zwadaptnamemale "nm04_w05_fea_70dB"
+    delay 996
+  fi
+
+part femaleAng
+  set $x random 1 8                                        #TINE: ziehe zufällig eine Zahl zwischen 1 und 8
+  if $x == 1
+    sound nf01_w01_ang_70dB
+    set %zwadaptnamefemale "nf01_w01_ang_70dB"
+    delay 954
+  fi
+  if $x == 2
+    sound nf01_w02_ang_70dB
+    set %zwadaptnamefemale "nf01_w02_ang_70dB"
+    delay 870
+  fi
+  if $x == 3
+    sound nf01_w03_ang_70dB
+    set %zwadaptnamefemale "nf01_w03_ang_70dB"
+    delay 1109
+  fi
+  if $x == 4
+    sound nf01_w05_ang_70dB
+    set %zwadaptnamefemale "nf01_w05_ang_70dB"
+    delay 1084
+  fi
+  if $x == 5
+    sound nf03_w01_ang_70dB
+    set %zwadaptnamefemale "nf03_w01_ang_70dB"
+    delay 785
+  fi
+  if $x == 6
+    sound nf03_w02_ang_70dB
+    set %zwadaptnamefemale "nf03_w02_ang_70dB"
+    delay 981
+  fi
+  if $x == 7
+    sound nf03_w03_ang_70dB
+    set %zwadaptnamefemale "nf03_w03_ang_70dB"
+    delay 1066
+  fi
+  if $x == 8
+    sound nf03_w05_ang_70dB
+    set %zwadaptnamefemale "nf03_w05_ang_70dB"
+    delay 1030
+  fi
+
+
+part femaleFea
+  set $x random 1 8                                        #TINE: ziehe zufällig eine Zahl zwischen 1 und 8
+  if $x == 1
+    sound nf01_w01_fea_70dB
+    set %zwadaptnamefemale "nf01_w01_fea_70dB"
+    delay 1067
+  fi
+  if $x == 2
+    sound nf01_w02_fea_70dB
+    set %zwadaptnamefemale "nf01_w02_fea_70dB"
+    delay 1016
+  fi
+  if $x == 3
+    sound nf01_w03_fea_70dB
+    set %zwadaptnamefemale "nf01_w03_fea_70dB"
+    delay 788
+  fi
+  if $x == 4
+    sound nf01_w05_fea_70dB
+    set %zwadaptnamefemale "nf01_w05_fea_70dB"
+    delay 741
+  fi
+  if $x == 5
+    sound nf03_w01_fea_70dB
+    set %zwadaptnamefemale "nf03_w01_fea_70dB"
+    delay 850
+  fi
+  if $x == 6
+    sound nf03_w02_fea_70dB
+    set %zwadaptnamefemale "nf03_w02_fea_70dB"
+    delay 780
+  fi
+  if $x == 7
+    sound nf03_w03_fea_70dB
+    set %zwadaptnamefemale "nf03_w03_fea_70dB"
+    delay 864
+  fi
+  if $x == 8
+    sound nf03_w05_fea_70dB
+    set %zwadaptnamefemale "nf03_w05_fea_70dB"
+    delay 776
+  fi
+
+##############################################################################
+
+###########################################################################Aufgaben
+
+task Baseline
+  set %baseline "Baseline"                                                             #erster Bwertungsdurchgang vor der Adaptation
+  keys f j                                                                #Festlegung der Tasten
+  show bitmap FixcrGrün
+  delay 300
+  table target                                                            #Zuweisung der Tabelle mit den Targets
+  sound @1                                                                #Sound aus der ersten Spalte
+  delay @2                                                                #Dauer in der Zweiten Spalte
+  show bitmap ResponseTrail
+  readkey @5 3000                                                         #Erfassung des Tastendrucks
+  clear -1
+  if STATUS == 3
+    show bitmap FasterTrail                                               #wenn Tastendruck bis über 3000ms: schneller!
+  fi
+  if STATUS != 3
+    show bitmap BlackTrail
+  fi
+  delay 500
+  clear -1
+  save %baseline @2 @3 @4 @5 @6 KEY RT                                         #Speichern des Tasten
+
+task Übung1
+  #läuft wie der Baseline teil, wird aber nicht gespichert
+  keys f j                                                                #Festlegung der Tasten f und j
+  show bitmap FixcrGrün
+  delay 300
+  table target                                                            #Zuweisung der Tabelle mit den Targets
+  sound @1                                                                #Sound aus der ersten Spalte
+  delay @2                                                                #Dauer in der Zweiten Spalte
+  show bitmap ResponseTrail
+  readkey @5 3000                                                         #Erfassung des Tastendrucks
+  clear -1
+  if STATUS == 3
+    show bitmap FasterTrail                                               #wenn Tastendruck bis über 3000ms: schneller!
+  fi
+  if STATUS != 3
+    show bitmap BlackTrail
+  fi
+  delay 500
+  clear -1
+
+
+task Adapt1
+  set %adapt1 "Adaptation"
+  set %adaptart "w_angry/m_fearful"                                                               #erste Adaptation -> m/fearful und w/angry #keine Zuordnungaufgabe
+  show bitmap FixcrRot
+  delay 300
+  table Adaptor1
+  sound @1
+  delay @2
+  delay 100
+  save %adapt1 @2 @3 @4 @5 @6 %adaptart BLOCKORDER
+
+
+task Adapt2
+  set %adapt2 "Adaptation" 
+  set %adaptart "w_fearful/m_angry"                                                            #zweite Adaptation -> w/fearful und m/angry #keine Zuordnungsufgabe
+  show bitmap FixcrRot
+  delay 300
+  table Adaptor2
+  sound @1
+  delay @2
+  delay 100
+  save %adapt2 @2 @3 @4 @5 @6 %adaptart BLOCKORDER
+
+task Go                                                                   #zwischen Adaptphase und Responsephase
+  show bitmap GoTrail
+  delay 3000
+
+task ÜbungAdapt1
+#Übungstrail wird nicht gespeichert #keine Zuordnungaufgabe
+  show bitmap FixcrRot
+  delay 300
+  table Adaptor1
+  sound @1
+  delay @2
+  delay 100
+
+task Antwort1
+  #Zählvariable wird hochgezähle bis 4, dann werden zwei Zwischenadaptoren abgespielt (zufällig ausgesucht aus einer Zahl zwischen 1 bis 9 aus den Zwischenadaptoren, je ein Adaptor pro Geschlecht) um die Adaptation aufrecht zu erhalten
+  set %adaptantwort1 "Antwort"
+  set %adaptart "w_angry/m_fearful"
+  set &n increase                                                            #TINE: count on up #DORO: ACHTUNG: Variable n wird hier direkt auf 1 gesetzt, sie müsste aber auf 0 gesetzt werden, damit im ersten Antworttrail auch 4 Antworttrails kommen
+  if &n = 4                                                            #TINE: every fourth Trial, enter this if-branch
+    show bitmap FixcrRot
+    delay 300
+    set $y random 1 2                                            #TINE: pick a number between 1 and 2
+    if $y == 1
+      part femaleAng                                          #TINE: play Adaptor1
+      set $z $x
+      part maleFea                                            #TINE: play Adaptor2
+    fi
+    if $y == 2
+      part maleFea                                            #TINE: play Adaptor1
+      set $z $x
+      part femaleAng                                          #TINE: play Adaptor2
+    fi
+    set &n 0                                                         #TINE: set counting variable back to 0
+    delay 300
+  fi
+  keys f j
+  table target
+  show bitmap FixcrGrün
+  delay 300
+  sound @1
+  delay @2
+  show bitmap ResponseTrail
+  readkey @5 3000
+  clear -1
+  if STATUS == 3
+    show bitmap FasterTrail
+  fi
+  if STATUS != 3
+    show bitmap BlackTrail
+  fi
+  delay 500
+  clear -1
+  save %adaptantwort1 @2 @3 @4 @5 @6 &n $y $z %zwadaptnamemale %zwadaptnamefemale KEY RT %adaptart BLOCKORDER
+
+#zweiter Antworttyp für die Adaptation2
+
+task Antwort2
+  #Zählvariable wird hochgezähle bis 4, dann werden zwei Zwischenadaptoren abgespielt (zufällig ausgesucht aus einer Zahl zwischen 1 bis 9 aus den Zwischenadaptoren, je ein Adaptor pro Geschlecht) um die Adapttaion aufrecht zu erhalten
+  set %adaptantwort2 "Antwort"
+  set %adaptart "w_fearful/m_angry"
+  set &n increase                                                            #TINE: count on up
+  if &n = 4                                                            #TINE: every fourth Trial, enter this if-branch
+    show bitmap FixcrRot
+    delay 300
+    set $y random 1 2                                            #TINE: pick a number between 1 and 2
+    if $y == 1
+      part femaleFea                                          #TINE: play Adaptor1
+      set $z $x
+      part maleAng                                            #TINE: play Adaptor2
+    fi
+    if $y == 2
+      part maleAng                                            #TINE: play Adaptor1
+      set $z $x
+      part femaleFea                                          #TINE: play Adaptor2
+    fi
+    set &n 0                                                         #TINE: set counting variable back to 0
+    delay 300
+  fi
+  keys f j
+  table target
+  show bitmap FixcrGrün
+  delay 300
+  sound @1
+  delay @2
+  show bitmap ResponseTrail
+  readkey @5 3000
+  clear -1
+  if STATUS == 3
+    show bitmap FasterTrail
+  fi
+  if STATUS != 3
+    show bitmap BlackTrail
+  fi
+  delay 500
+  clear -1
+  save %adaptantwort2 @2 @3 @4 @5 @6 &n $y $z %zwadaptnamemale %zwadaptnamefemale KEY RT %adaptart BLOCKORDER
+
+task ÜbungAntwort
+  #läuft wie der Antwort Block, wird aber nicht gespeichert
+  set &n increase                                                            #TINE: count on up
+  if &n = 4                                                            #TINE: every fourth Trial, enter this if-branch
+    show bitmap FixcrRot
+    delay 300
+    set $y random 1 2                                            #TINE: pick a number between 1 and 2
+    if $y == 1
+      part femaleFea                                          #TINE: play Adaptor1
+      set $z $x
+      part maleAng                                            #TINE: play Adaptor2
+    fi
+    if $y == 2
+      part maleAng                                            #TINE: play Adaptor1
+      set $z $x
+      part femaleFea                                          #TINE: play Adaptor2
+    fi
+    set &n 0                                                         #TINE: set counting variable back to 0
+    delay 300
+  fi
+  keys f j
+  table target
+  show bitmap FixcrGrün
+  delay 300
+  sound @1
+  delay @2
+  show bitmap ResponseTrail
+  readkey @5 3000
+  clear -1
+  if STATUS == 3
+    show bitmap FasterTrail
+  fi
+  if STATUS != 3
+    show bitmap BlackTrail
+  fi
+  delay 500
+  clear -1
+
+##########################################################################
+#Blöcke
+
+block Anfang #erste Folien mit Beschreibung des Experiments
+  message IntroductionSlide1
+  message IntroductionSlide2
+  message IntroductionSlide3
+  message IntroductionSlide4
+  message IntroductionSlide5
+end
+
+block Übung1Anfang #Übungsblock für die Zuordungsaufgabe mit den Targets, wird nicht gespeichert
+  message Übung1AnfangSlide
+  tasklist
+    Übung1 5
+  end
+
+block Übung1Ende
+  message Übung1EndeSlide
+end
+
+block Trail1 #Zuordnungsaufgabe der Targets, sind insgesamt 112 Targets, werden in zwei Blöcke je 56 Trails aufgeteilt
+  tasklist
+    Baseline 56 all_before_repeat
+  end
+
+block Pause
+  message BreakSlide
+end
+
+block IntroTeil2 #Beginn des Hauptteils, Adaptation und Antwortphase werden erklärt
+  message Teil1SlideEnde
+  message Teil2Slide1
+  message Teil2Slide2
+end
+
+#Übungsteil des Hauptteils, die Logik ist die gleiche wie beim tatsächlichen Antwortformat, nur wird es hier nicht gespeichert -> siehe task ÜbungAntwort
+
+block Übung2Anfang
+  message Übung2AnfangSlide
+end
+
+block Übung2a
+  tasklist
+    ÜbungAdapt1 6
+  end
+
+block Übung2b #Folie "Jetzt geht es los!" wird für 3 Sekunden angezeigt
+  tasklist
+    Go 1
+  end
+
+block Übung2c
+  tasklist
+    ÜbungAntwort 12
+  end
+
+block Übung2Ende
+  message Übung2EndeSlide1
+  message Übung2EndeSlide2
+end
+
+
+#Adpatation 1: weiblich_angry und männlich_fearful
+
+block Adaptation1
+  tasklist
+    Adapt1 16 all_before_repeat
+  end
+
+block Go1 #Folie "Jetzt geht es los!" wird für 3 Sekunden angezeigt
+  tasklist
+    Go 1
+  end
+
+block Antwort1 #wird in der Blockorder zweimal genutzt, auch hier werden die Trails in zwei Teile je 56 Trails aufgeteilt
+  tasklist
+    Antwort1 56 all_before_repeat
+  end
+
+block Pause1
+  message BreakSlide
+end
+
+
+#Adpatation 2: weiblich_fearful und männlich_angry
+
+block Adaptation2
+  tasklist
+    Adapt2 16 all_before_repeat
+  end
+
+block Go2 #Folie "Jetzt geht es los!" wird für 3 Sekunden angezeigt
+  tasklist
+    Go 1
+  end
+
+block Antwort2
+  tasklist
+    Antwort2 56 all_before_repeat
+  end
+
+block Pause2
+  message BreakSlide
+  message BreakSlide2
+end
+
+block Pause3
+  message BreakSlide
+  message BreakSlide2
+end
+
+block Ende
+  message EndSlide
+end
+
+###########################################################################Blockorder 1 beginnend mit Adaptation 1: weiblich_angry und männlich_fearful
+
+blockorder
+  Anfang
+  Übung1Anfang
+  Übung1Ende
+  Trail1
+  Pause
+  Trail1
+  IntroTeil2
+  Übung2Anfang
+  Übung2a
+  Übung2b
+  Übung2c
+  Übung2Ende
+  Adaptation1
+  Go1
+  Antwort1
+  Pause1
+  Adaptation1
+  Go1
+  Antwort1
+  Pause2
+  Adaptation2
+  Go2
+  Antwort2
+  Pause3
+  Adaptation2
+  Go2
+  Antwort2
+  Ende
+
+
+###########################################################################Blockorder 2 beginnend mit Adaptation 2 weiblich_fearful und männlich_angry
+
+blockorder
+  Anfang
+  Übung1Anfang
+  Übung1Ende
+  Trail1
+  Pause
+  Trail1
+  IntroTeil2
+  Übung2Anfang
+  Übung2a
+  Übung2b
+  Übung2c
+  Übung2Ende
+  Adaptation2
+  Go2
+  Antwort2
+  Pause1
+  Adaptation2
+  Go2
+  Antwort2
+  Pause2
+  Adaptation1
+  Go1
+  Antwort1
+  Pause3
+  Adaptation1
+  Go1
+  Antwort1
+  Ende

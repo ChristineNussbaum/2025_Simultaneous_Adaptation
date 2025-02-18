@@ -1,0 +1,27 @@
+     AdaptType           PSE        SD         N    SE         CI        
+[1,] "w_angry/m_fearful" "53.88159" "6.084193" "36" "1.014032" "2.058595"
+[2,] "w_fearful/m_angry" "53.74496" "6.288252" "36" "1.048042" "2.127638"
+
+	Paired t-test
+
+data:  PH1$`w_fearful/m_angry` and PH1$`w_angry/m_fearful`
+t = -0.16756, df = 35, p-value = 0.8679
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -1.792055  1.518780
+sample estimates:
+mean of the differences 
+             -0.1366373 
+
+
+	Paired t-test
+
+data:  PH1$`w_angry/m_fearful` and PH1$`w_fearful/m_angry`
+t = 0.16756, df = 35, p-value = 0.8679
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -1.518780  1.792055
+sample estimates:
+mean of the differences 
+              0.1366373 
+
