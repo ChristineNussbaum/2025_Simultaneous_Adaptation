@@ -364,34 +364,34 @@ set $x random 1 4     #TINE: pick a number between 1 and 4
  if $x == 1
   sound HO05_belam_f_ang_70dB_cut                                             # spielt einen sound1 aus Adaptliste1
     set %TopUp1 "HO05_belam_f_ang_70dB_cut"
-    delay 1254
+    delay 1164
     sound JW07_belam_f_fea_70dB_cut                                           # spielt einen sound2 aus Adaptliste1
     set %TopUp2 "JW07_belam_f_fea_70dB_cut"
-    delay 1150
+    delay 1077
  fi
 if $x == 2
   sound JW07_loman_f_fea_70dB_cut                                             # spielt einen sound1 aus Adaptliste1
     set %TopUp1 "JW07_loman_f_fea_70dB_cut"
-    delay 1080
+    delay 1279
     sound HO05_loman_f_ang_70dB_cut                                           # spielt einen sound2 aus Adaptliste1
     set %TopUp2 "HO05_loman_f_ang_70dB_cut"
-    delay 1170
+    delay 1165
  fi
 if $x == 3
   sound HO05_molen_f_ang_70dB_cut                                             # spielt einen sound1 aus Adaptliste1
     set %TopUp1 "HO05_molen_f_ang_70dB_cut"
-    delay 1409
+    delay 1153
     sound JW07_molen_f_fea_70dB_cut                                           # spielt einen sound2 aus Adaptliste1
     set %TopUp2 "JW07_molen_f_fea_70dB_cut"
-    delay 1164
+    delay 1160
  fi
 if $x == 4
   sound JW07_namil_f_fea_70dB_cut                                             # spielt einen sound1 aus Adaptliste1
     set %TopUp1 "JW07_namil_f_fea_70dB_cut"
-    delay 1076
+    delay 1164
     sound HO05_namil_f_ang_70dB_cut                                           # spielt einen sound2 aus Adaptliste1
     set %TopUp2 "HO05_namil_f_ang_70dB_cut"
-    delay 1384
+    delay 1158
  fi
 set &n 0                                                              #TINE: set counting variable back to 0
 delay 300
@@ -428,34 +428,34 @@ set &n increase                                                       #TINE: set
  if $x == 1
   sound HO05_belam_f_fea_70dB_cut                                             # spielt einen sound1 aus Adaptliste2
     set %TopUp1 "HO05_belam_f_fea_70dB_cut"
-    delay 1085
+    delay 1119
     sound JW07_belam_f_ang_70dB_cut                                           # spielt einen sound2 aus Adaptliste2
     set %TopUp2 "JW07_belam_f_ang_70dB_cut"
-    delay 1367
+    delay 1244
  fi
 if $x == 2
   sound JW07_loman_f_ang_70dB_cut                                             # spielt einen sound1 aus Adaptliste2
     set %TopUp1 "JW07_loman_f_ang_70dB_cut"
-    delay 1316
+    delay 1203
     sound HO05_loman_f_fea_70dB_cut                                           # spielt einen sound2 aus Adaptliste2
     set %TopUp2 "HO05_loman_f_fea_70dB_cut"
-    delay 1281
+    delay 1205
  fi
 if $x == 3
   sound HO05_molen_f_fea_70dB_cut                                             # spielt einen sound1 aus Adaptliste2
     set %TopUp1 "HO05_molen_f_fea_70dB_cut"
-    delay 1366
+    delay 1160
     sound JW07_molen_f_ang_70dB_cut                                           # spielt einen sound2 aus Adaptliste2
     set %TopUp2 "JW07_molen_f_ang_70dB_cut"
-    delay 1088
+    delay 1155
  fi
 if $x == 4
   sound JW07_namil_f_ang_70dB_cut                                             # spielt einen sound1 aus Adaptliste2
     set %TopUp1 "JW07_namil_f_ang_70dB_cut"
-    delay 1041
+    delay 1203
     sound HO05_namil_f_fea_70dB_cut                                           # spielt einen sound2 aus Adaptliste2
     set %TopUp2 "HO05_namil_f_fea_70dB_cut"
-    delay 1330
+    delay 1199
  fi
 set &n 0                                                              #TINE: set counting variable back to 0
 delay 300
@@ -493,34 +493,34 @@ set &n increase                                                       #TINE: set
  if $x == 1
   sound TL12_belam_m_ang_70dB_cut                                             # spielt einen sound1 aus Adaptliste3
     set %TopUp1 "TL12_belam_m_ang_70dB_cut"
-    delay 1172
+    delay 919
     sound WK01_belam_m_fea_70dB_cut                                           # spielt einen sound2 aus Adaptliste3
     set %TopUp2 "WK01_belam_m_fea_70dB_cut"
-    delay 1185
+    delay 999
  fi
 if $x == 2
   sound WK01_loman_m_fea_70dB_cut                                             # spielt einen sound1 aus Adaptliste3
     set %TopUp1 "WK01_loman_m_fea_70dB_cut"
-    delay 1285
+    delay 1044
     sound TL12_loman_m_ang_70dB_cut                                           # spielt einen sound2 aus Adaptliste3
     set %TopUp2 "TL12_loman_m_ang_70dB_cut"
-    delay 1304
+    delay 935
  fi
 if $x == 3
   sound TL12_molen_m_ang_70dB_cut                                             # spielt einen sound1 aus Adaptliste3
     set %TopUp1 "TL12_molen_m_ang_70dB_cut"
-    delay 1330
+    delay 944
     sound WK01_molen_m_fea_70dB_cut                                           # spielt einen sound2 aus Adaptliste3
     set %TopUp2 "WK01_molen_m_fea_70dB_cut"
-    delay 1397
+    delay 1319
  fi
 if $x == 4
   sound WK01_namil_m_fea_70dB_cut                                            # spielt einen sound1 aus Adaptliste3
     set %TopUp1 "WK01_namil_m_fea_70dB_cut"
-    delay 1296
+    delay 1124
     sound TL12_namil_m_ang_70dB_cut                                           # spielt einen sound2 aus Adaptliste3
     set %TopUp2 "TL12_namil_m_ang_70dB_cut"
-    delay 1210
+    delay 997
  fi
 set &n 0                                                              #TINE: set counting variable back to 0
 delay 300
@@ -557,26 +557,26 @@ set &n increase                                                       #TINE: set
  if $x == 1
   sound TL12_belam_m_fea_70dB_cut                                             # spielt einen sound1 aus Adaptliste4
     set %TopUp1 "TL12_belam_m_fea_70dB_cut"
-    delay 1042
+    delay 961
     sound WK01_belam_m_ang_70dB_cut                                           # spielt einen sound2 aus Adaptliste4
     set %TopUp2 "WK01_belam_m_ang_70dB_cut"
-    delay 1043
+    delay 1112
  fi
 if $x == 2
   sound WK01_loman_m_ang_70dB_cut                                             # spielt einen sound1 aus Adaptliste4
     set %TopUp1 "WK01_loman_m_ang_70dB_cut"
-    delay 1380
+    delay 1398
     sound TL12_loman_m_fea_70dB_cut                                           # spielt einen sound2 aus Adaptliste4
     set %TopUp2 "TL12_loman_m_fea_70dB_cut"
-    delay 940
+    delay 1001
  fi
 if $x == 3
   sound TL12_molen_m_fea_70dB_cut                                             # spielt einen sound1 aus Adaptliste4
     set %TopUp1 "TL12_molen_m_fea_70dB_cut"
-    delay 989
+    delay 959
     sound WK01_molen_m_ang_70dB_cut                                           # spielt einen sound2 aus Adaptliste4
     set %TopUp2 "WK01_molen_m_ang_70dB_cut"
-    delay 1204
+    delay 1601
  fi
 if $x == 4
   sound WK01_namil_m_ang_70dB_cut                                             # spielt einen sound1 aus Adaptliste4
@@ -584,7 +584,7 @@ if $x == 4
     delay 1239
     sound TL12_namil_m_fea_70dB_cut                                          # spielt einen sound2 aus Adaptliste4
     set %TopUp2 "TL12_namil_m_fea_70dB_cut"
-    delay 1059
+    delay 984
  fi
 set &n 0                                                              #TINE: set counting variable back to 0
 delay 300
@@ -618,34 +618,34 @@ set &n increase                                                       #TINE: set
  if $x == 1
   sound HO05_belam_f_ang_70dB_cut                                             # spielt einen sound1 aus Adaptliste1
     set %TopUp1 "HO05_belam_f_ang_70dB_cut"
-    delay 1254
+    delay 1164
     sound JW07_belam_f_fea_70dB_cut                                           # spielt einen sound2 aus Adaptliste1
     set %TopUp2 "JW07_belam_f_fea_70dB_cut"
-    delay 1150
+    delay 1158
  fi
 if $x == 2
   sound JW07_loman_f_ang_70dB_cut                                             # spielt einen sound1 aus Adaptliste2
     set %TopUp1 "JW07_loman_f_ang_70dB_cut"
-    delay 1316
+    delay 1244
     sound HO05_loman_f_fea_70dB_cut                                           # spielt einen sound2 aus Adaptliste2
     set %TopUp2 "HO05_loman_f_fea_70dB_cut"
-    delay 1281
+    delay 1205
  fi
 if $x == 3
   sound HO05_molen_f_ang_70dB_cut                                             # spielt einen sound1 aus Adaptliste1
     set %TopUp1 "HO05_molen_f_ang_70dB_cut"
-    delay 1409
+    delay 1153
     sound JW07_molen_f_fea_70dB_cut                                           # spielt einen sound2 aus Adaptliste1
     set %TopUp2 "JW07_molen_f_fea_70dB_cut"
-    delay 1164
+    delay 1160
  fi
 if $x == 4
   sound JW07_namil_f_ang_70dB_cut                                             # spielt einen sound1 aus Adaptliste2
     set %TopUp1 "JW07_namil_f_ang_70dB_cut"
-    delay 1041
+    delay 1203
     sound HO05_namil_f_fea_70dB_cut                                           # spielt einen sound2 aus Adaptliste2
     set %TopUp2 "HO05_namil_f_fea_70dB_cut"
-    delay 1330
+    delay 1199
  fi
 set &n 0                                                         #TINE: set counting variable back to 0
 delay 300
@@ -678,26 +678,26 @@ set &n increase                                                #TINE: setzt die 
 if $x == 1
   sound TL12_belam_m_ang_70dB_cut                                             # spielt einen sound1 aus Adaptliste3
     set %TopUp1 "TL12_belam_m_ang_70dB_cut"
-    delay 1172
+    delay 919
     sound WK01_belam_m_fea_70dB_cut                                           # spielt einen sound2 aus Adaptliste3
     set %TopUp2 "WK01_belam_m_fea_70dB_cut"
-    delay 1185
+    delay 999
  fi
 if $x == 2
   sound WK01_loman_m_ang_70dB_cut                                             # spielt einen sound1 aus Adaptliste4
     set %TopUp1 "WK01_loman_m_ang_70dB_cut"
-    delay 1380
+    delay 1398
     sound TL12_loman_m_fea_70dB_cut                                           # spielt einen sound2 aus Adaptliste4
     set %TopUp2 "TL12_loman_m_fea_70dB_cut"
-    delay 940
+    delay 1001
  fi
 if $x == 3
   sound TL12_molen_m_ang_70dB_cut                                             # spielt einen sound1 aus Adaptliste3
     set %TopUp1 "TL12_molen_m_ang_70dB_cut"
-    delay 1330
+    delay 944
     sound WK01_molen_m_fea_70dB_cut                                           # spielt einen sound2 aus Adaptliste3
     set %TopUp2 "WK01_molen_m_fea_70dB_cut"
-    delay 1397
+    delay 1319
  fi
 if $x == 4
   sound WK01_namil_m_ang_70dB_cut                                             # spielt einen sound1 aus Adaptliste4
@@ -705,7 +705,7 @@ if $x == 4
     delay 1239
     sound TL12_namil_m_fea_70dB_cut                                          # spielt einen sound2 aus Adaptliste4
     set %TopUp2 "TL12_namil_m_fea_70dB_cut"
-    delay 1059
+    delay 984
  fi
 set &n 0                                                         #TINE: set counting variable back to 0
 delay 300
