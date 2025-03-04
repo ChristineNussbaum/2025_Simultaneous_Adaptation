@@ -1,9 +1,9 @@
 ####################################################################################
-# Author: Verena Skuk
-# File: DFG-Personality\04_Experiments\E1_analysis\functions\loadPTKExperimentDataEmpraSoSe.R
+# Author: Verena Skuk and Christine Nussbaum
+# 
 # 
 ####################################################################################
-library(stringr)  # für datenaufbereitung
+library(stringr)  # f?r datenaufbereitung
 
 loadPTKExperimentData <- function(relDirPath) {
   
@@ -23,7 +23,7 @@ loadPTKExperimentData <- function(relDirPath) {
       temp_data<-read.delim(filename, header=FALSE, sep=" ", stringsAsFactors=FALSE, col.names = paste0("V",seq_len(15)), fill = TRUE)
       temp_data$Experiment = expName
       temp_data$Date = date
-      temp_data$Subject <- SubjectCode
+      temp_data$Participant <- SubjectCode
       rawDF<-rbind(rawDF, temp_data)
       rm(temp_data)
     }
