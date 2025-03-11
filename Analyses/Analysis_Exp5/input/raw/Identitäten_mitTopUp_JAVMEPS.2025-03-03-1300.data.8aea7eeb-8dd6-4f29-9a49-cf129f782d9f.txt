@@ -1,0 +1,400 @@
+"Baseline" 783 JW07 namil 50 f 2 1349
+"Baseline" 754 HO05 belam 80 f 2 1469
+"Baseline" 772 JW07 namil 30 f 2 999
+"Baseline" 772 HO05 loman 70 f 1 726
+"Baseline" 750 HO05 belam 70 f 1 924
+"Baseline" 739 HO05 belam 50 f 1 664
+"Baseline" 791 JW07 belam 70 f 2 834
+"Baseline" 765 HO05 namil 80 f 2 678
+"Baseline" 724 HO05 belam 20 f 1 853
+"Baseline" 742 JW07 belam 40 f 1 324
+"Baseline" 754 HO05 molen 80 f 2 344
+"Baseline" 770 JW07 belam 60 f 1 536
+"Baseline" 848 JW07 loman 40 f 1 407
+"Baseline" 863 JW07 loman 20 f 1 295
+"Baseline" 729 HO05 belam 30 f 2 689
+"Baseline" 821 JW07 loman 70 f 2 738
+"Baseline" 779 JW07 namil 70 f 2 515
+"Baseline" 776 HO05 namil 40 f 1 257
+"Baseline" 840 JW07 loman 50 f 1 582
+"Baseline" 778 HO05 loman 60 f 2 520
+"Baseline" 779 HO05 loman 40 f 2 297
+"Baseline" 807 JW07 belam 80 f 2 622
+"Baseline" 758 JW07 molen 20 f 1 563
+"Baseline" 759 HO05 molen 20 f 2 469
+"Baseline" 788 JW07 namil 80 f 2 607
+"Baseline" 780 HO05 loman 50 f 1 384
+"Baseline" 745 HO05 belam 60 f 2 1367
+"Baseline" 759 JW07 molen 70 f 2 840
+"Baseline" 788 HO05 loman 20 f 1 686
+"Baseline" 774 JW07 namil 40 f 2 478
+"Baseline" 787 HO05 loman 30 f 1 339
+"Baseline" 834 JW07 loman 60 f 1 336
+"Baseline" 776 HO05 namil 50 f 2 460
+"Baseline" 758 HO05 molen 40 f 1 927
+"Baseline" 761 JW07 molen 80 f 2 541
+"Baseline" 764 HO05 loman 80 f 2 753
+"Baseline" 768 HO05 namil 70 f 2 349
+"Baseline" 765 JW07 molen 40 f 1 765
+"Baseline" 789 HO05 namil 20 f 2 709
+"Baseline" 761 JW07 molen 50 f 1 567
+"Baseline" 732 HO05 belam 40 f 1 576
+"Baseline" 784 HO05 namil 30 f 1 1392
+"Baseline" 758 JW07 belam 50 f 1 398
+"Baseline" 773 HO05 namil 60 f 1 859
+"Baseline" 780 JW07 namil 60 f 2 477
+"Baseline" 763 HO05 molen 50 f 2 538
+"Baseline" 767 JW07 namil 20 f 2 1356
+"Baseline" 756 HO05 molen 30 f 2 1027
+"Baseline" 817 JW07 loman 80 f 2 370
+"Baseline" 759 JW07 molen 60 f 1 360
+"Baseline" 756 HO05 molen 70 f 2 650
+"Baseline" 855 JW07 loman 30 f 1 373
+"Baseline" 722 JW07 belam 30 f 1 580
+"Baseline" 761 JW07 molen 30 f 1 633
+"Baseline" 706 JW07 belam 20 f 1 379
+"Baseline" 755 HO05 molen 60 f 2 221
+"Baseline" 712 WK01 loman 20 m 1 931
+"Baseline" 545 TL12 belam 30 m 2 551
+"Baseline" 541 TL12 belam 50 m 2 729
+"Baseline" 741 WK01 namil 20 m 1 560
+"Baseline" 557 TL12 molen 50 m 2 883
+"Baseline" 562 TL12 molen 70 m 1 1666
+"Baseline" 591 TL12 loman 20 m 1 547
+"Baseline" 585 TL12 loman 40 m 1 992
+"Baseline" 538 TL12 belam 60 m 2 924
+"Baseline" 550 TL12 molen 60 m 2 917
+"Baseline" 639 WK01 belam 40 m 1 464
+"Baseline" 798 WK01 namil 70 m 1 350
+"Baseline" 560 TL12 molen 30 m 2 404
+"Baseline" 542 TL12 belam 40 m 2 622
+"Baseline" 658 WK01 belam 50 m 1 417
+"Baseline" 822 WK01 loman 50 m 1 263
+"Baseline" 560 TL12 molen 80 m 2 383
+"Baseline" 855 WK01 loman 60 m 1 272
+"Baseline" 815 WK01 namil 80 m 1 415
+"Baseline" 563 TL12 molen 20 m 2 459
+"Baseline" 588 TL12 namil 30 m 2 594
+"Baseline" 889 WK01 loman 70 m 1 297
+"Baseline" 578 TL12 loman 50 m 2 442
+"Baseline" 554 TL12 loman 80 m 2 456
+"Baseline" 593 TL12 namil 80 m 2 656
+"Baseline" 1141 WK01 molen 80 m 2 487
+"Baseline" 927 WK01 loman 80 m 2 343
+"Baseline" 561 TL12 loman 70 m 2 343
+"Baseline" 1113 WK01 molen 70 m 2 187
+"Baseline" 1000 WK01 molen 30 m 2 285
+"Baseline" 794 WK01 namil 60 m 1 677
+"Baseline" 780 WK01 loman 40 m 1 424
+"Baseline" 548 TL12 belam 20 m 2 2008
+"Baseline" 528 TL12 belam 80 m 2 875
+"Baseline" 1056 WK01 molen 50 m 1 626
+"Baseline" 586 TL12 namil 70 m 2 1002
+"Baseline" 617 WK01 belam 20 m 2 1223
+"Baseline" 526 TL12 belam 70 m 2 1571
+"Baseline" 672 WK01 belam 60 m 2 988
+"Baseline" 549 TL12 molen 40 m 2 2427
+"Baseline" 591 TL12 namil 50 m 2 819
+"Baseline" 637 WK01 belam 30 m 1 500
+"Baseline" 696 WK01 belam 80 m 2 476
+"Baseline" 581 TL12 namil 60 m 2 2451
+"Baseline" 759 WK01 namil 30 m 1 333
+"Baseline" 562 TL12 loman 60 m 2 2122
+"Baseline" 781 WK01 namil 50 m 1 946
+"Baseline" 749 WK01 loman 30 m 1 1137
+"Baseline" 972 WK01 molen 20 m 1 3000
+"Baseline" 589 TL12 namil 20 m 2 827
+"Baseline" 585 TL12 namil 40 m 2 368
+"Baseline" 584 TL12 loman 30 m 2 585
+"Baseline" 680 WK01 belam 70 m 2 741
+"Baseline" 767 WK01 namil 40 m 1 499
+"Baseline" 1085 WK01 molen 60 m 2 308
+"Baseline" 1027 WK01 molen 40 m 2 81
+"Adaptation" 805 HO05 loman fea f "JW07_angry/HO05_fearful" 2
+"Adaptation" 755 JW07 molen ang f "JW07_angry/HO05_fearful" 2
+"Adaptation" 760 HO05 molen fea f "JW07_angry/HO05_fearful" 2
+"Adaptation" 719 HO05 belam fea f "JW07_angry/HO05_fearful" 2
+"Adaptation" 799 HO05 namil fea f "JW07_angry/HO05_fearful" 2
+"Adaptation" 844 JW07 belam ang f "JW07_angry/HO05_fearful" 2
+"Adaptation" 803 JW07 loman ang f "JW07_angry/HO05_fearful" 2
+"Adaptation" 803 JW07 namil ang f "JW07_angry/HO05_fearful" 2
+"Adaptation" 844 JW07 belam ang f "JW07_angry/HO05_fearful" 2
+"Adaptation" 799 HO05 namil fea f "JW07_angry/HO05_fearful" 2
+"Adaptation" 755 JW07 molen ang f "JW07_angry/HO05_fearful" 2
+"Adaptation" 760 HO05 molen fea f "JW07_angry/HO05_fearful" 2
+"Adaptation" 803 JW07 loman ang f "JW07_angry/HO05_fearful" 2
+"Adaptation" 803 JW07 namil ang f "JW07_angry/HO05_fearful" 2
+"Adaptation" 805 HO05 loman fea f "JW07_angry/HO05_fearful" 2
+"Adaptation" 719 HO05 belam fea f "JW07_angry/HO05_fearful" 2
+"Antwort" 745 HO05 belam 60 f 2 799 "JW07_angry/HO05_fearful" 2 1 0 "HO05_molen_f_ang_70dB_cut" "JW07_molen_f_fea_70dB_cut"
+"Antwort" 788 HO05 loman 20 f 1 456 "JW07_angry/HO05_fearful" 2 2 0 "HO05_molen_f_ang_70dB_cut" "JW07_molen_f_fea_70dB_cut"
+"Antwort" 855 JW07 loman 30 f 1 281 "JW07_angry/HO05_fearful" 2 3 0 "HO05_molen_f_ang_70dB_cut" "JW07_molen_f_fea_70dB_cut"
+"Antwort" 722 JW07 belam 30 f 1 570 "JW07_angry/HO05_fearful" 2 0 2 "JW07_loman_f_ang_70dB_cut" "HO05_loman_f_fea_70dB_cut"
+"Antwort" 758 JW07 belam 50 f 1 322 "JW07_angry/HO05_fearful" 2 1 0 "JW07_loman_f_ang_70dB_cut" "HO05_loman_f_fea_70dB_cut"
+"Antwort" 756 HO05 molen 70 f 2 325 "JW07_angry/HO05_fearful" 2 2 0 "JW07_loman_f_ang_70dB_cut" "HO05_loman_f_fea_70dB_cut"
+"Antwort" 754 HO05 molen 80 f 2 492 "JW07_angry/HO05_fearful" 2 3 0 "JW07_loman_f_ang_70dB_cut" "HO05_loman_f_fea_70dB_cut"
+"Antwort" 729 HO05 belam 30 f 2 1295 "JW07_angry/HO05_fearful" 2 0 1 "HO05_belam_f_fea_70dB_cut" "JW07_belam_f_ang_70dB_cut"
+"Antwort" 789 HO05 namil 20 f 2 451 "JW07_angry/HO05_fearful" 2 1 0 "HO05_belam_f_fea_70dB_cut" "JW07_belam_f_ang_70dB_cut"
+"Antwort" 780 HO05 loman 50 f 2 541 "JW07_angry/HO05_fearful" 2 2 0 "HO05_belam_f_fea_70dB_cut" "JW07_belam_f_ang_70dB_cut"
+"Antwort" 756 HO05 molen 30 f 2 375 "JW07_angry/HO05_fearful" 2 3 0 "HO05_belam_f_fea_70dB_cut" "JW07_belam_f_ang_70dB_cut"
+"Antwort" 768 HO05 namil 70 f 2 304 "JW07_angry/HO05_fearful" 2 0 4 "JW07_namil_f_ang_70dB_cut" "HO05_namil_f_fea_70dB_cut"
+"Antwort" 773 HO05 namil 60 f 2 179 "JW07_angry/HO05_fearful" 2 1 0 "JW07_namil_f_ang_70dB_cut" "HO05_namil_f_fea_70dB_cut"
+"Antwort" 765 JW07 molen 40 f 1 381 "JW07_angry/HO05_fearful" 2 2 0 "JW07_namil_f_ang_70dB_cut" "HO05_namil_f_fea_70dB_cut"
+"Antwort" 791 JW07 belam 70 f 1 288 "JW07_angry/HO05_fearful" 2 3 0 "JW07_namil_f_ang_70dB_cut" "HO05_namil_f_fea_70dB_cut"
+"Antwort" 765 HO05 namil 80 f 2 641 "JW07_angry/HO05_fearful" 2 0 2 "JW07_loman_f_ang_70dB_cut" "HO05_loman_f_fea_70dB_cut"
+"Antwort" 759 JW07 molen 60 f 1 364 "JW07_angry/HO05_fearful" 2 1 0 "JW07_loman_f_ang_70dB_cut" "HO05_loman_f_fea_70dB_cut"
+"Antwort" 706 JW07 belam 20 f 1 314 "JW07_angry/HO05_fearful" 2 2 0 "JW07_loman_f_ang_70dB_cut" "HO05_loman_f_fea_70dB_cut"
+"Antwort" 770 JW07 belam 60 f 1 282 "JW07_angry/HO05_fearful" 2 3 0 "JW07_loman_f_ang_70dB_cut" "HO05_loman_f_fea_70dB_cut"
+"Antwort" 759 JW07 molen 70 f 2 459 "JW07_angry/HO05_fearful" 2 0 3 "HO05_molen_f_fea_70dB_cut" "JW07_molen_f_ang_70dB_cut"
+"Antwort" 779 JW07 namil 70 f 2 488 "JW07_angry/HO05_fearful" 2 1 0 "HO05_molen_f_fea_70dB_cut" "JW07_molen_f_ang_70dB_cut"
+"Antwort" 807 JW07 belam 80 f 1 426 "JW07_angry/HO05_fearful" 2 2 0 "HO05_molen_f_fea_70dB_cut" "JW07_molen_f_ang_70dB_cut"
+"Antwort" 759 HO05 molen 20 f 2 421 "JW07_angry/HO05_fearful" 2 3 0 "HO05_molen_f_fea_70dB_cut" "JW07_molen_f_ang_70dB_cut"
+"Antwort" 772 HO05 loman 70 f 2 775 "JW07_angry/HO05_fearful" 2 0 3 "HO05_molen_f_fea_70dB_cut" "JW07_molen_f_ang_70dB_cut"
+"Antwort" 761 JW07 molen 50 f 1 418 "JW07_angry/HO05_fearful" 2 1 0 "HO05_molen_f_fea_70dB_cut" "JW07_molen_f_ang_70dB_cut"
+"Antwort" 758 JW07 molen 20 f 1 178 "JW07_angry/HO05_fearful" 2 2 0 "HO05_molen_f_fea_70dB_cut" "JW07_molen_f_ang_70dB_cut"
+"Antwort" 787 HO05 loman 30 f 2 835 "JW07_angry/HO05_fearful" 2 3 0 "HO05_molen_f_fea_70dB_cut" "JW07_molen_f_ang_70dB_cut"
+"Antwort" 761 JW07 molen 30 f 1 419 "JW07_angry/HO05_fearful" 2 0 2 "JW07_loman_f_ang_70dB_cut" "HO05_loman_f_fea_70dB_cut"
+"Antwort" 817 JW07 loman 80 f 2 245 "JW07_angry/HO05_fearful" 2 1 0 "JW07_loman_f_ang_70dB_cut" "HO05_loman_f_fea_70dB_cut"
+"Antwort" 840 JW07 loman 50 f 2 360 "JW07_angry/HO05_fearful" 2 2 0 "JW07_loman_f_ang_70dB_cut" "HO05_loman_f_fea_70dB_cut"
+"Antwort" 754 HO05 belam 80 f 2 707 "JW07_angry/HO05_fearful" 2 3 0 "JW07_loman_f_ang_70dB_cut" "HO05_loman_f_fea_70dB_cut"
+"Antwort" 776 HO05 namil 40 f 2 470 "JW07_angry/HO05_fearful" 2 0 1 "HO05_belam_f_fea_70dB_cut" "JW07_belam_f_ang_70dB_cut"
+"Antwort" 742 JW07 belam 40 f 1 123 "JW07_angry/HO05_fearful" 2 1 0 "HO05_belam_f_fea_70dB_cut" "JW07_belam_f_ang_70dB_cut"
+"Antwort" 788 JW07 namil 80 f 2 300 "JW07_angry/HO05_fearful" 2 2 0 "HO05_belam_f_fea_70dB_cut" "JW07_belam_f_ang_70dB_cut"
+"Antwort" 767 JW07 namil 20 f 1 651 "JW07_angry/HO05_fearful" 2 3 0 "HO05_belam_f_fea_70dB_cut" "JW07_belam_f_ang_70dB_cut"
+"Antwort" 821 JW07 loman 70 f 2 498 "JW07_angry/HO05_fearful" 2 0 3 "HO05_molen_f_fea_70dB_cut" "JW07_molen_f_ang_70dB_cut"
+"Antwort" 772 JW07 namil 30 f 2 1504 "JW07_angry/HO05_fearful" 2 1 0 "HO05_molen_f_fea_70dB_cut" "JW07_molen_f_ang_70dB_cut"
+"Antwort" 763 HO05 molen 50 f 2 496 "JW07_angry/HO05_fearful" 2 2 0 "HO05_molen_f_fea_70dB_cut" "JW07_molen_f_ang_70dB_cut"
+"Antwort" 761 JW07 molen 80 f 2 403 "JW07_angry/HO05_fearful" 2 3 0 "HO05_molen_f_fea_70dB_cut" "JW07_molen_f_ang_70dB_cut"
+"Antwort" 755 HO05 molen 60 f 2 357 "JW07_angry/HO05_fearful" 2 0 1 "HO05_belam_f_fea_70dB_cut" "JW07_belam_f_ang_70dB_cut"
+"Antwort" 776 HO05 namil 50 f 2 433 "JW07_angry/HO05_fearful" 2 1 0 "HO05_belam_f_fea_70dB_cut" "JW07_belam_f_ang_70dB_cut"
+"Antwort" 848 JW07 loman 40 f 1 334 "JW07_angry/HO05_fearful" 2 2 0 "HO05_belam_f_fea_70dB_cut" "JW07_belam_f_ang_70dB_cut"
+"Antwort" 739 HO05 belam 50 f 2 265 "JW07_angry/HO05_fearful" 2 3 0 "HO05_belam_f_fea_70dB_cut" "JW07_belam_f_ang_70dB_cut"
+"Antwort" 732 HO05 belam 40 f 2 612 "JW07_angry/HO05_fearful" 2 0 2 "JW07_loman_f_ang_70dB_cut" "HO05_loman_f_fea_70dB_cut"
+"Antwort" 764 HO05 loman 80 f 2 485 "JW07_angry/HO05_fearful" 2 1 0 "JW07_loman_f_ang_70dB_cut" "HO05_loman_f_fea_70dB_cut"
+"Antwort" 750 HO05 belam 70 f 2 311 "JW07_angry/HO05_fearful" 2 2 0 "JW07_loman_f_ang_70dB_cut" "HO05_loman_f_fea_70dB_cut"
+"Antwort" 758 HO05 molen 40 f 2 383 "JW07_angry/HO05_fearful" 2 3 0 "JW07_loman_f_ang_70dB_cut" "HO05_loman_f_fea_70dB_cut"
+"Antwort" 780 JW07 namil 60 f 2 605 "JW07_angry/HO05_fearful" 2 0 1 "HO05_belam_f_fea_70dB_cut" "JW07_belam_f_ang_70dB_cut"
+"Antwort" 779 HO05 loman 40 f 2 562 "JW07_angry/HO05_fearful" 2 1 0 "HO05_belam_f_fea_70dB_cut" "JW07_belam_f_ang_70dB_cut"
+"Antwort" 783 JW07 namil 50 f 2 748 "JW07_angry/HO05_fearful" 2 2 0 "HO05_belam_f_fea_70dB_cut" "JW07_belam_f_ang_70dB_cut"
+"Antwort" 834 JW07 loman 60 f 1 585 "JW07_angry/HO05_fearful" 2 3 0 "HO05_belam_f_fea_70dB_cut" "JW07_belam_f_ang_70dB_cut"
+"Antwort" 774 JW07 namil 40 f 2 549 "JW07_angry/HO05_fearful" 2 0 4 "JW07_namil_f_ang_70dB_cut" "HO05_namil_f_fea_70dB_cut"
+"Antwort" 863 JW07 loman 20 f 1 211 "JW07_angry/HO05_fearful" 2 1 0 "JW07_namil_f_ang_70dB_cut" "HO05_namil_f_fea_70dB_cut"
+"Antwort" 784 HO05 namil 30 f 2 468 "JW07_angry/HO05_fearful" 2 2 0 "JW07_namil_f_ang_70dB_cut" "HO05_namil_f_fea_70dB_cut"
+"Antwort" 724 HO05 belam 20 f 2 528 "JW07_angry/HO05_fearful" 2 3 0 "JW07_namil_f_ang_70dB_cut" "HO05_namil_f_fea_70dB_cut"
+"Antwort" 778 HO05 loman 60 f 2 588 "JW07_angry/HO05_fearful" 2 0 1 "HO05_belam_f_fea_70dB_cut" "JW07_belam_f_ang_70dB_cut"
+"Adaptation" 677 JW07 belam fea f "HO05_angry/JW07_fearful" 2
+"Adaptation" 765 HO05 loman ang f "HO05_angry/JW07_fearful" 2
+"Adaptation" 758 HO05 namil ang f "HO05_angry/JW07_fearful" 2
+"Adaptation" 764 JW07 namil fea f "HO05_angry/JW07_fearful" 2
+"Adaptation" 753 HO05 molen ang f "HO05_angry/JW07_fearful" 2
+"Adaptation" 879 JW07 loman fea f "HO05_angry/JW07_fearful" 2
+"Adaptation" 764 HO05 belam ang f "HO05_angry/JW07_fearful" 2
+"Adaptation" 760 JW07 molen fea f "HO05_angry/JW07_fearful" 2
+"Adaptation" 765 HO05 loman ang f "HO05_angry/JW07_fearful" 2
+"Adaptation" 879 JW07 loman fea f "HO05_angry/JW07_fearful" 2
+"Adaptation" 760 JW07 molen fea f "HO05_angry/JW07_fearful" 2
+"Adaptation" 677 JW07 belam fea f "HO05_angry/JW07_fearful" 2
+"Adaptation" 764 HO05 belam ang f "HO05_angry/JW07_fearful" 2
+"Adaptation" 753 HO05 molen ang f "HO05_angry/JW07_fearful" 2
+"Adaptation" 758 HO05 namil ang f "HO05_angry/JW07_fearful" 2
+"Adaptation" 764 JW07 namil fea f "HO05_angry/JW07_fearful" 2
+"Antwort" 754 HO05 molen 80 f 2 288 "HO05_angry/JW07_fearful" 2 1 0 "HO05_belam_f_fea_70dB_cut" "JW07_belam_f_ang_70dB_cut"
+"Antwort" 758 JW07 molen 20 f 1 501 "HO05_angry/JW07_fearful" 2 2 0 "HO05_belam_f_fea_70dB_cut" "JW07_belam_f_ang_70dB_cut"
+"Antwort" 774 JW07 namil 40 f 2 651 "HO05_angry/JW07_fearful" 2 3 0 "HO05_belam_f_fea_70dB_cut" "JW07_belam_f_ang_70dB_cut"
+"Antwort" 758 JW07 belam 50 f 1 607 "HO05_angry/JW07_fearful" 2 0 2 "JW07_loman_f_fea_70dB_cut" "HO05_loman_f_ang_70dB_cut"
+"Antwort" 742 JW07 belam 40 f 1 3000 "HO05_angry/JW07_fearful" 2 1 0 "JW07_loman_f_fea_70dB_cut" "HO05_loman_f_ang_70dB_cut"
+"Antwort" 788 HO05 loman 20 f 2 543 "HO05_angry/JW07_fearful" 2 2 0 "JW07_loman_f_fea_70dB_cut" "HO05_loman_f_ang_70dB_cut"
+"Antwort" 776 HO05 namil 40 f 2 1051 "HO05_angry/JW07_fearful" 2 3 0 "JW07_loman_f_fea_70dB_cut" "HO05_loman_f_ang_70dB_cut"
+"Antwort" 840 JW07 loman 50 f 1 611 "HO05_angry/JW07_fearful" 2 0 4 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 761 JW07 molen 50 f 1 476 "HO05_angry/JW07_fearful" 2 1 0 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 791 JW07 belam 70 f 1 100 "HO05_angry/JW07_fearful" 2 2 0 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 764 HO05 loman 80 f 2 302 "HO05_angry/JW07_fearful" 2 3 0 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 834 JW07 loman 60 f 1 482 "HO05_angry/JW07_fearful" 2 0 4 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 788 JW07 namil 80 f 2 602 "HO05_angry/JW07_fearful" 2 1 0 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 755 HO05 molen 60 f 2 664 "HO05_angry/JW07_fearful" 2 2 0 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 817 JW07 loman 80 f 2 998 "HO05_angry/JW07_fearful" 2 3 0 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 765 HO05 namil 80 f 2 506 "HO05_angry/JW07_fearful" 2 0 2 "JW07_loman_f_fea_70dB_cut" "HO05_loman_f_ang_70dB_cut"
+"Antwort" 756 HO05 molen 30 f 2 620 "HO05_angry/JW07_fearful" 2 1 0 "JW07_loman_f_fea_70dB_cut" "HO05_loman_f_ang_70dB_cut"
+"Antwort" 756 HO05 molen 70 f 2 321 "HO05_angry/JW07_fearful" 2 2 0 "JW07_loman_f_fea_70dB_cut" "HO05_loman_f_ang_70dB_cut"
+"Antwort" 745 HO05 belam 60 f 2 707 "HO05_angry/JW07_fearful" 2 3 0 "JW07_loman_f_fea_70dB_cut" "HO05_loman_f_ang_70dB_cut"
+"Antwort" 761 JW07 molen 30 f 1 397 "HO05_angry/JW07_fearful" 2 0 3 "HO05_molen_f_ang_70dB_cut" "JW07_molen_f_fea_70dB_cut"
+"Antwort" 855 JW07 loman 30 f 1 326 "HO05_angry/JW07_fearful" 2 1 0 "HO05_molen_f_ang_70dB_cut" "JW07_molen_f_fea_70dB_cut"
+"Antwort" 724 HO05 belam 20 f 2 875 "HO05_angry/JW07_fearful" 2 2 0 "HO05_molen_f_ang_70dB_cut" "JW07_molen_f_fea_70dB_cut"
+"Antwort" 770 JW07 belam 60 f 1 798 "HO05_angry/JW07_fearful" 2 3 0 "HO05_molen_f_ang_70dB_cut" "JW07_molen_f_fea_70dB_cut"
+"Antwort" 772 JW07 namil 30 f 2 643 "HO05_angry/JW07_fearful" 2 0 4 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 778 HO05 loman 60 f 2 660 "HO05_angry/JW07_fearful" 2 1 0 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 776 HO05 namil 50 f 2 470 "HO05_angry/JW07_fearful" 2 2 0 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 759 JW07 molen 70 f 2 1341 "HO05_angry/JW07_fearful" 2 3 0 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 739 HO05 belam 50 f 2 604 "HO05_angry/JW07_fearful" 2 0 4 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 863 JW07 loman 20 f 1 320 "HO05_angry/JW07_fearful" 2 1 0 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 729 HO05 belam 30 f 2 728 "HO05_angry/JW07_fearful" 2 2 0 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 787 HO05 loman 30 f 2 256 "HO05_angry/JW07_fearful" 2 3 0 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 779 JW07 namil 70 f 2 390 "HO05_angry/JW07_fearful" 2 0 1 "HO05_belam_f_ang_70dB_cut" "JW07_belam_f_fea_70dB_cut"
+"Antwort" 706 JW07 belam 20 f 1 391 "HO05_angry/JW07_fearful" 2 1 0 "HO05_belam_f_ang_70dB_cut" "JW07_belam_f_fea_70dB_cut"
+"Antwort" 772 HO05 loman 70 f 2 235 "HO05_angry/JW07_fearful" 2 2 0 "HO05_belam_f_ang_70dB_cut" "JW07_belam_f_fea_70dB_cut"
+"Antwort" 767 JW07 namil 20 f 2 672 "HO05_angry/JW07_fearful" 2 3 0 "HO05_belam_f_ang_70dB_cut" "JW07_belam_f_fea_70dB_cut"
+"Antwort" 807 JW07 belam 80 f 1 598 "HO05_angry/JW07_fearful" 2 0 3 "HO05_molen_f_ang_70dB_cut" "JW07_molen_f_fea_70dB_cut"
+"Antwort" 768 HO05 namil 70 f 2 352 "HO05_angry/JW07_fearful" 2 1 0 "HO05_molen_f_ang_70dB_cut" "JW07_molen_f_fea_70dB_cut"
+"Antwort" 761 JW07 molen 80 f 2 204 "HO05_angry/JW07_fearful" 2 2 0 "HO05_molen_f_ang_70dB_cut" "JW07_molen_f_fea_70dB_cut"
+"Antwort" 779 HO05 loman 40 f 2 344 "HO05_angry/JW07_fearful" 2 3 0 "HO05_molen_f_ang_70dB_cut" "JW07_molen_f_fea_70dB_cut"
+"Antwort" 784 HO05 namil 30 f 2 296 "HO05_angry/JW07_fearful" 2 0 1 "HO05_belam_f_ang_70dB_cut" "JW07_belam_f_fea_70dB_cut"
+"Antwort" 759 JW07 molen 60 f 2 496 "HO05_angry/JW07_fearful" 2 1 0 "HO05_belam_f_ang_70dB_cut" "JW07_belam_f_fea_70dB_cut"
+"Antwort" 783 JW07 namil 50 f 2 246 "HO05_angry/JW07_fearful" 2 2 0 "HO05_belam_f_ang_70dB_cut" "JW07_belam_f_fea_70dB_cut"
+"Antwort" 732 HO05 belam 40 f 2 742 "HO05_angry/JW07_fearful" 2 3 0 "HO05_belam_f_ang_70dB_cut" "JW07_belam_f_fea_70dB_cut"
+"Antwort" 759 HO05 molen 20 f 2 659 "HO05_angry/JW07_fearful" 2 0 2 "JW07_loman_f_fea_70dB_cut" "HO05_loman_f_ang_70dB_cut"
+"Antwort" 780 JW07 namil 60 f 2 243 "HO05_angry/JW07_fearful" 2 1 0 "JW07_loman_f_fea_70dB_cut" "HO05_loman_f_ang_70dB_cut"
+"Antwort" 765 JW07 molen 40 f 1 376 "HO05_angry/JW07_fearful" 2 2 0 "JW07_loman_f_fea_70dB_cut" "HO05_loman_f_ang_70dB_cut"
+"Antwort" 758 HO05 molen 40 f 2 505 "HO05_angry/JW07_fearful" 2 3 0 "JW07_loman_f_fea_70dB_cut" "HO05_loman_f_ang_70dB_cut"
+"Antwort" 763 HO05 molen 50 f 2 410 "HO05_angry/JW07_fearful" 2 0 2 "JW07_loman_f_fea_70dB_cut" "HO05_loman_f_ang_70dB_cut"
+"Antwort" 780 HO05 loman 50 f 2 402 "HO05_angry/JW07_fearful" 2 1 0 "JW07_loman_f_fea_70dB_cut" "HO05_loman_f_ang_70dB_cut"
+"Antwort" 773 HO05 namil 60 f 2 216 "HO05_angry/JW07_fearful" 2 2 0 "JW07_loman_f_fea_70dB_cut" "HO05_loman_f_ang_70dB_cut"
+"Antwort" 821 JW07 loman 70 f 2 355 "HO05_angry/JW07_fearful" 2 3 0 "JW07_loman_f_fea_70dB_cut" "HO05_loman_f_ang_70dB_cut"
+"Antwort" 722 JW07 belam 30 f 1 315 "HO05_angry/JW07_fearful" 2 0 4 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 750 HO05 belam 70 f 2 163 "HO05_angry/JW07_fearful" 2 1 0 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 754 HO05 belam 80 f 2 137 "HO05_angry/JW07_fearful" 2 2 0 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 789 HO05 namil 20 f 2 224 "HO05_angry/JW07_fearful" 2 3 0 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 848 JW07 loman 40 f 2 965 "HO05_angry/JW07_fearful" 2 0 4 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Adaptation" 1201 WK01 molen ang m "WK01_angry/TL12_fearful" 2
+"Adaptation" 561 TL12 belam fea m "WK01_angry/TL12_fearful" 2
+"Adaptation" 998 WK01 loman ang m "WK01_angry/TL12_fearful" 2
+"Adaptation" 584 TL12 namil fea m "WK01_angry/TL12_fearful" 2
+"Adaptation" 712 WK01 belam ang m "WK01_angry/TL12_fearful" 2
+"Adaptation" 559 TL12 molen fea m "WK01_angry/TL12_fearful" 2
+"Adaptation" 601 TL12 loman fea m "WK01_angry/TL12_fearful" 2
+"Adaptation" 839 WK01 namil ang m "WK01_angry/TL12_fearful" 2
+"Adaptation" 561 TL12 belam fea m "WK01_angry/TL12_fearful" 2
+"Adaptation" 998 WK01 loman ang m "WK01_angry/TL12_fearful" 2
+"Adaptation" 601 TL12 loman fea m "WK01_angry/TL12_fearful" 2
+"Adaptation" 712 WK01 belam ang m "WK01_angry/TL12_fearful" 2
+"Adaptation" 559 TL12 molen fea m "WK01_angry/TL12_fearful" 2
+"Adaptation" 839 WK01 namil ang m "WK01_angry/TL12_fearful" 2
+"Adaptation" 1201 WK01 molen ang m "WK01_angry/TL12_fearful" 2
+"Adaptation" 584 TL12 namil fea m "WK01_angry/TL12_fearful" 2
+"Antwort" 560 TL12 molen 80 m 2 603 "WK01_angry/TL12_fearful" 2 1 0 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 560 TL12 molen 30 m 2 541 "WK01_angry/TL12_fearful" 2 2 0 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 589 TL12 namil 20 m 1 810 "WK01_angry/TL12_fearful" 2 3 0 "JW07_namil_f_fea_70dB_cut" "HO05_namil_f_ang_70dB_cut"
+"Antwort" 542 TL12 belam 40 m 2 1632 "WK01_angry/TL12_fearful" 2 0 2 "WK01_loman_m_ang_70dB_cut" "TL12_loman_m_fea_70dB_cut"
+"Antwort" 541 TL12 belam 50 m 2 592 "WK01_angry/TL12_fearful" 2 1 0 "WK01_loman_m_ang_70dB_cut" "TL12_loman_m_fea_70dB_cut"
+"Antwort" 767 WK01 namil 40 m 1 254 "WK01_angry/TL12_fearful" 2 2 0 "WK01_loman_m_ang_70dB_cut" "TL12_loman_m_fea_70dB_cut"
+"Antwort" 1141 WK01 molen 80 m 2 168 "WK01_angry/TL12_fearful" 2 3 0 "WK01_loman_m_ang_70dB_cut" "TL12_loman_m_fea_70dB_cut"
+"Antwort" 554 TL12 loman 80 m 2 1031 "WK01_angry/TL12_fearful" 2 0 1 "TL12_belam_m_fea_70dB_cut" "WK01_belam_m_ang_70dB_cut"
+"Antwort" 561 TL12 loman 70 m 2 528 "WK01_angry/TL12_fearful" 2 1 0 "TL12_belam_m_fea_70dB_cut" "WK01_belam_m_ang_70dB_cut"
+"Antwort" 780 WK01 loman 40 m 1 349 "WK01_angry/TL12_fearful" 2 2 0 "TL12_belam_m_fea_70dB_cut" "WK01_belam_m_ang_70dB_cut"
+"Antwort" 1113 WK01 molen 70 m 2 67 "WK01_angry/TL12_fearful" 2 3 0 "TL12_belam_m_fea_70dB_cut" "WK01_belam_m_ang_70dB_cut"
+"Antwort" 1027 WK01 molen 40 m 2 801 "WK01_angry/TL12_fearful" 2 0 2 "WK01_loman_m_ang_70dB_cut" "TL12_loman_m_fea_70dB_cut"
+"Antwort" 528 TL12 belam 80 m 2 603 "WK01_angry/TL12_fearful" 2 1 0 "WK01_loman_m_ang_70dB_cut" "TL12_loman_m_fea_70dB_cut"
+"Antwort" 1000 WK01 molen 30 m 1 3000 "WK01_angry/TL12_fearful" 2 2 0 "WK01_loman_m_ang_70dB_cut" "TL12_loman_m_fea_70dB_cut"
+"Antwort" 585 TL12 namil 40 m 2 910 "WK01_angry/TL12_fearful" 2 3 0 "WK01_loman_m_ang_70dB_cut" "TL12_loman_m_fea_70dB_cut"
+"Antwort" 563 TL12 molen 20 m 2 749 "WK01_angry/TL12_fearful" 2 0 1 "TL12_belam_m_fea_70dB_cut" "WK01_belam_m_ang_70dB_cut"
+"Antwort" 815 WK01 namil 80 m 2 384 "WK01_angry/TL12_fearful" 2 1 0 "TL12_belam_m_fea_70dB_cut" "WK01_belam_m_ang_70dB_cut"
+"Antwort" 696 WK01 belam 80 m 2 380 "WK01_angry/TL12_fearful" 2 2 0 "TL12_belam_m_fea_70dB_cut" "WK01_belam_m_ang_70dB_cut"
+"Antwort" 741 WK01 namil 20 m 1 198 "WK01_angry/TL12_fearful" 2 3 0 "TL12_belam_m_fea_70dB_cut" "WK01_belam_m_ang_70dB_cut"
+"Antwort" 562 TL12 molen 70 m 2 1467 "WK01_angry/TL12_fearful" 2 0 4 "WK01_namil_m_ang_70dB_cut" "TL12_namil_m_fea_70dB_cut"
+"Antwort" 584 TL12 loman 30 m 1 768 "WK01_angry/TL12_fearful" 2 1 0 "WK01_namil_m_ang_70dB_cut" "TL12_namil_m_fea_70dB_cut"
+"Antwort" 822 WK01 loman 50 m 1 203 "WK01_angry/TL12_fearful" 2 2 0 "WK01_namil_m_ang_70dB_cut" "TL12_namil_m_fea_70dB_cut"
+"Antwort" 617 WK01 belam 20 m 1 327 "WK01_angry/TL12_fearful" 2 3 0 "WK01_namil_m_ang_70dB_cut" "TL12_namil_m_fea_70dB_cut"
+"Antwort" 1056 WK01 molen 50 m 2 187 "WK01_angry/TL12_fearful" 2 0 3 "TL12_molen_m_fea_70dB_cut" "WK01_molen_m_ang_70dB_cut"
+"Antwort" 855 WK01 loman 60 m 1 376 "WK01_angry/TL12_fearful" 2 1 0 "TL12_molen_m_fea_70dB_cut" "WK01_molen_m_ang_70dB_cut"
+"Antwort" 798 WK01 namil 70 m 2 173 "WK01_angry/TL12_fearful" 2 2 0 "TL12_molen_m_fea_70dB_cut" "WK01_molen_m_ang_70dB_cut"
+"Antwort" 549 TL12 molen 40 m 2 229 "WK01_angry/TL12_fearful" 2 3 0 "TL12_molen_m_fea_70dB_cut" "WK01_molen_m_ang_70dB_cut"
+"Antwort" 581 TL12 namil 60 m 2 2267 "WK01_angry/TL12_fearful" 2 0 1 "TL12_belam_m_fea_70dB_cut" "WK01_belam_m_ang_70dB_cut"
+"Antwort" 588 TL12 namil 30 m 1 741 "WK01_angry/TL12_fearful" 2 1 0 "TL12_belam_m_fea_70dB_cut" "WK01_belam_m_ang_70dB_cut"
+"Antwort" 548 TL12 belam 20 m 1 926 "WK01_angry/TL12_fearful" 2 2 0 "TL12_belam_m_fea_70dB_cut" "WK01_belam_m_ang_70dB_cut"
+"Antwort" 591 TL12 namil 50 m 1 524 "WK01_angry/TL12_fearful" 2 3 0 "TL12_belam_m_fea_70dB_cut" "WK01_belam_m_ang_70dB_cut"
+"Antwort" 972 WK01 molen 20 m 1 382 "WK01_angry/TL12_fearful" 2 0 3 "TL12_molen_m_fea_70dB_cut" "WK01_molen_m_ang_70dB_cut"
+"Antwort" 637 WK01 belam 30 m 1 387 "WK01_angry/TL12_fearful" 2 1 0 "TL12_molen_m_fea_70dB_cut" "WK01_molen_m_ang_70dB_cut"
+"Antwort" 545 TL12 belam 30 m 2 470 "WK01_angry/TL12_fearful" 2 2 0 "TL12_molen_m_fea_70dB_cut" "WK01_molen_m_ang_70dB_cut"
+"Antwort" 927 WK01 loman 80 m 2 729 "WK01_angry/TL12_fearful" 2 3 0 "TL12_molen_m_fea_70dB_cut" "WK01_molen_m_ang_70dB_cut"
+"Antwort" 591 TL12 loman 20 m 1 1428 "WK01_angry/TL12_fearful" 2 0 3 "TL12_molen_m_fea_70dB_cut" "WK01_molen_m_ang_70dB_cut"
+"Antwort" 639 WK01 belam 40 m 1 324 "WK01_angry/TL12_fearful" 2 1 0 "TL12_molen_m_fea_70dB_cut" "WK01_molen_m_ang_70dB_cut"
+"Antwort" 538 TL12 belam 60 m 2 1003 "WK01_angry/TL12_fearful" 2 2 0 "TL12_molen_m_fea_70dB_cut" "WK01_molen_m_ang_70dB_cut"
+"Antwort" 658 WK01 belam 50 m 2 465 "WK01_angry/TL12_fearful" 2 3 0 "TL12_molen_m_fea_70dB_cut" "WK01_molen_m_ang_70dB_cut"
+"Antwort" 1085 WK01 molen 60 m 2 216 "WK01_angry/TL12_fearful" 2 0 3 "TL12_molen_m_fea_70dB_cut" "WK01_molen_m_ang_70dB_cut"
+"Antwort" 712 WK01 loman 20 m 1 156 "WK01_angry/TL12_fearful" 2 1 0 "TL12_molen_m_fea_70dB_cut" "WK01_molen_m_ang_70dB_cut"
+"Antwort" 794 WK01 namil 60 m 1 624 "WK01_angry/TL12_fearful" 2 2 0 "TL12_molen_m_fea_70dB_cut" "WK01_molen_m_ang_70dB_cut"
+"Antwort" 759 WK01 namil 30 m 1 78 "WK01_angry/TL12_fearful" 2 3 0 "TL12_molen_m_fea_70dB_cut" "WK01_molen_m_ang_70dB_cut"
+"Antwort" 585 TL12 loman 40 m 1 1990 "WK01_angry/TL12_fearful" 2 0 1 "TL12_belam_m_fea_70dB_cut" "WK01_belam_m_ang_70dB_cut"
+"Antwort" 562 TL12 loman 60 m 1 665 "WK01_angry/TL12_fearful" 2 1 0 "TL12_belam_m_fea_70dB_cut" "WK01_belam_m_ang_70dB_cut"
+"Antwort" 586 TL12 namil 70 m 1 601 "WK01_angry/TL12_fearful" 2 2 0 "TL12_belam_m_fea_70dB_cut" "WK01_belam_m_ang_70dB_cut"
+"Antwort" 680 WK01 belam 70 m 2 398 "WK01_angry/TL12_fearful" 2 3 0 "TL12_belam_m_fea_70dB_cut" "WK01_belam_m_ang_70dB_cut"
+"Antwort" 749 WK01 loman 30 m 1 204 "WK01_angry/TL12_fearful" 2 0 4 "WK01_namil_m_ang_70dB_cut" "TL12_namil_m_fea_70dB_cut"
+"Antwort" 526 TL12 belam 70 m 2 337 "WK01_angry/TL12_fearful" 2 1 0 "WK01_namil_m_ang_70dB_cut" "TL12_namil_m_fea_70dB_cut"
+"Antwort" 781 WK01 namil 50 m 1 358 "WK01_angry/TL12_fearful" 2 2 0 "WK01_namil_m_ang_70dB_cut" "TL12_namil_m_fea_70dB_cut"
+"Antwort" 550 TL12 molen 60 m 2 343 "WK01_angry/TL12_fearful" 2 3 0 "WK01_namil_m_ang_70dB_cut" "TL12_namil_m_fea_70dB_cut"
+"Antwort" 578 TL12 loman 50 m 2 857 "WK01_angry/TL12_fearful" 2 0 2 "WK01_loman_m_ang_70dB_cut" "TL12_loman_m_fea_70dB_cut"
+"Antwort" 593 TL12 namil 80 m 2 458 "WK01_angry/TL12_fearful" 2 1 0 "WK01_loman_m_ang_70dB_cut" "TL12_loman_m_fea_70dB_cut"
+"Antwort" 889 WK01 loman 70 m 2 285 "WK01_angry/TL12_fearful" 2 2 0 "WK01_loman_m_ang_70dB_cut" "TL12_loman_m_fea_70dB_cut"
+"Antwort" 672 WK01 belam 60 m 2 656 "WK01_angry/TL12_fearful" 2 3 0 "WK01_loman_m_ang_70dB_cut" "TL12_loman_m_fea_70dB_cut"
+"Antwort" 557 TL12 molen 50 m 2 765 "WK01_angry/TL12_fearful" 2 0 4 "WK01_namil_m_ang_70dB_cut" "TL12_namil_m_fea_70dB_cut"
+"Adaptation" 544 TL12 molen ang m "TL12_angry/WK01_fearful" 2
+"Adaptation" 597 TL12 namil ang m "TL12_angry/WK01_fearful" 2
+"Adaptation" 724 WK01 namil fea m "TL12_angry/WK01_fearful" 2
+"Adaptation" 535 TL12 loman ang m "TL12_angry/WK01_fearful" 2
+"Adaptation" 599 WK01 belam fea m "TL12_angry/WK01_fearful" 2
+"Adaptation" 519 TL12 belam ang m "TL12_angry/WK01_fearful" 2
+"Adaptation" 919 WK01 molen fea m "TL12_angry/WK01_fearful" 2
+"Adaptation" 644 WK01 loman fea m "TL12_angry/WK01_fearful" 2
+"Adaptation" 544 TL12 molen ang m "TL12_angry/WK01_fearful" 2
+"Adaptation" 597 TL12 namil ang m "TL12_angry/WK01_fearful" 2
+"Adaptation" 519 TL12 belam ang m "TL12_angry/WK01_fearful" 2
+"Adaptation" 644 WK01 loman fea m "TL12_angry/WK01_fearful" 2
+"Adaptation" 599 WK01 belam fea m "TL12_angry/WK01_fearful" 2
+"Adaptation" 724 WK01 namil fea m "TL12_angry/WK01_fearful" 2
+"Adaptation" 535 TL12 loman ang m "TL12_angry/WK01_fearful" 2
+"Adaptation" 919 WK01 molen fea m "TL12_angry/WK01_fearful" 2
+"Antwort" 560 TL12 molen 80 m 2 1277 "TL12_angry/WK01_fearful" 2 1 0 "WK01_namil_m_ang_70dB_cut" "TL12_namil_m_fea_70dB_cut"
+"Antwort" 578 TL12 loman 50 m 2 1011 "TL12_angry/WK01_fearful" 2 2 0 "WK01_namil_m_ang_70dB_cut" "TL12_namil_m_fea_70dB_cut"
+"Antwort" 1085 WK01 molen 60 m 2 107 "TL12_angry/WK01_fearful" 2 3 0 "WK01_namil_m_ang_70dB_cut" "TL12_namil_m_fea_70dB_cut"
+"Antwort" 889 WK01 loman 70 m 2 603 "TL12_angry/WK01_fearful" 2 0 2 "WK01_loman_m_fea_70dB_cut" "TL12_loman_m_ang_70dB_cut"
+"Antwort" 585 TL12 namil 40 m 2 523 "TL12_angry/WK01_fearful" 2 1 0 "WK01_loman_m_fea_70dB_cut" "TL12_loman_m_ang_70dB_cut"
+"Antwort" 1000 WK01 molen 30 m 2 504 "TL12_angry/WK01_fearful" 2 2 0 "WK01_loman_m_fea_70dB_cut" "TL12_loman_m_ang_70dB_cut"
+"Antwort" 780 WK01 loman 40 m 1 399 "TL12_angry/WK01_fearful" 2 3 0 "WK01_loman_m_fea_70dB_cut" "TL12_loman_m_ang_70dB_cut"
+"Antwort" 794 WK01 namil 60 m 2 1129 "TL12_angry/WK01_fearful" 2 0 3 "TL12_molen_m_ang_70dB_cut" "WK01_molen_m_fea_70dB_cut"
+"Antwort" 712 WK01 loman 20 m 1 128 "TL12_angry/WK01_fearful" 2 1 0 "TL12_molen_m_ang_70dB_cut" "WK01_molen_m_fea_70dB_cut"
+"Antwort" 550 TL12 molen 60 m 2 358 "TL12_angry/WK01_fearful" 2 2 0 "TL12_molen_m_ang_70dB_cut" "WK01_molen_m_fea_70dB_cut"
+"Antwort" 545 TL12 belam 30 m 2 289 "TL12_angry/WK01_fearful" 2 3 0 "TL12_molen_m_ang_70dB_cut" "WK01_molen_m_fea_70dB_cut"
+"Antwort" 548 TL12 belam 20 m 2 573 "TL12_angry/WK01_fearful" 2 0 3 "TL12_molen_m_ang_70dB_cut" "WK01_molen_m_fea_70dB_cut"
+"Antwort" 658 WK01 belam 50 m 2 203 "TL12_angry/WK01_fearful" 2 1 0 "TL12_molen_m_ang_70dB_cut" "WK01_molen_m_fea_70dB_cut"
+"Antwort" 588 TL12 namil 30 m 2 257 "TL12_angry/WK01_fearful" 2 2 0 "TL12_molen_m_ang_70dB_cut" "WK01_molen_m_fea_70dB_cut"
+"Antwort" 781 WK01 namil 50 m 1 403 "TL12_angry/WK01_fearful" 2 3 0 "TL12_molen_m_ang_70dB_cut" "WK01_molen_m_fea_70dB_cut"
+"Antwort" 767 WK01 namil 40 m 1 574 "TL12_angry/WK01_fearful" 2 0 4 "WK01_namil_m_fea_70dB_cut" "TL12_namil_m_ang_70dB_cut"
+"Antwort" 749 WK01 loman 30 m 1 168 "TL12_angry/WK01_fearful" 2 1 0 "WK01_namil_m_fea_70dB_cut" "TL12_namil_m_ang_70dB_cut"
+"Antwort" 541 TL12 belam 50 m 2 205 "TL12_angry/WK01_fearful" 2 2 0 "WK01_namil_m_fea_70dB_cut" "TL12_namil_m_ang_70dB_cut"
+"Antwort" 542 TL12 belam 40 m 2 210 "TL12_angry/WK01_fearful" 2 3 0 "WK01_namil_m_fea_70dB_cut" "TL12_namil_m_ang_70dB_cut"
+"Antwort" 557 TL12 molen 50 m 2 766 "TL12_angry/WK01_fearful" 2 0 2 "WK01_loman_m_fea_70dB_cut" "TL12_loman_m_ang_70dB_cut"
+"Antwort" 528 TL12 belam 80 m 2 307 "TL12_angry/WK01_fearful" 2 1 0 "WK01_loman_m_fea_70dB_cut" "TL12_loman_m_ang_70dB_cut"
+"Antwort" 1113 WK01 molen 70 m 2 864 "TL12_angry/WK01_fearful" 2 2 0 "WK01_loman_m_fea_70dB_cut" "TL12_loman_m_ang_70dB_cut"
+"Antwort" 562 TL12 loman 60 m 2 294 "TL12_angry/WK01_fearful" 2 3 0 "WK01_loman_m_fea_70dB_cut" "TL12_loman_m_ang_70dB_cut"
+"Antwort" 927 WK01 loman 80 m 2 348 "TL12_angry/WK01_fearful" 2 0 4 "WK01_namil_m_fea_70dB_cut" "TL12_namil_m_ang_70dB_cut"
+"Antwort" 696 WK01 belam 80 m 2 489 "TL12_angry/WK01_fearful" 2 1 0 "WK01_namil_m_fea_70dB_cut" "TL12_namil_m_ang_70dB_cut"
+"Antwort" 855 WK01 loman 60 m 2 260 "TL12_angry/WK01_fearful" 2 2 0 "WK01_namil_m_fea_70dB_cut" "TL12_namil_m_ang_70dB_cut"
+"Antwort" 972 WK01 molen 20 m 1 41 "TL12_angry/WK01_fearful" 2 3 0 "WK01_namil_m_fea_70dB_cut" "TL12_namil_m_ang_70dB_cut"
+"Antwort" 680 WK01 belam 70 m 2 524 "TL12_angry/WK01_fearful" 2 0 2 "WK01_loman_m_fea_70dB_cut" "TL12_loman_m_ang_70dB_cut"
+"Antwort" 562 TL12 molen 70 m 2 431 "TL12_angry/WK01_fearful" 2 1 0 "WK01_loman_m_fea_70dB_cut" "TL12_loman_m_ang_70dB_cut"
+"Antwort" 581 TL12 namil 60 m 2 313 "TL12_angry/WK01_fearful" 2 2 0 "WK01_loman_m_fea_70dB_cut" "TL12_loman_m_ang_70dB_cut"
+"Antwort" 589 TL12 namil 20 m 1 759 "TL12_angry/WK01_fearful" 2 3 0 "WK01_loman_m_fea_70dB_cut" "TL12_loman_m_ang_70dB_cut"
+"Antwort" 549 TL12 molen 40 m 2 1090 "TL12_angry/WK01_fearful" 2 0 3 "TL12_molen_m_ang_70dB_cut" "WK01_molen_m_fea_70dB_cut"
+"Antwort" 563 TL12 molen 20 m 2 286 "TL12_angry/WK01_fearful" 2 1 0 "TL12_molen_m_ang_70dB_cut" "WK01_molen_m_fea_70dB_cut"
+"Antwort" 639 WK01 belam 40 m 1 217 "TL12_angry/WK01_fearful" 2 2 0 "TL12_molen_m_ang_70dB_cut" "WK01_molen_m_fea_70dB_cut"
+"Antwort" 798 WK01 namil 70 m 2 14 "TL12_angry/WK01_fearful" 2 3 0 "TL12_molen_m_ang_70dB_cut" "WK01_molen_m_fea_70dB_cut"
+"Antwort" 560 TL12 molen 30 m 2 481 "TL12_angry/WK01_fearful" 2 0 2 "WK01_loman_m_fea_70dB_cut" "TL12_loman_m_ang_70dB_cut"
+"Antwort" 815 WK01 namil 80 m 2 186 "TL12_angry/WK01_fearful" 2 1 0 "WK01_loman_m_fea_70dB_cut" "TL12_loman_m_ang_70dB_cut"
+"Antwort" 1141 WK01 molen 80 m 2 161 "TL12_angry/WK01_fearful" 2 2 0 "WK01_loman_m_fea_70dB_cut" "TL12_loman_m_ang_70dB_cut"
+"Antwort" 637 WK01 belam 30 m 1 346 "TL12_angry/WK01_fearful" 2 3 0 "WK01_loman_m_fea_70dB_cut" "TL12_loman_m_ang_70dB_cut"
+"Antwort" 822 WK01 loman 50 m 1 747 "TL12_angry/WK01_fearful" 2 0 4 "WK01_namil_m_fea_70dB_cut" "TL12_namil_m_ang_70dB_cut"
+"Antwort" 526 TL12 belam 70 m 2 353 "TL12_angry/WK01_fearful" 2 1 0 "WK01_namil_m_fea_70dB_cut" "TL12_namil_m_ang_70dB_cut"
+"Antwort" 585 TL12 loman 40 m 2 1062 "TL12_angry/WK01_fearful" 2 2 0 "WK01_namil_m_fea_70dB_cut" "TL12_namil_m_ang_70dB_cut"
+"Antwort" 1027 WK01 molen 40 m 2 121 "TL12_angry/WK01_fearful" 2 3 0 "WK01_namil_m_fea_70dB_cut" "TL12_namil_m_ang_70dB_cut"
+"Antwort" 759 WK01 namil 30 m 1 538 "TL12_angry/WK01_fearful" 2 0 1 "TL12_belam_m_ang_70dB_cut" "WK01_belam_m_fea_70dB_cut"
+"Antwort" 672 WK01 belam 60 m 2 406 "TL12_angry/WK01_fearful" 2 1 0 "TL12_belam_m_ang_70dB_cut" "WK01_belam_m_fea_70dB_cut"
+"Antwort" 593 TL12 namil 80 m 2 996 "TL12_angry/WK01_fearful" 2 2 0 "TL12_belam_m_ang_70dB_cut" "WK01_belam_m_fea_70dB_cut"
+"Antwort" 561 TL12 loman 70 m 2 402 "TL12_angry/WK01_fearful" 2 3 0 "TL12_belam_m_ang_70dB_cut" "WK01_belam_m_fea_70dB_cut"
+"Antwort" 554 TL12 loman 80 m 2 1577 "TL12_angry/WK01_fearful" 2 0 3 "TL12_molen_m_ang_70dB_cut" "WK01_molen_m_fea_70dB_cut"
+"Antwort" 617 WK01 belam 20 m 1 583 "TL12_angry/WK01_fearful" 2 1 0 "TL12_molen_m_ang_70dB_cut" "WK01_molen_m_fea_70dB_cut"
+"Antwort" 591 TL12 namil 50 m 2 339 "TL12_angry/WK01_fearful" 2 2 0 "TL12_molen_m_ang_70dB_cut" "WK01_molen_m_fea_70dB_cut"
+"Antwort" 538 TL12 belam 60 m 2 521 "TL12_angry/WK01_fearful" 2 3 0 "TL12_molen_m_ang_70dB_cut" "WK01_molen_m_fea_70dB_cut"
+"Antwort" 584 TL12 loman 30 m 1 616 "TL12_angry/WK01_fearful" 2 0 2 "WK01_loman_m_fea_70dB_cut" "TL12_loman_m_ang_70dB_cut"
+"Antwort" 591 TL12 loman 20 m 1 676 "TL12_angry/WK01_fearful" 2 1 0 "WK01_loman_m_fea_70dB_cut" "TL12_loman_m_ang_70dB_cut"
+"Antwort" 586 TL12 namil 70 m 2 491 "TL12_angry/WK01_fearful" 2 2 0 "WK01_loman_m_fea_70dB_cut" "TL12_loman_m_ang_70dB_cut"
+"Antwort" 741 WK01 namil 20 m 1 358 "TL12_angry/WK01_fearful" 2 3 0 "WK01_loman_m_fea_70dB_cut" "TL12_loman_m_ang_70dB_cut"
+"Antwort" 1056 WK01 molen 50 m 2 261 "TL12_angry/WK01_fearful" 2 0 1 "TL12_belam_m_ang_70dB_cut" "WK01_belam_m_fea_70dB_cut"

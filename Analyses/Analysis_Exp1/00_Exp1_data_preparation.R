@@ -61,6 +61,11 @@ E1_Adapt$TopUp <- ifelse(E1_Adapt$TopUp == 0, "Yes", NA) #Code if this was a Top
 E1_Bline$Resp <- E1_Bline$Resp -1 # umkodieren
 E1_Adapt$Resp <- E1_Adapt$Resp -1 # umkodieren
 
+
+#recode AdaptType
+E1_Adapt$AdaptType <- ifelse(E1_Adapt$AdaptType == "w_angry/m_fearful", "f_ang/m_fea", "f_fea/m_ang")
+
+
 #---------------------------------------------------------------------------------
 #Check if everything is loaded correctly
 
@@ -153,5 +158,5 @@ S1 <- S1 %>% select(!c(intro_question1_1,
 #save survey
 save(S1, file="input/Exp1_survey.RData")
 
-names(S)
-##End of S1cript
+
+##End of Script

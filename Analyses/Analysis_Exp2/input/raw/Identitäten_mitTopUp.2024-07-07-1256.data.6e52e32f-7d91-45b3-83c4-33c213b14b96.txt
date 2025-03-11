@@ -1,0 +1,400 @@
+"Baseline" 949 nm03 w02 40 m 1 1497
+"Baseline" 767 nm04 w05 50 m 1 3000
+"Baseline" 750 nm04 w03 60 m 1 936
+"Baseline" 834 nm04 w05 30 m 1 916
+"Baseline" 721 nm04 w01 40 m 1 615
+"Baseline" 709 nm03 w01 50 m 2 934
+"Baseline" 894 nm03 w03 70 m 2 2813
+"Baseline" 692 nm04 w01 60 m 2 1105
+"Baseline" 665 nm04 w01 80 m 2 376
+"Baseline" 965 nm03 w02 20 m 1 620
+"Baseline" 676 nm03 w01 30 m 1 633
+"Baseline" 876 nm03 w03 60 m 2 1300
+"Baseline" 824 nm03 w05 80 m 2 429
+"Baseline" 676 nm04 w03 80 m 2 167
+"Baseline" 832 nm04 w03 40 m 1 616
+"Baseline" 940 nm03 w02 60 m 1 711
+"Baseline" 906 nm03 w03 80 m 1 1366
+"Baseline" 671 nm04 w02 60 m 2 542
+"Baseline" 791 nm04 w03 50 m 1 291
+"Baseline" 777 nm04 w02 30 m 1 625
+"Baseline" 667 nm03 w01 20 m 1 667
+"Baseline" 826 nm03 w05 60 m 1 1335
+"Baseline" 827 nm03 w03 20 m 1 359
+"Baseline" 959 nm03 w02 30 m 1 780
+"Baseline" 735 nm04 w01 30 m 1 396
+"Baseline" 708 nm04 w05 80 m 2 426
+"Baseline" 829 nm03 w05 50 m 1 389
+"Baseline" 945 nm03 w02 50 m 1 236
+"Baseline" 759 nm04 w01 20 m 1 413
+"Baseline" 871 nm03 w03 50 m 1 575
+"Baseline" 642 nm04 w02 70 m 2 344
+"Baseline" 694 nm03 w01 40 m 2 711
+"Baseline" 749 nm04 w02 40 m 1 424
+"Baseline" 918 nm03 w02 80 m 1 115
+"Baseline" 745 nm04 w05 60 m 1 477
+"Baseline" 834 nm03 w05 30 m 1 234
+"Baseline" 820 nm04 w02 20 m 1 174
+"Baseline" 830 nm03 w05 40 m 1 358
+"Baseline" 917 nm04 w03 20 m 1 813
+"Baseline" 809 nm04 w05 40 m 1 419
+"Baseline" 729 nm03 w01 70 m 2 866
+"Baseline" 710 nm04 w02 50 m 1 1153
+"Baseline" 741 nm03 w01 80 m 1 772
+"Baseline" 853 nm03 w03 40 m 1 1358
+"Baseline" 835 nm03 w05 20 m 1 287
+"Baseline" 879 nm04 w03 30 m 1 270
+"Baseline" 929 nm03 w02 70 m 1 360
+"Baseline" 818 nm03 w05 70 m 2 1312
+"Baseline" 856 nm04 w05 20 m 1 184
+"Baseline" 725 nm04 w05 70 m 2 248
+"Baseline" 838 nm03 w03 30 m 1 234
+"Baseline" 719 nm04 w03 70 m 2 114
+"Baseline" 678 nm04 w01 70 m 1 3000
+"Baseline" 612 nm04 w02 80 m 2 952
+"Baseline" 713 nm03 w01 60 m 2 485
+"Baseline" 706 nm04 w01 50 m 2 1099
+"Baseline" 885 nf01 w01 70 f 2 969
+"Baseline" 909 nf01 w01 50 f 1 237
+"Baseline" 697 nf03 w01 80 f 2 272
+"Baseline" 823 nf03 w03 30 f 1 356
+"Baseline" 732 nf03 w01 20 f 1 14
+"Baseline" 879 nf03 w05 80 f 2 457
+"Baseline" 702 nf03 w01 70 f 2 252
+"Baseline" 842 nf03 w03 40 f 1 28
+"Baseline" 885 nf01 w05 70 f 2 912
+"Baseline" 820 nf01 w05 50 f 1 356
+"Baseline" 810 nf03 w05 50 f 2 514
+"Baseline" 883 nf01 w02 20 f 1 260
+"Baseline" 874 nf03 w03 60 f 1 136
+"Baseline" 939 nf01 w01 20 f 1 2079
+"Baseline" 732 nf03 w05 20 f 1 1353
+"Baseline" 869 nf01 w01 80 f 2 1856
+"Baseline" 919 nf03 w03 80 f 1 2002
+"Baseline" 930 nf01 w01 30 f 1 138
+"Baseline" 951 nf01 w03 80 f 2 182
+"Baseline" 786 nf01 w05 40 f 1 451
+"Baseline" 750 nf01 w03 20 f 1 73
+"Baseline" 826 nf01 w02 60 f 1 853
+"Baseline" 756 nf01 w05 30 f 1 555
+"Baseline" 780 nf03 w02 50 f 1 310
+"Baseline" 815 nf01 w03 40 f 1 747
+"Baseline" 881 nf01 w03 60 f 2 400
+"Baseline" 783 nf03 w05 40 f 1 531
+"Baseline" 864 nf01 w02 40 f 1 637
+"Baseline" 716 nf03 w01 50 f 1 1752
+"Baseline" 800 nf01 w02 80 f 2 186
+"Baseline" 746 nf03 w05 30 f 1 291
+"Baseline" 920 nf01 w01 40 f 2 661
+"Baseline" 783 nf01 w03 30 f 1 596
+"Baseline" 727 nf03 w01 30 f 1 614
+"Baseline" 849 nf01 w02 50 f 2 590
+"Baseline" 739 nf03 w02 30 f 1 895
+"Baseline" 804 nf03 w03 20 f 1 423
+"Baseline" 918 nf01 w05 80 f 2 164
+"Baseline" 760 nf03 w02 40 f 1 490
+"Baseline" 707 nf03 w01 60 f 2 970
+"Baseline" 915 nf01 w03 70 f 2 233
+"Baseline" 826 nf03 w05 60 f 1 211
+"Baseline" 813 nf01 w02 70 f 2 378
+"Baseline" 892 nf03 w03 70 f 1 1390
+"Baseline" 843 nf03 w02 80 f 2 436
+"Baseline" 852 nf03 w05 70 f 1 230
+"Baseline" 898 nf01 w01 60 f 2 1283
+"Baseline" 723 nf03 w01 40 f 1 616
+"Baseline" 879 nf01 w02 30 f 2 618
+"Baseline" 720 nf01 w05 20 f 1 685
+"Baseline" 853 nf01 w05 60 f 2 1719
+"Baseline" 819 nf03 w02 70 f 1 429
+"Baseline" 861 nf03 w03 50 f 1 429
+"Baseline" 800 nf03 w02 60 f 1 263
+"Baseline" 853 nf01 w03 50 f 2 577
+"Baseline" 723 nf03 w02 20 f 1 216
+"Adaptation" 772 nm03 w01 ang m "Identität3_angry/Identität4_fearful" 3
+"Adaptation" 810 nm03 w05 ang m "Identität3_angry/Identität4_fearful" 3
+"Adaptation" 896 nm04 w05 fea m "Identität3_angry/Identität4_fearful" 3
+"Adaptation" 930 nm03 w03 ang m "Identität3_angry/Identität4_fearful" 3
+"Adaptation" 904 nm03 w02 ang m "Identität3_angry/Identität4_fearful" 3
+"Adaptation" 785 nm04 w01 fea m "Identität3_angry/Identität4_fearful" 3
+"Adaptation" 997 nm04 w03 fea m "Identität3_angry/Identität4_fearful" 3
+"Adaptation" 885 nm04 w02 fea m "Identität3_angry/Identität4_fearful" 3
+"Adaptation" 904 nm03 w02 ang m "Identität3_angry/Identität4_fearful" 3
+"Adaptation" 930 nm03 w03 ang m "Identität3_angry/Identität4_fearful" 3
+"Adaptation" 772 nm03 w01 ang m "Identität3_angry/Identität4_fearful" 3
+"Adaptation" 885 nm04 w02 fea m "Identität3_angry/Identität4_fearful" 3
+"Adaptation" 896 nm04 w05 fea m "Identität3_angry/Identität4_fearful" 3
+"Adaptation" 997 nm04 w03 fea m "Identität3_angry/Identität4_fearful" 3
+"Adaptation" 810 nm03 w05 ang m "Identität3_angry/Identität4_fearful" 3
+"Adaptation" 785 nm04 w01 fea m "Identität3_angry/Identität4_fearful" 3
+"Antwort" 826 nm03 w05 60 m 1 1743 "Identität3_angry/Identität4_fearful" 3 1 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 829 nm03 w05 50 m 1 781 "Identität3_angry/Identität4_fearful" 3 2 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 725 nm04 w05 70 m 2 440 "Identität3_angry/Identität4_fearful" 3 3 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 965 nm03 w02 20 m 1 246 "Identität3_angry/Identität4_fearful" 3 0 3 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 918 nm03 w02 80 m 1 765 "Identität3_angry/Identität4_fearful" 3 1 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 929 nm03 w02 70 m 1 493 "Identität3_angry/Identität4_fearful" 3 2 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 827 nm03 w03 20 m 1 231 "Identität3_angry/Identität4_fearful" 3 3 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 777 nm04 w02 30 m 1 294 "Identität3_angry/Identität4_fearful" 3 0 2 "nm04_w02_fea_70dB" "nm03_w02_ang_70dB"
+"Antwort" 879 nm04 w03 30 m 1 317 "Identität3_angry/Identität4_fearful" 3 1 0 "nm04_w02_fea_70dB" "nm03_w02_ang_70dB"
+"Antwort" 917 nm04 w03 20 m 1 113 "Identität3_angry/Identität4_fearful" 3 2 0 "nm04_w02_fea_70dB" "nm03_w02_ang_70dB"
+"Antwort" 713 nm03 w01 60 m 2 472 "Identität3_angry/Identität4_fearful" 3 3 0 "nm04_w02_fea_70dB" "nm03_w02_ang_70dB"
+"Antwort" 856 nm04 w05 20 m 1 178 "Identität3_angry/Identität4_fearful" 3 0 3 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 830 nm03 w05 40 m 2 1694 "Identität3_angry/Identität4_fearful" 3 1 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 729 nm03 w01 70 m 2 913 "Identität3_angry/Identität4_fearful" 3 2 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 676 nm03 w01 30 m 1 2106 "Identität3_angry/Identität4_fearful" 3 3 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 750 nm04 w03 60 m 2 561 "Identität3_angry/Identität4_fearful" 3 0 3 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 692 nm04 w01 60 m 2 102 "Identität3_angry/Identität4_fearful" 3 1 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 667 nm03 w01 20 m 1 845 "Identität3_angry/Identität4_fearful" 3 2 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 694 nm03 w01 40 m 1 119 "Identität3_angry/Identität4_fearful" 3 3 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 894 nm03 w03 70 m 2 12 "Identität3_angry/Identität4_fearful" 3 0 3 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 710 nm04 w02 50 m 2 456 "Identität3_angry/Identität4_fearful" 3 1 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 721 nm04 w01 40 m 2 274 "Identität3_angry/Identität4_fearful" 3 2 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 719 nm04 w03 70 m 2 257 "Identität3_angry/Identität4_fearful" 3 3 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 642 nm04 w02 70 m 2 441 "Identität3_angry/Identität4_fearful" 3 0 1 "nm03_w01_ang_70dB" "nm04_w01_fea_70dB"
+"Antwort" 767 nm04 w05 50 m 2 151 "Identität3_angry/Identität4_fearful" 3 1 0 "nm03_w01_ang_70dB" "nm04_w01_fea_70dB"
+"Antwort" 612 nm04 w02 80 m 2 1125 "Identität3_angry/Identität4_fearful" 3 2 0 "nm03_w01_ang_70dB" "nm04_w01_fea_70dB"
+"Antwort" 906 nm03 w03 80 m 2 379 "Identität3_angry/Identität4_fearful" 3 3 0 "nm03_w01_ang_70dB" "nm04_w01_fea_70dB"
+"Antwort" 678 nm04 w01 70 m 2 511 "Identität3_angry/Identität4_fearful" 3 0 1 "nm03_w01_ang_70dB" "nm04_w01_fea_70dB"
+"Antwort" 818 nm03 w05 70 m 2 329 "Identität3_angry/Identität4_fearful" 3 1 0 "nm03_w01_ang_70dB" "nm04_w01_fea_70dB"
+"Antwort" 820 nm04 w02 20 m 1 527 "Identität3_angry/Identität4_fearful" 3 2 0 "nm03_w01_ang_70dB" "nm04_w01_fea_70dB"
+"Antwort" 749 nm04 w02 40 m 1 296 "Identität3_angry/Identität4_fearful" 3 3 0 "nm03_w01_ang_70dB" "nm04_w01_fea_70dB"
+"Antwort" 706 nm04 w01 50 m 2 312 "Identität3_angry/Identität4_fearful" 3 0 3 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 834 nm03 w05 30 m 1 609 "Identität3_angry/Identität4_fearful" 3 1 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 835 nm03 w05 20 m 1 779 "Identität3_angry/Identität4_fearful" 3 2 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 665 nm04 w01 80 m 2 639 "Identität3_angry/Identität4_fearful" 3 3 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 759 nm04 w01 20 m 1 1019 "Identität3_angry/Identität4_fearful" 3 0 4 "nm04_w05_fea_70dB" "nm03_w05_ang_70dB"
+"Antwort" 871 nm03 w03 50 m 2 968 "Identität3_angry/Identität4_fearful" 3 1 0 "nm04_w05_fea_70dB" "nm03_w05_ang_70dB"
+"Antwort" 741 nm03 w01 80 m 2 600 "Identität3_angry/Identität4_fearful" 3 2 0 "nm04_w05_fea_70dB" "nm03_w05_ang_70dB"
+"Antwort" 853 nm03 w03 40 m 1 173 "Identität3_angry/Identität4_fearful" 3 3 0 "nm04_w05_fea_70dB" "nm03_w05_ang_70dB"
+"Antwort" 940 nm03 w02 60 m 2 1635 "Identität3_angry/Identität4_fearful" 3 0 3 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 709 nm03 w01 50 m 2 855 "Identität3_angry/Identität4_fearful" 3 1 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 832 nm04 w03 40 m 2 1103 "Identität3_angry/Identität4_fearful" 3 2 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 671 nm04 w02 60 m 2 241 "Identität3_angry/Identität4_fearful" 3 3 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 809 nm04 w05 40 m 1 71 "Identität3_angry/Identität4_fearful" 3 0 1 "nm03_w01_ang_70dB" "nm04_w01_fea_70dB"
+"Antwort" 791 nm04 w03 50 m 1 1966 "Identität3_angry/Identität4_fearful" 3 1 0 "nm03_w01_ang_70dB" "nm04_w01_fea_70dB"
+"Antwort" 824 nm03 w05 80 m 2 940 "Identität3_angry/Identität4_fearful" 3 2 0 "nm03_w01_ang_70dB" "nm04_w01_fea_70dB"
+"Antwort" 838 nm03 w03 30 m 1 582 "Identität3_angry/Identität4_fearful" 3 3 0 "nm03_w01_ang_70dB" "nm04_w01_fea_70dB"
+"Antwort" 745 nm04 w05 60 m 2 506 "Identität3_angry/Identität4_fearful" 3 0 3 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 708 nm04 w05 80 m 2 246 "Identität3_angry/Identität4_fearful" 3 1 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 945 nm03 w02 50 m 1 310 "Identität3_angry/Identität4_fearful" 3 2 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 876 nm03 w03 60 m 1 989 "Identität3_angry/Identität4_fearful" 3 3 0 "nm03_w03_ang_70dB" "nm04_w03_fea_70dB"
+"Antwort" 735 nm04 w01 30 m 2 882 "Identität3_angry/Identität4_fearful" 3 0 4 "nm04_w05_fea_70dB" "nm03_w05_ang_70dB"
+"Antwort" 959 nm03 w02 30 m 1 41 "Identität3_angry/Identität4_fearful" 3 1 0 "nm04_w05_fea_70dB" "nm03_w05_ang_70dB"
+"Antwort" 676 nm04 w03 80 m 2 253 "Identität3_angry/Identität4_fearful" 3 2 0 "nm04_w05_fea_70dB" "nm03_w05_ang_70dB"
+"Antwort" 834 nm04 w05 30 m 1 218 "Identität3_angry/Identität4_fearful" 3 3 0 "nm04_w05_fea_70dB" "nm03_w05_ang_70dB"
+"Antwort" 949 nm03 w02 40 m 1 85 "Identität3_angry/Identität4_fearful" 3 0 4 "nm04_w05_fea_70dB" "nm03_w05_ang_70dB"
+"Adaptation" 643 nm03 w01 fea m "Identität4_angry/Identität3_fearful" 3
+"Adaptation" 804 nm03 w03 fea m "Identität4_angry/Identität3_fearful" 3
+"Adaptation" 589 nm04 w03 ang m "Identität4_angry/Identität3_fearful" 3
+"Adaptation" 839 nm03 w05 fea m "Identität4_angry/Identität3_fearful" 3
+"Adaptation" 642 nm04 w01 ang m "Identität4_angry/Identität3_fearful" 3
+"Adaptation" 980 nm03 w02 fea m "Identität4_angry/Identität3_fearful" 3
+"Adaptation" 659 nm04 w05 ang m "Identität4_angry/Identität3_fearful" 3
+"Adaptation" 540 nm04 w02 ang m "Identität4_angry/Identität3_fearful" 3
+"Adaptation" 804 nm03 w03 fea m "Identität4_angry/Identität3_fearful" 3
+"Adaptation" 980 nm03 w02 fea m "Identität4_angry/Identität3_fearful" 3
+"Adaptation" 643 nm03 w01 fea m "Identität4_angry/Identität3_fearful" 3
+"Adaptation" 589 nm04 w03 ang m "Identität4_angry/Identität3_fearful" 3
+"Adaptation" 540 nm04 w02 ang m "Identität4_angry/Identität3_fearful" 3
+"Adaptation" 659 nm04 w05 ang m "Identität4_angry/Identität3_fearful" 3
+"Adaptation" 839 nm03 w05 fea m "Identität4_angry/Identität3_fearful" 3
+"Adaptation" 642 nm04 w01 ang m "Identität4_angry/Identität3_fearful" 3
+"Antwort" 719 nm04 w03 70 m 2 280 "Identität4_angry/Identität3_fearful" 3 1 0 "nm04_w05_fea_70dB" "nm03_w05_ang_70dB"
+"Antwort" 767 nm04 w05 50 m 2 452 "Identität4_angry/Identität3_fearful" 3 2 0 "nm04_w05_fea_70dB" "nm03_w05_ang_70dB"
+"Antwort" 894 nm03 w03 70 m 1 514 "Identität4_angry/Identität3_fearful" 3 3 0 "nm04_w05_fea_70dB" "nm03_w05_ang_70dB"
+"Antwort" 710 nm04 w02 50 m 2 378 "Identität4_angry/Identität3_fearful" 3 0 2 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 827 nm03 w03 20 m 1 156 "Identität4_angry/Identität3_fearful" 3 1 0 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 856 nm04 w05 20 m 1 670 "Identität4_angry/Identität3_fearful" 3 2 0 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 741 nm03 w01 80 m 2 268 "Identität4_angry/Identität3_fearful" 3 3 0 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 667 nm03 w01 20 m 1 754 "Identität4_angry/Identität3_fearful" 3 0 2 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 676 nm03 w01 30 m 1 625 "Identität4_angry/Identität3_fearful" 3 1 0 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 612 nm04 w02 80 m 2 833 "Identität4_angry/Identität3_fearful" 3 2 0 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 818 nm03 w05 70 m 1 359 "Identität4_angry/Identität3_fearful" 3 3 0 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 665 nm04 w01 80 m 2 618 "Identität4_angry/Identität3_fearful" 3 0 2 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 791 nm04 w03 50 m 2 256 "Identität4_angry/Identität3_fearful" 3 1 0 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 959 nm03 w02 30 m 1 292 "Identität4_angry/Identität3_fearful" 3 2 0 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 642 nm04 w02 70 m 2 268 "Identität4_angry/Identität3_fearful" 3 3 0 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 708 nm04 w05 80 m 2 225 "Identität4_angry/Identität3_fearful" 3 0 1 "nm04_w01_ang_70dB" "nm03_w01_fea_70dB"
+"Antwort" 879 nm04 w03 30 m 1 342 "Identität4_angry/Identität3_fearful" 3 1 0 "nm04_w01_ang_70dB" "nm03_w01_fea_70dB"
+"Antwort" 709 nm03 w01 50 m 1 331 "Identität4_angry/Identität3_fearful" 3 2 0 "nm04_w01_ang_70dB" "nm03_w01_fea_70dB"
+"Antwort" 945 nm03 w02 50 m 1 130 "Identität4_angry/Identität3_fearful" 3 3 0 "nm04_w01_ang_70dB" "nm03_w01_fea_70dB"
+"Antwort" 721 nm04 w01 40 m 2 373 "Identität4_angry/Identität3_fearful" 3 0 2 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 749 nm04 w02 40 m 2 1250 "Identität4_angry/Identität3_fearful" 3 1 0 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 871 nm03 w03 50 m 1 254 "Identität4_angry/Identität3_fearful" 3 2 0 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 835 nm03 w05 20 m 1 356 "Identität4_angry/Identität3_fearful" 3 3 0 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 830 nm03 w05 40 m 1 270 "Identität4_angry/Identität3_fearful" 3 0 3 "nm04_w03_ang_70dB" "nm03_w03_fea_70dB"
+"Antwort" 809 nm04 w05 40 m 1 352 "Identität4_angry/Identität3_fearful" 3 1 0 "nm04_w03_ang_70dB" "nm03_w03_fea_70dB"
+"Antwort" 820 nm04 w02 20 m 1 203 "Identität4_angry/Identität3_fearful" 3 2 0 "nm04_w03_ang_70dB" "nm03_w03_fea_70dB"
+"Antwort" 777 nm04 w02 30 m 1 206 "Identität4_angry/Identität3_fearful" 3 3 0 "nm04_w03_ang_70dB" "nm03_w03_fea_70dB"
+"Antwort" 826 nm03 w05 60 m 1 381 "Identität4_angry/Identität3_fearful" 3 0 3 "nm04_w03_ang_70dB" "nm03_w03_fea_70dB"
+"Antwort" 918 nm03 w02 80 m 1 256 "Identität4_angry/Identität3_fearful" 3 1 0 "nm04_w03_ang_70dB" "nm03_w03_fea_70dB"
+"Antwort" 676 nm04 w03 80 m 2 369 "Identität4_angry/Identität3_fearful" 3 2 0 "nm04_w03_ang_70dB" "nm03_w03_fea_70dB"
+"Antwort" 759 nm04 w01 20 m 1 379 "Identität4_angry/Identität3_fearful" 3 3 0 "nm04_w03_ang_70dB" "nm03_w03_fea_70dB"
+"Antwort" 745 nm04 w05 60 m 2 300 "Identität4_angry/Identität3_fearful" 3 0 2 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 678 nm04 w01 70 m 2 80 "Identität4_angry/Identität3_fearful" 3 1 0 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 965 nm03 w02 20 m 1 32 "Identität4_angry/Identität3_fearful" 3 2 0 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 725 nm04 w05 70 m 2 571 "Identität4_angry/Identität3_fearful" 3 3 0 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 838 nm03 w03 30 m 1 559 "Identität4_angry/Identität3_fearful" 3 0 2 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 906 nm03 w03 80 m 1 915 "Identität4_angry/Identität3_fearful" 3 1 0 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 876 nm03 w03 60 m 1 459 "Identität4_angry/Identität3_fearful" 3 2 0 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 853 nm03 w03 40 m 1 331 "Identität4_angry/Identität3_fearful" 3 3 0 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 713 nm03 w01 60 m 1 1057 "Identität4_angry/Identität3_fearful" 3 0 2 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 917 nm04 w03 20 m 1 316 "Identität4_angry/Identität3_fearful" 3 1 0 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 829 nm03 w05 50 m 1 293 "Identität4_angry/Identität3_fearful" 3 2 0 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 832 nm04 w03 40 m 1 230 "Identität4_angry/Identität3_fearful" 3 3 0 "nm03_w02_fea_70dB" "nm04_w02_ang_70dB"
+"Antwort" 692 nm04 w01 60 m 2 1583 "Identität4_angry/Identität3_fearful" 3 0 4 "nm03_w05_fea_70dB" "nm04_w05_ang_70dB"
+"Antwort" 834 nm04 w05 30 m 1 354 "Identität4_angry/Identität3_fearful" 3 1 0 "nm03_w05_fea_70dB" "nm04_w05_ang_70dB"
+"Antwort" 706 nm04 w01 50 m 1 509 "Identität4_angry/Identität3_fearful" 3 2 0 "nm03_w05_fea_70dB" "nm04_w05_ang_70dB"
+"Antwort" 824 nm03 w05 80 m 2 96 "Identität4_angry/Identität3_fearful" 3 3 0 "nm03_w05_fea_70dB" "nm04_w05_ang_70dB"
+"Antwort" 834 nm03 w05 30 m 1 128 "Identität4_angry/Identität3_fearful" 3 0 1 "nm04_w01_ang_70dB" "nm03_w01_fea_70dB"
+"Antwort" 940 nm03 w02 60 m 1 113 "Identität4_angry/Identität3_fearful" 3 1 0 "nm04_w01_ang_70dB" "nm03_w01_fea_70dB"
+"Antwort" 671 nm04 w02 60 m 2 255 "Identität4_angry/Identität3_fearful" 3 2 0 "nm04_w01_ang_70dB" "nm03_w01_fea_70dB"
+"Antwort" 729 nm03 w01 70 m 2 256 "Identität4_angry/Identität3_fearful" 3 3 0 "nm04_w01_ang_70dB" "nm03_w01_fea_70dB"
+"Antwort" 735 nm04 w01 30 m 1 211 "Identität4_angry/Identität3_fearful" 3 0 3 "nm04_w03_ang_70dB" "nm03_w03_fea_70dB"
+"Antwort" 750 nm04 w03 60 m 1 214 "Identität4_angry/Identität3_fearful" 3 1 0 "nm04_w03_ang_70dB" "nm03_w03_fea_70dB"
+"Antwort" 694 nm03 w01 40 m 1 246 "Identität4_angry/Identität3_fearful" 3 2 0 "nm04_w03_ang_70dB" "nm03_w03_fea_70dB"
+"Antwort" 929 nm03 w02 70 m 1 39 "Identität4_angry/Identität3_fearful" 3 3 0 "nm04_w03_ang_70dB" "nm03_w03_fea_70dB"
+"Antwort" 949 nm03 w02 40 m 1 97 "Identität4_angry/Identität3_fearful" 3 0 1 "nm04_w01_ang_70dB" "nm03_w01_fea_70dB"
+"Adaptation" 984 nf01 w05 ang f "Identität1_angry/Identität3_fearful" 3
+"Adaptation" 764 nf03 w03 fea f "Identität1_angry/Identität3_fearful" 3
+"Adaptation" 1009 nf01 w03 ang f "Identität1_angry/Identität3_fearful" 3
+"Adaptation" 770 nf01 w02 ang f "Identität1_angry/Identität3_fearful" 3
+"Adaptation" 750 nf03 w01 fea f "Identität1_angry/Identität3_fearful" 3
+"Adaptation" 854 nf01 w01 ang f "Identität1_angry/Identität3_fearful" 3
+"Adaptation" 680 nf03 w02 fea f "Identität1_angry/Identität3_fearful" 3
+"Adaptation" 676 nf03 w05 fea f "Identität1_angry/Identität3_fearful" 3
+"Adaptation" 1009 nf01 w03 ang f "Identität1_angry/Identität3_fearful" 3
+"Adaptation" 750 nf03 w01 fea f "Identität1_angry/Identität3_fearful" 3
+"Adaptation" 764 nf03 w03 fea f "Identität1_angry/Identität3_fearful" 3
+"Adaptation" 854 nf01 w01 ang f "Identität1_angry/Identität3_fearful" 3
+"Adaptation" 984 nf01 w05 ang f "Identität1_angry/Identität3_fearful" 3
+"Adaptation" 770 nf01 w02 ang f "Identität1_angry/Identität3_fearful" 3
+"Adaptation" 676 nf03 w05 fea f "Identität1_angry/Identität3_fearful" 3
+"Adaptation" 680 nf03 w02 fea f "Identität1_angry/Identität3_fearful" 3
+"Antwort" 813 nf01 w02 70 f 2 152 "Identität1_angry/Identität3_fearful" 3 1 0 "nm04_w01_ang_70dB" "nm03_w01_fea_70dB"
+"Antwort" 760 nf03 w02 40 f 1 65 "Identität1_angry/Identität3_fearful" 3 2 0 "nm04_w01_ang_70dB" "nm03_w01_fea_70dB"
+"Antwort" 951 nf01 w03 80 f 2 1918 "Identität1_angry/Identität3_fearful" 3 3 0 "nm04_w01_ang_70dB" "nm03_w01_fea_70dB"
+"Antwort" 756 nf01 w05 30 f 1 545 "Identität1_angry/Identität3_fearful" 3 0 1 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 786 nf01 w05 40 f 1 190 "Identität1_angry/Identität3_fearful" 3 1 0 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 879 nf03 w05 80 f 2 584 "Identität1_angry/Identität3_fearful" 3 2 0 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 826 nf01 w02 60 f 2 263 "Identität1_angry/Identität3_fearful" 3 3 0 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 732 nf03 w05 20 f 1 261 "Identität1_angry/Identität3_fearful" 3 0 1 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 720 nf01 w05 20 f 1 572 "Identität1_angry/Identität3_fearful" 3 1 0 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 869 nf01 w01 80 f 2 210 "Identität1_angry/Identität3_fearful" 3 2 0 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 739 nf03 w02 30 f 1 267 "Identität1_angry/Identität3_fearful" 3 3 0 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 800 nf03 w02 60 f 1 338 "Identität1_angry/Identität3_fearful" 3 0 1 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 892 nf03 w03 70 f 2 527 "Identität1_angry/Identität3_fearful" 3 1 0 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 883 nf01 w02 20 f 1 294 "Identität1_angry/Identität3_fearful" 3 2 0 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 800 nf01 w02 80 f 2 243 "Identität1_angry/Identität3_fearful" 3 3 0 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 746 nf03 w05 30 f 1 231 "Identität1_angry/Identität3_fearful" 3 0 3 "nf01_w03_ang_70dB" "nf03_w03_fea_70dB"
+"Antwort" 881 nf01 w03 60 f 2 118 "Identität1_angry/Identität3_fearful" 3 1 0 "nf01_w03_ang_70dB" "nf03_w03_fea_70dB"
+"Antwort" 723 nf03 w02 20 f 1 406 "Identität1_angry/Identität3_fearful" 3 2 0 "nf01_w03_ang_70dB" "nf03_w03_fea_70dB"
+"Antwort" 702 nf03 w01 70 f 2 948 "Identität1_angry/Identität3_fearful" 3 3 0 "nf01_w03_ang_70dB" "nf03_w03_fea_70dB"
+"Antwort" 783 nf03 w05 40 f 1 309 "Identität1_angry/Identität3_fearful" 3 0 1 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 750 nf01 w03 20 f 1 234 "Identität1_angry/Identität3_fearful" 3 1 0 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 842 nf03 w03 40 f 1 178 "Identität1_angry/Identität3_fearful" 3 2 0 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 697 nf03 w01 80 f 2 621 "Identität1_angry/Identität3_fearful" 3 3 0 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 920 nf01 w01 40 f 2 353 "Identität1_angry/Identität3_fearful" 3 0 2 " nf03_w02_fea_70dB" "nf01_w02_ang_70dB"
+"Antwort" 874 nf03 w03 60 f 2 854 "Identität1_angry/Identität3_fearful" 3 1 0 " nf03_w02_fea_70dB" "nf01_w02_ang_70dB"
+"Antwort" 780 nf03 w02 50 f 1 214 "Identität1_angry/Identität3_fearful" 3 2 0 " nf03_w02_fea_70dB" "nf01_w02_ang_70dB"
+"Antwort" 727 nf03 w01 30 f 2 668 "Identität1_angry/Identität3_fearful" 3 3 0 " nf03_w02_fea_70dB" "nf01_w02_ang_70dB"
+"Antwort" 852 nf03 w05 70 f 1 1017 "Identität1_angry/Identität3_fearful" 3 0 4 "nf03_w05_fea_70dB" "nf01_w05_ang_70dB"
+"Antwort" 915 nf01 w03 70 f 2 505 "Identität1_angry/Identität3_fearful" 3 1 0 "nf03_w05_fea_70dB" "nf01_w05_ang_70dB"
+"Antwort" 918 nf01 w05 80 f 2 1011 "Identität1_angry/Identität3_fearful" 3 2 0 "nf03_w05_fea_70dB" "nf01_w05_ang_70dB"
+"Antwort" 861 nf03 w03 50 f 1 226 "Identität1_angry/Identität3_fearful" 3 3 0 "nf03_w05_fea_70dB" "nf01_w05_ang_70dB"
+"Antwort" 909 nf01 w01 50 f 2 452 "Identität1_angry/Identität3_fearful" 3 0 3 "nf01_w03_ang_70dB" "nf03_w03_fea_70dB"
+"Antwort" 732 nf03 w01 20 f 1 121 "Identität1_angry/Identität3_fearful" 3 1 0 "nf01_w03_ang_70dB" "nf03_w03_fea_70dB"
+"Antwort" 919 nf03 w03 80 f 2 278 "Identität1_angry/Identität3_fearful" 3 2 0 "nf01_w03_ang_70dB" "nf03_w03_fea_70dB"
+"Antwort" 879 nf01 w02 30 f 1 520 "Identität1_angry/Identität3_fearful" 3 3 0 "nf01_w03_ang_70dB" "nf03_w03_fea_70dB"
+"Antwort" 707 nf03 w01 60 f 1 1644 "Identität1_angry/Identität3_fearful" 3 0 1 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 783 nf01 w03 30 f 2 646 "Identität1_angry/Identität3_fearful" 3 1 0 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 898 nf01 w01 60 f 2 1310 "Identität1_angry/Identität3_fearful" 3 2 0 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 853 nf01 w05 60 f 2 1717 "Identität1_angry/Identität3_fearful" 3 3 0 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 885 nf01 w05 70 f 2 971 "Identität1_angry/Identität3_fearful" 3 0 1 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 843 nf03 w02 80 f 2 210 "Identität1_angry/Identität3_fearful" 3 1 0 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 826 nf03 w05 60 f 1 218 "Identität1_angry/Identität3_fearful" 3 2 0 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 849 nf01 w02 50 f 2 677 "Identität1_angry/Identität3_fearful" 3 3 0 "nf01_w01_ang_70dB" "nf03_w01_fea_70dB"
+"Antwort" 864 nf01 w02 40 f 1 1506 "Identität1_angry/Identität3_fearful" 3 0 3 "nf01_w03_ang_70dB" "nf03_w03_fea_70dB"
+"Antwort" 930 nf01 w01 30 f 1 467 "Identität1_angry/Identität3_fearful" 3 1 0 "nf01_w03_ang_70dB" "nf03_w03_fea_70dB"
+"Antwort" 820 nf01 w05 50 f 1 216 "Identität1_angry/Identität3_fearful" 3 2 0 "nf01_w03_ang_70dB" "nf03_w03_fea_70dB"
+"Antwort" 853 nf01 w03 50 f 2 135 "Identität1_angry/Identität3_fearful" 3 3 0 "nf01_w03_ang_70dB" "nf03_w03_fea_70dB"
+"Antwort" 804 nf03 w03 20 f 1 231 "Identität1_angry/Identität3_fearful" 3 0 4 "nf03_w05_fea_70dB" "nf01_w05_ang_70dB"
+"Antwort" 716 nf03 w01 50 f 2 375 "Identität1_angry/Identität3_fearful" 3 1 0 "nf03_w05_fea_70dB" "nf01_w05_ang_70dB"
+"Antwort" 815 nf01 w03 40 f 1 222 "Identität1_angry/Identität3_fearful" 3 2 0 "nf03_w05_fea_70dB" "nf01_w05_ang_70dB"
+"Antwort" 723 nf03 w01 40 f 2 266 "Identität1_angry/Identität3_fearful" 3 3 0 "nf03_w05_fea_70dB" "nf01_w05_ang_70dB"
+"Antwort" 810 nf03 w05 50 f 1 251 "Identität1_angry/Identität3_fearful" 3 0 4 "nf03_w05_fea_70dB" "nf01_w05_ang_70dB"
+"Antwort" 885 nf01 w01 70 f 2 87 "Identität1_angry/Identität3_fearful" 3 1 0 "nf03_w05_fea_70dB" "nf01_w05_ang_70dB"
+"Antwort" 823 nf03 w03 30 f 1 184 "Identität1_angry/Identität3_fearful" 3 2 0 "nf03_w05_fea_70dB" "nf01_w05_ang_70dB"
+"Antwort" 939 nf01 w01 20 f 1 104 "Identität1_angry/Identität3_fearful" 3 3 0 "nf03_w05_fea_70dB" "nf01_w05_ang_70dB"
+"Antwort" 819 nf03 w02 70 f 2 270 "Identität1_angry/Identität3_fearful" 3 0 2 " nf03_w02_fea_70dB" "nf01_w02_ang_70dB"
+"Adaptation" 966 nf03 w03 ang f "Identität3_angry/Identität1_fearful" 3
+"Adaptation" 881 nf03 w02 ang f "Identität3_angry/Identität1_fearful" 3
+"Adaptation" 641 nf01 w05 fea f "Identität3_angry/Identität1_fearful" 3
+"Adaptation" 967 nf01 w01 fea f "Identität3_angry/Identität1_fearful" 3
+"Adaptation" 685 nf03 w01 ang f "Identität3_angry/Identität1_fearful" 3
+"Adaptation" 930 nf03 w05 ang f "Identität3_angry/Identität1_fearful" 3
+"Adaptation" 688 nf01 w03 fea f "Identität3_angry/Identität1_fearful" 3
+"Adaptation" 916 nf01 w02 fea f "Identität3_angry/Identität1_fearful" 3
+"Adaptation" 967 nf01 w01 fea f "Identität3_angry/Identität1_fearful" 3
+"Adaptation" 881 nf03 w02 ang f "Identität3_angry/Identität1_fearful" 3
+"Adaptation" 641 nf01 w05 fea f "Identität3_angry/Identität1_fearful" 3
+"Adaptation" 916 nf01 w02 fea f "Identität3_angry/Identität1_fearful" 3
+"Adaptation" 685 nf03 w01 ang f "Identität3_angry/Identität1_fearful" 3
+"Adaptation" 688 nf01 w03 fea f "Identität3_angry/Identität1_fearful" 3
+"Adaptation" 930 nf03 w05 ang f "Identität3_angry/Identität1_fearful" 3
+"Adaptation" 966 nf03 w03 ang f "Identität3_angry/Identität1_fearful" 3
+"Antwort" 864 nf01 w02 40 f 1 247 "Identität3_angry/Identität1_fearful" 3 1 0 " nf03_w02_fea_70dB" "nf01_w02_ang_70dB"
+"Antwort" 786 nf01 w05 40 f 1 170 "Identität3_angry/Identität1_fearful" 3 2 0 " nf03_w02_fea_70dB" "nf01_w02_ang_70dB"
+"Antwort" 930 nf01 w01 30 f 1 116 "Identität3_angry/Identität1_fearful" 3 3 0 " nf03_w02_fea_70dB" "nf01_w02_ang_70dB"
+"Antwort" 750 nf01 w03 20 f 1 637 "Identität3_angry/Identität1_fearful" 3 0 4 "nf01_w05_fea_70dB" "nf03_w05_ang_70dB"
+"Antwort" 813 nf01 w02 70 f 2 222 "Identität3_angry/Identität1_fearful" 3 1 0 "nf01_w05_fea_70dB" "nf03_w05_ang_70dB"
+"Antwort" 861 nf03 w03 50 f 1 111 "Identität3_angry/Identität1_fearful" 3 2 0 "nf01_w05_fea_70dB" "nf03_w05_ang_70dB"
+"Antwort" 939 nf01 w01 20 f 1 111 "Identität3_angry/Identität1_fearful" 3 3 0 "nf01_w05_fea_70dB" "nf03_w05_ang_70dB"
+"Antwort" 697 nf03 w01 80 f 2 182 "Identität3_angry/Identität1_fearful" 3 0 1 "nf03_w01_ang_70dB" "nf01_w01_fea_70dB"
+"Antwort" 918 nf01 w05 80 f 2 105 "Identität3_angry/Identität1_fearful" 3 1 0 "nf03_w01_ang_70dB" "nf01_w01_fea_70dB"
+"Antwort" 874 nf03 w03 60 f 1 141 "Identität3_angry/Identität1_fearful" 3 2 0 "nf03_w01_ang_70dB" "nf01_w01_fea_70dB"
+"Antwort" 879 nf01 w02 30 f 1 161 "Identität3_angry/Identität1_fearful" 3 3 0 "nf03_w01_ang_70dB" "nf01_w01_fea_70dB"
+"Antwort" 883 nf01 w02 20 f 1 87 "Identität3_angry/Identität1_fearful" 3 0 2 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 720 nf01 w05 20 f 1 213 "Identität3_angry/Identität1_fearful" 3 1 0 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 732 nf03 w01 20 f 1 204 "Identität3_angry/Identität1_fearful" 3 2 0 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 843 nf03 w02 80 f 2 177 "Identität3_angry/Identität1_fearful" 3 3 0 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 823 nf03 w03 30 f 1 160 "Identität3_angry/Identität1_fearful" 3 0 4 "nf01_w05_fea_70dB" "nf03_w05_ang_70dB"
+"Antwort" 849 nf01 w02 50 f 2 94 "Identität3_angry/Identität1_fearful" 3 1 0 "nf01_w05_fea_70dB" "nf03_w05_ang_70dB"
+"Antwort" 810 nf03 w05 50 f 1 347 "Identität3_angry/Identität1_fearful" 3 2 0 "nf01_w05_fea_70dB" "nf03_w05_ang_70dB"
+"Antwort" 885 nf01 w01 70 f 2 154 "Identität3_angry/Identität1_fearful" 3 3 0 "nf01_w05_fea_70dB" "nf03_w05_ang_70dB"
+"Antwort" 723 nf03 w01 40 f 1 464 "Identität3_angry/Identität1_fearful" 3 0 2 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 852 nf03 w05 70 f 2 119 "Identität3_angry/Identität1_fearful" 3 1 0 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 909 nf01 w01 50 f 1 104 "Identität3_angry/Identität1_fearful" 3 2 0 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 919 nf03 w03 80 f 1 911 "Identität3_angry/Identität1_fearful" 3 3 0 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 815 nf01 w03 40 f 1 279 "Identität3_angry/Identität1_fearful" 3 0 1 "nf03_w01_ang_70dB" "nf01_w01_fea_70dB"
+"Antwort" 869 nf01 w01 80 f 2 638 "Identität3_angry/Identität1_fearful" 3 1 0 "nf03_w01_ang_70dB" "nf01_w01_fea_70dB"
+"Antwort" 826 nf01 w02 60 f 2 360 "Identität3_angry/Identität1_fearful" 3 2 0 "nf03_w01_ang_70dB" "nf01_w01_fea_70dB"
+"Antwort" 800 nf01 w02 80 f 2 231 "Identität3_angry/Identität1_fearful" 3 3 0 "nf03_w01_ang_70dB" "nf01_w01_fea_70dB"
+"Antwort" 920 nf01 w01 40 f 1 62 "Identität3_angry/Identität1_fearful" 3 0 2 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 746 nf03 w05 30 f 1 213 "Identität3_angry/Identität1_fearful" 3 1 0 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 716 nf03 w01 50 f 2 513 "Identität3_angry/Identität1_fearful" 3 2 0 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 819 nf03 w02 70 f 1 423 "Identität3_angry/Identität1_fearful" 3 3 0 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 881 nf01 w03 60 f 2 532 "Identität3_angry/Identität1_fearful" 3 0 1 "nf03_w01_ang_70dB" "nf01_w01_fea_70dB"
+"Antwort" 800 nf03 w02 60 f 1 74 "Identität3_angry/Identität1_fearful" 3 1 0 "nf03_w01_ang_70dB" "nf01_w01_fea_70dB"
+"Antwort" 702 nf03 w01 70 f 2 201 "Identität3_angry/Identität1_fearful" 3 2 0 "nf03_w01_ang_70dB" "nf01_w01_fea_70dB"
+"Antwort" 783 nf01 w03 30 f 1 232 "Identität3_angry/Identität1_fearful" 3 3 0 "nf03_w01_ang_70dB" "nf01_w01_fea_70dB"
+"Antwort" 760 nf03 w02 40 f 1 222 "Identität3_angry/Identität1_fearful" 3 0 2 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 842 nf03 w03 40 f 1 243 "Identität3_angry/Identität1_fearful" 3 1 0 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 804 nf03 w03 20 f 1 181 "Identität3_angry/Identität1_fearful" 3 2 0 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 892 nf03 w03 70 f 1 316 "Identität3_angry/Identität1_fearful" 3 3 0 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 853 nf01 w03 50 f 2 259 "Identität3_angry/Identität1_fearful" 3 0 2 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 756 nf01 w05 30 f 2 247 "Identität3_angry/Identität1_fearful" 3 1 0 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 898 nf01 w01 60 f 2 483 "Identität3_angry/Identität1_fearful" 3 2 0 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 853 nf01 w05 60 f 1 523 "Identität3_angry/Identität1_fearful" 3 3 0 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 820 nf01 w05 50 f 2 1703 "Identität3_angry/Identität1_fearful" 3 0 2 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 723 nf03 w02 20 f 1 182 "Identität3_angry/Identität1_fearful" 3 1 0 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 783 nf03 w05 40 f 1 565 "Identität3_angry/Identität1_fearful" 3 2 0 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 951 nf01 w03 80 f 2 331 "Identität3_angry/Identität1_fearful" 3 3 0 "nf01_w02_fea_70dB" "nf03_w02_ang_70dB"
+"Antwort" 826 nf03 w05 60 f 1 503 "Identität3_angry/Identität1_fearful" 3 0 4 "nf01_w05_fea_70dB" "nf03_w05_ang_70dB"
+"Antwort" 739 nf03 w02 30 f 1 215 "Identität3_angry/Identität1_fearful" 3 1 0 "nf01_w05_fea_70dB" "nf03_w05_ang_70dB"
+"Antwort" 879 nf03 w05 80 f 1 440 "Identität3_angry/Identität1_fearful" 3 2 0 "nf01_w05_fea_70dB" "nf03_w05_ang_70dB"
+"Antwort" 780 nf03 w02 50 f 1 286 "Identität3_angry/Identität1_fearful" 3 3 0 "nf01_w05_fea_70dB" "nf03_w05_ang_70dB"
+"Antwort" 732 nf03 w05 20 f 1 274 "Identität3_angry/Identität1_fearful" 3 0 1 "nf03_w01_ang_70dB" "nf01_w01_fea_70dB"
+"Antwort" 885 nf01 w05 70 f 2 102 "Identität3_angry/Identität1_fearful" 3 1 0 "nf03_w01_ang_70dB" "nf01_w01_fea_70dB"
+"Antwort" 727 nf03 w01 30 f 1 238 "Identität3_angry/Identität1_fearful" 3 2 0 "nf03_w01_ang_70dB" "nf01_w01_fea_70dB"
+"Antwort" 915 nf01 w03 70 f 2 146 "Identität3_angry/Identität1_fearful" 3 3 0 "nf03_w01_ang_70dB" "nf01_w01_fea_70dB"
+"Antwort" 707 nf03 w01 60 f 2 429 "Identität3_angry/Identität1_fearful" 3 0 1 "nf03_w01_ang_70dB" "nf01_w01_fea_70dB"

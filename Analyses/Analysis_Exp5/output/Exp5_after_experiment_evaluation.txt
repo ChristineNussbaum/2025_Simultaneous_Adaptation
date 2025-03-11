@@ -1,0 +1,32 @@
+[1] "Im Alltag achte ich stets auf den Klang der Stimme einer Person."
+
+ 2  3  4  5 
+ 4 10 16 13 
+[1] "Es fiel mir äußerst schwer, die Stimmen zu bewerten."
+
+ 2  3  4 
+ 9 26  8 
+[1] "Bei den meisten Stimmen hatte ich gar keine Ahnung, was ich dr?cken sollte."
+
+ 1  2  3  4 
+ 2 26 12  3 
+[1] "Ich habe die ganze Zeit aufmerksam zugehört."
+
+ 2  3  4  5 
+ 1  2 19 21 
+[1] "Oft habe ich einfach irgendetwas geklickt."
+
+ 1  2  3 
+22 20  1 
+[1] "Ich fand dieses Hörexperiment äußerst interessant."
+
+ 1  2  3  4  5 
+ 4  8 12 14  5 
+[1] "Ich habe in jedem Durchgang versucht, die Bewertung so gut wie möglich zu machen."
+
+ 2  3  4  5 
+ 1  1 17 24 
+[1] "Ich achte normalerweise gar nicht auf die Stimmen von Personen."
+
+ 1  2  3  4 
+20 17  5  1 

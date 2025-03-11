@@ -1,0 +1,51 @@
+     LAge       SD  N        SE       CI
+[1,] 25.5 5.230841 48 0.7550069 1.518878
+     range(LAge)
+[1,]          18
+[2,]          46
+
+ 1  2  3 
+39  8  1 
+
+ 1 
+48 
+
+                         B. Sc Psychologie                          B.Sc. Psychologie        B.Sc. Psychologie, 6. Fachsemester  
+                                         1                                          1                                          1 
+          BA Soziologie/Psychologie, 6. FS                            Berufspädagogin           Elektroniker für Betriebstechnik 
+                                         1                                          1                                          1 
+        Erziehungswissenschaft/Psychologie       Erziehungswissenschaft/Psychologie/2                                  Gärtnerin 
+                                         1                                          1                                          1 
+                     Heilerziehungspfleger                                   HF Psy,6                HF Psychologie, 6. Semester 
+                                         1                                          1                                          1 
+HF Soziologie, NF Psychologie, 8. Semester                            HF, Psychologie                                  Logopädin 
+                                         1                                          1                                          1 
+                               Psychologie                        Psychologie (B.Sc.)                        Psychologie (HF, 2) 
+                                         2                                          1                                          1 
+              Psychologie (HF, 2.Semester)                        Psychologie (HF, 4)                        Psychologie (HF, 6) 
+                                         1                                          2                                          2 
+          Psychologie (HF, Fachsemester 6)                             Psychologie 10                 Psychologie 8.Semester BSc 
+                                         1                                          1                                          1 
+       Psychologie B. Sc., 4. Fachsemester                           Psychologie B.Sc         Psychologie B.Sc., 2. Fachsemester 
+                                         1                                          1                                          1 
+        Psychologie B.Sc., 4. Fachsemester         Psychologie B.Sc., 6. Fachsemester          Psychologie Hauptfach 2. Semester 
+                                         1                                          1                                          1 
+             Psychologie M.Sc. (HF, FS; 6)                             Psychologie, 4                         Psychologie, 4. FS 
+                                         1                                          1                                          1 
+                            Psychologie, 7                          Psychologie, HF 2                    Psychologie, Semester 3 
+                                         1                                          1                                          1 
+     Rechtswissenschaften 14. Fachsemester                            Sozialpädagogin                Soziologie / Psychologie, 8 
+                                         1                                          1                                          1 
+                 Soziologie/PSychologie,12             Sportmanagement/Psychologie, 2  Studentin Humanmedizin, 10. Fachsemester  
+                                         1                                          1                                          1 
+                                     studi                Veterinärhygienekontrolleur             Wissenschaftlicher Mitarbeiter 
+                                         1                                          1                                          1 
+
+ 1 
+48 
+
+   
+48 
+< table of extent 0 >
+       Tmean min max
+[1,] 29.7234  21  68

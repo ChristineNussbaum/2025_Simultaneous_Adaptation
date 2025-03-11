@@ -1,0 +1,51 @@
+     LAge       SD  N       SE       CI
+[1,]   22 3.105971 35 0.525005 1.066939
+     range(LAge)
+[1,]          18
+[2,]          29
+
+ 1  2  3 
+29  4  2 
+
+ 1  3 
+34  1 
+
+             Altertumswissenschaft/Psychologie, 2                      B.Sc Psychologie, 1 Semester 
+                                                1                                                 1 
+                             B.Sc. Psychologie, 1                           B.Sc. Psychologie, 6.FS 
+                                                1                                                 1 
+             Bachelor HF Psychologie, 1. Semester Erziehungswissenscjaften HF, Psychologie NF, FS1  
+                                                1                                                 1 
+                  HF B.SC. Psycholgie 5. Semester                            HF Psychologie B.Sc, 1 
+                                                1                                                 1 
+                  HF Psychologie, 1. Fachsemester                      HF Soziologie NF Psychologie 
+                                                1                                                 1 
+        HF Soziologie NF Psychologie, 5. Semester      HF: Soziologie, NF: Psychologie, 1. Semester 
+                                                1                                                 1 
+                        Informatik/Psychologie, 7                   Philosophie, 5 / Psychologie, 1 
+                                                1                                                 1 
+                                      psychologie                                       Psychologie 
+                                                1                                                 2 
+                              psychologie (HF, 1)                    Psychologie (HF, Erstsemester) 
+                                                1                                                 1 
+                                    Psychologie 7                                  Psychologie B.Sc 
+                                                1                                                 1 
+                  Psychologie B.Sc. (HF, 5. Sem.)                           Psychologie B.Sc. HF, 1 
+                                                1                                                 1 
+                                   Psychologie HF                        Psychologie HF, 1.Semester 
+                                                2                                                 1 
+                                   Psychologie, 1                                Psychologie, 1. FS 
+                                                1                                                 1 
+                                   Psychologie, 5                                    Psychologie, 7 
+                                                1                                                 2 
+                                 Psychologie, 8FS                           Soziologie, Psychologie 
+                                                1                                                 1 
+                       Soziologie, Psychologie, 6                           Studentin (Psychologie) 
+                                                1                                                 1 
+
+ 1 
+35 
+< table of extent 0 >
+< table of extent 0 >
+     Tmean min max
+[1,]    NA  NA  NA

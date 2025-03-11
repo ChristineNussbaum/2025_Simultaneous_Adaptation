@@ -53,7 +53,8 @@ rm(Age, range, sex, language, LStudyWork, LHearingKown, LHearingKind, LHearingIm
 
 
 ## comments
-capture.output(S1$Anmerkungen, S1$InstructionsClear, S1$Strategy, file="output/Exp1_comments.txt")
+write.csv(data.frame(S1$participant, S1$VPN_Code, S1$Anmerkungen, S1$InstructionsClear, S1$Strategy), file="output/Exp1_comments.txt")
+
 
 # after Exp-Evaluation
 Eval1 <- table(S1$Eval1)

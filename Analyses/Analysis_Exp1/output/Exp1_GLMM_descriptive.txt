@@ -1,0 +1,7 @@
+# A tibble: 4 × 7
+  SpSex AdaptType   fitted     SD     N     SE     CI
+  <chr> <chr>        <dbl>  <dbl> <int>  <dbl>  <dbl>
+1 f     f_ang/m_fea  0.387 0.0832    40 0.0132 0.0266
+2 f     f_fea/m_ang  0.467 0.0878    40 0.0139 0.0281
+3 m     f_ang/m_fea  0.483 0.0768    40 0.0122 0.0246
+4 m     f_fea/m_ang  0.411 0.0792    40 0.0125 0.0253

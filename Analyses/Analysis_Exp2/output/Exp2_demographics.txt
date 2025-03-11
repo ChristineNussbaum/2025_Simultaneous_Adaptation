@@ -1,0 +1,63 @@
+         LAge       SD  N        SE        CI
+[1,] 21.90909 2.939848 44 0.4431988 0.8937955
+     range(LAge)
+[1,]          18
+[2,]          31
+
+ 1  2  3 
+36  6  2 
+
+ 1 
+44 
+
+                      2. FS/ Psychologie B.sc.                            B. Sc Informatik, 8 
+                                             1                                              1 
+                 B.Sc. Psychologie (HF, 2. FS)          Englisch/Psychologie, 4./2. Semester  
+                                             1                                              1 
+Erziehungswissenschaft/Psycholigie, 2. Semster        Erziehungswissenschaften/Psychologie, 2 
+                                             1                                              1 
+       Hauptfach Psychologie (2. Fachsemester)    HF Erziehungswissenschaften, NF Psychologie 
+                                             1                                              1 
+                                HF Psychologie                              HF Psychologie, 4 
+                                             1                                              1 
+    Kommunikationswissenschaft, Psychologie, 2                                    Psychologie 
+                                             1                                              3 
+                          Psychologie (HF, 10)                            Psychologie (HF, 2) 
+                                             1                                              1 
+             Psychologie (HF, 2. Fachsemester)                             Psychologie (HF,4) 
+                                             2                                              1 
+                   Psychologie 6 Fachsemester        Psychologie B. Sc. (HF), 6. Fachsemester 
+                                             1                                              1 
+                             Psychologie B.Sc.                        Psychologie B.Sc. 4. FS 
+                                             2                                              1 
+                          Psychologie B.Sc., 6               Psychologie Bachelor 8. Semester 
+                                             1                                              1 
+                          Psychologie Bs.C, 4.                                Psychologie Bsc 
+                                             1                                              1 
+                    Psychologie HF 2. Semester                      Psychologie HF 6.Semester 
+                                             1                                              1 
+                    Psychologie HF, 2.Semester                              Psychologie HF, 8 
+                                             1                                              1 
+        Psychologie im Hauptfach (2. Semester)                                 Psychologie, 2 
+                                             1                                              1 
+                     Psychologie, 2. Semester                                  Psychologie, 8 
+                                             1                                              1 
+                   Psychologie, Fachsemester 2                                  Psychologie,2 
+                                             1                                              1 
+               Psychologie; HF 2. Fachsemester            Soziologie (HF) Psychologie (NF), 7 
+                                             1                                              1 
+         Soziologie (HF), Psychologie (NF), 10        Soziologie (HF), Psychologie (NF), 4.FS 
+                                             1                                              1 
+                     Soziologie/Psychologie, 8           Student, Psychologie HF, 4. Semester 
+                                             1                                              1 
+
+ 1  3 
+43  1 
+
+                  leichten Tinnitus 
+               43                 1 
+
+1 
+1 
+        Tmean min max
+[1,] 32.74419   0 132
