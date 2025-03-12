@@ -1,32 +1,32 @@
 [1] "Im Alltag achte ich stets auf den Klang der Stimme einer Person."
 
  1  2  3  4  5 
- 1  4 10 20  9 
+ 1  3 10 20  9 
 [1] "Es fiel mir äußerst schwer, die Stimmen zu bewerten."
 
  1  2  3  4 
- 4 21 14  5 
+ 4 21 13  5 
 [1] "Bei den meisten Stimmen hatte ich gar keine Ahnung, was ich dr?cken sollte."
 
  1  2  3  4 
-11 25  7  1 
+11 24  7  1 
 [1] "Ich habe die ganze Zeit aufmerksam zugehört."
 
  3  4  5 
- 1 22 21 
+ 1 22 20 
 [1] "Oft habe ich einfach irgendetwas geklickt."
 
  1  2  3 
-21 22  1 
+21 21  1 
 [1] "Ich fand dieses Hörexperiment äußerst interessant."
 
  1  2  3  4  5 
- 3  9 22  9  1 
+ 3  8 22  9  1 
 [1] "Ich habe in jedem Durchgang versucht, die Bewertung so gut wie möglich zu machen."
 
  2  3  4  5 
- 1  3 18 22 
+ 1  3 18 21 
 [1] "Ich achte normalerweise gar nicht auf die Stimmen von Personen."
 
  1  2  3  4 
-21 12  6  5 
+21 12  6  4 

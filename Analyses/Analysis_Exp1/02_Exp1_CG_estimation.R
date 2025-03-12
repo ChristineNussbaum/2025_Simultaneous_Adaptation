@@ -24,7 +24,7 @@ source("functions/fitCumulativeGaussian.R")
 #---------------------------------------------------------------------------------
 #get the CG input data:
 
-load(file ="input/Exp1_raw_data.RData")
+load(file ="input/Exp1_without_omissions.RData")
 
 
 #-------------------------------------------------------------------------------#

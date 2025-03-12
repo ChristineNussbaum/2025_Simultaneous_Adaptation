@@ -1,0 +1,20 @@
+$`--- ANOVA RESULTS     ------------------------------------`
+          Effect        MSE df1 df2        F     p petasq getasq
+1    (Intercept) 0.05199723   1  42 1142.508 0.000  0.965  0.917
+2      AdaptType 0.01749361   1  42   14.507 0.000  0.257  0.045
+3           SpID 0.04620590   1  42  102.966 0.000  0.710  0.470
+4 AdaptType:SpID 0.01199473   1  42    3.221 0.080  0.071  0.007
+
+$`--- SPHERICITY TESTS  ------------------------------------`
+[1] "N/A"
+
+$`--- FORMATTED RESULTS ------------------------------------`
+          Effect                                      Text
+1    (Intercept) F(1, 42) = 1142.508, p < .001, np2 = .965
+2      AdaptType F(1, 42) =   14.507, p < .001, np2 = .257
+3           SpID F(1, 42) =  102.966, p < .001, np2 = .710
+4 AdaptType:SpID F(1, 42) =    3.221, p = .080, np2 = .071
+
+$`NOTE:`
+[1] "Reporting unadjusted p-values."
+

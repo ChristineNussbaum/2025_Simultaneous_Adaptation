@@ -1,0 +1,29 @@
+     SpID   AdaptType       PSE        SD          N    SE         CI        
+[1,] "nf01" "f1_ang/f2_fea" "50.93421" " 9.979947" "28" "1.886033" "3.869819"
+[2,] "nf01" "f1_fea/f2_ang" "49.87747" " 9.473939" "28" "1.790406" "3.673610"
+[3,] "nf03" "f1_ang/f2_fea" "54.78845" "11.976490" "28" "2.263344" "4.643998"
+[4,] "nf03" "f1_fea/f2_ang" "60.75721" "11.199890" "28" "2.116580" "4.342864"
+
+	Paired t-test
+
+data:  PH1_nf01$`f1_fea/f2_ang` and PH1_nf01$`f1_ang/f2_fea`
+t = -0.55137, df = 27, p-value = 0.5859
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ -4.989198  2.875719
+sample estimates:
+mean difference 
+      -1.056739 
+
+
+	Paired t-test
+
+data:  PH1_nf03$`f1_fea/f2_ang` and PH1_nf03$`f1_ang/f2_fea`
+t = 2.8033, df = 27, p-value = 0.009252
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+  1.599962 10.337571
+sample estimates:
+mean difference 
+       5.968766 
+

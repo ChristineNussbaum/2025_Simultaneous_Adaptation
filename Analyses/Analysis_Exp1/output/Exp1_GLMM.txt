@@ -1,56 +1,56 @@
-Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) [glmerMod]
  Family: binomial  ( logit )
 Formula: Resp ~ tML_sc * SpSex * AdaptType + (1 | SpID) + (1 | Participant)
    Data: E1_Adapt
 Control: glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e+05))
 
      AIC      BIC   logLik deviance df.resid 
-  7657.3   7728.3  -3818.6   7637.3     8950 
+  7600.4   7671.4  -3790.2   7580.4     8917 
 
 Scaled residuals: 
      Min       1Q   Median       3Q      Max 
--10.6252  -0.4577  -0.1656   0.4611  11.1056 
+-11.0820  -0.4564  -0.1604   0.4585  10.9862 
 
 Random effects:
  Groups      Name        Variance Std.Dev.
- Participant (Intercept) 0.4133   0.6429  
- SpID        (Intercept) 0.3094   0.5562  
-Number of obs: 8960, groups:  Participant, 40; SpID, 4
+ Participant (Intercept) 0.4224   0.6499  
+ SpID        (Intercept) 0.3110   0.5577  
+Number of obs: 8927, groups:  Participant, 40; SpID, 4
 
 Fixed effects:
                                    Estimate Std. Error z value Pr(>|z|)    
-(Intercept)                        -0.80314    0.41016  -1.958   0.0502 .  
-tML_sc                              1.81776    0.07334  24.784  < 2e-16 ***
-SpSexm                              0.66547    0.56162   1.185   0.2361    
-AdaptTypef_fea/m_ang                0.57341    0.08263   6.940 3.93e-12 ***
-tML_sc:SpSexm                       0.31590    0.10750   2.939   0.0033 ** 
-tML_sc:AdaptTypef_fea/m_ang        -0.03724    0.09960  -0.374   0.7085    
-SpSexm:AdaptTypef_fea/m_ang        -1.11069    0.11903  -9.331  < 2e-16 ***
-tML_sc:SpSexm:AdaptTypef_fea/m_ang -0.13513    0.14595  -0.926   0.3545    
+(Intercept)                        -0.79880    0.41141  -1.942  0.05218 .  
+tML_sc                              1.82157    0.07349  24.785  < 2e-16 ***
+SpSexm                              0.67462    0.56329   1.198  0.23105    
+AdaptTypef_fea/m_ang                0.58730    0.08293   7.082 1.42e-12 ***
+tML_sc:SpSexm                       0.33102    0.10815   3.061  0.00221 ** 
+tML_sc:AdaptTypef_fea/m_ang        -0.01635    0.10021  -0.163  0.87037    
+SpSexm:AdaptTypef_fea/m_ang        -1.13049    0.11943  -9.465  < 2e-16 ***
+tML_sc:SpSexm:AdaptTypef_fea/m_ang -0.17296    0.14683  -1.178  0.23882    
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Correlation of Fixed Effects:
             (Intr) tML_sc SpSexm AdT_/_ tML_s:SS tML_:A SS:AT_
-tML_sc      -0.053                                            
+tML_sc      -0.052                                            
 SpSexm      -0.684  0.038                                     
-AdptTypf_/_ -0.109  0.257  0.079                              
-tML_sc:SpSx  0.034 -0.664 -0.030 -0.170                       
-tML_s:AT_/_  0.037 -0.711 -0.027 -0.228  0.485                
-SpSxm:AT_/_  0.076 -0.183 -0.109 -0.695  0.132    0.158       
-tML_:SS:AT_ -0.025  0.483  0.021  0.155 -0.712   -0.682 -0.195
+AdptTypf_/_ -0.108  0.256  0.079                              
+tML_sc:SpSx  0.034 -0.660 -0.029 -0.168                       
+tML_s:AT_/_  0.036 -0.707 -0.026 -0.222  0.481                
+SpSxm:AT_/_  0.075 -0.182 -0.109 -0.696  0.129    0.154       
+tML_:SS:AT_ -0.025  0.481  0.021  0.151 -0.712   -0.683 -0.189
 Mixed Model Anova Table (Type 3 tests, LRT-method)
 
 Model: Resp ~ tML_sc * SpSex * AdaptType + (1 | SpID) + (1 | Participant)
 Data: E1_Adapt
 Df full model: 10
                   Effect df       Chisq p.value
-1                 tML_sc  1 4231.47 ***   <.001
-2                  SpSex  1        0.04    .844
-3              AdaptType  1        0.09    .761
-4           tML_sc:SpSex  1   10.86 ***   <.001
-5       tML_sc:AdaptType  1        2.07    .151
-6        SpSex:AdaptType  1   88.57 ***   <.001
-7 tML_sc:SpSex:AdaptType  1        0.86    .355
+1                 tML_sc  1 4247.13 ***   <.001
+2                  SpSex  1        0.04    .846
+3              AdaptType  1        0.14    .711
+4           tML_sc:SpSex  1    10.40 **    .001
+5       tML_sc:AdaptType  1        1.96    .161
+6        SpSex:AdaptType  1   91.16 ***   <.001
+7 tML_sc:SpSex:AdaptType  1        1.39    .239
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘+’ 0.1 ‘ ’ 1

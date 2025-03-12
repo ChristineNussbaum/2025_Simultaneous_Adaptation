@@ -1,29 +1,29 @@
      SpSex AdaptType     PSE        SD         N    SE         CI        
-[1,] "f"   "f_ang/m_fea" "57.55956" "7.495684" "35" "1.267002" "2.574857"
-[2,] "f"   "f_fea/m_ang" "51.55130" "7.643626" "35" "1.292009" "2.625677"
-[3,] "m"   "f_ang/m_fea" "50.36006" "7.298466" "35" "1.233666" "2.507111"
-[4,] "m"   "f_fea/m_ang" "55.99578" "6.999903" "35" "1.183200" "2.404551"
+[1,] "f"   "f_ang/m_fea" "57.50913" "7.470096" "35" "1.262677" "2.566068"
+[2,] "f"   "f_fea/m_ang" "51.45570" "7.703212" "35" "1.302080" "2.646146"
+[3,] "m"   "f_ang/m_fea" "50.11112" "7.419268" "35" "1.254085" "2.548608"
+[4,] "m"   "f_fea/m_ang" "55.92189" "7.088611" "35" "1.198194" "2.435023"
 
 	Paired t-test
 
 data:  PH1f$`f_fea/m_ang` and PH1f$`f_ang/m_fea`
-t = -5.822, df = 34, p-value = 1.466e-06
+t = -5.8427, df = 34, p-value = 1.379e-06
 alternative hypothesis: true mean difference is not equal to 0
 95 percent confidence interval:
- -8.105509 -3.911016
+ -8.158983 -3.947873
 sample estimates:
 mean difference 
-      -6.008262 
+      -6.053428 
 
 
 	Paired t-test
 
 data:  PH1m$`f_fea/m_ang` and PH1m$`f_ang/m_fea`
-t = 5.7372, df = 34, p-value = 1.89e-06
+t = 5.8506, df = 34, p-value = 1.346e-06
 alternative hypothesis: true mean difference is not equal to 0
 95 percent confidence interval:
- 3.639417 7.632014
+ 3.792349 7.829178
 sample estimates:
 mean difference 
-       5.635715 
+       5.810763 
 

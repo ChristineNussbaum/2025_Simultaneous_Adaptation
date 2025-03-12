@@ -79,5 +79,30 @@ label <- c("Im Alltag achte ich stets auf den Klang der Stimme einer Person.",
 capture.output(label[1], Eval1, label[2],Eval2, label[3],Eval3,label[4], Eval4, label[5],Eval5, label[6], Eval6,label[7], Eval7, label[8], Eval8,file="output/Exp1_after_experiment_evaluation.txt")
 rm(label, Eval1, Eval2, Eval3, Eval4, Eval5, Eval6, Eval7, Eval8)
 
+rm(S1)
+
+#------------------------------------------------------------------------------------------------------------------#
+#                                        Analysis of Trials of omission                                            #
+#------------------------------------------------------------------------------------------------------------------#
+
+#load the preprocessed raw data
+load(file ="input/Exp1_raw_data.RData")
+
+#check for the number of missing (indicated by RT == 3000)
+missings_Adapt <-E1_Adapt %>%  group_by(Participant) %>% filter(RT == 3000) %>% summarise(N = length(Participant),
+                                                                                          prop = N/224) 
+
+missings_Bline <- E1_Bline %>%  group_by(Participant) %>% filter(RT == 3000) %>% summarise(N = length(Participant),
+                                                                                          prop = N/112) 
+capture.output(as.matrix(missings_Adapt), as.matrix(missings_Bline), file = "output/Exp1_omissions_summary.txt")
+
+#remove omissions from the data
+E1_Adapt <- E1_Adapt %>% filter(RT != 3000) # 33 removed
+E1_Bline <- E1_Bline %>% filter(RT != 3000) # 43 removed
+
+rm(missings_Bline, missings_Adapt)
+
+#save datasets again
+save(E1_Bline, E1_Adapt, file ="input/Exp1_without_omissions.RData")
 
 ## End of Script

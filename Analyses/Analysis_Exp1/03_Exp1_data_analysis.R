@@ -28,7 +28,7 @@ source("functions/tracedEzOut.R")
 #---------------------------------------------------------------------------------
 #get the CG input data:
 
-load(file ="input/Exp1_raw_data.RData")
+load(file ="input/Exp1_without_omissions.RData")
 load(file ="input/Exp1_CG_estimates.RData")
 
 
@@ -53,15 +53,15 @@ b = tracedEzOut(a, print = TRUE, sph.cor = "HF", mau.p = 0.05, etasq = "partial"
 #N= 35 entered Analysis
 ##############################################################################
 #Output
-# 1     (Intercept) F(1, 34) = 3064.514, p < .001, np2 = .989
-# 2       AdaptType F(1, 34) =    0.049, p = .825, np2 < .011
-# 3           SpSex F(1, 34) =    1.361, p = .251, np2 = .038
-# 4 AdaptType:SpSex F(1, 34) =  108.110, p < .001, np2 = .761
+# 1     (Intercept) F(1, 34) = 2981.959, p < .001, np2 = .989
+# 2       AdaptType F(1, 34) =    0.021, p = .887, np2 < .011
+# 3           SpSex F(1, 34) =    1.543, p = .223, np2 = .043
+# 4 AdaptType:SpSex F(1, 34) =  111.707, p < .001, np2 = .767
 ##############################################################################
 
 capture.output(b, file= "output/Exp1_CG_ANOVAI.txt")
 
-# Daten visualisieren (just f)
+# visualize data (just to check)
 ezPlot(data=CGdata_Adapt, dv=.(PSE), wid=.(Participant), within = .(AdaptType, SpSex), x=SpSex, split=AdaptType)
 
 
@@ -91,23 +91,23 @@ AdaptType2 <- t.test(PH1m$`f_fea/m_ang`, PH1m$`f_ang/m_fea`, paired = TRUE)
 
 ##################################################
 # data:  PH1f$`f_fea/m_ang` and PH1f$`f_ang/m_fea`
-# t = -5.822, df = 34, p-value = 1.466e-06
+# t = -5.8427, df = 34, p-value = 1.379e-06
 # alternative hypothesis: true mean difference is not equal to 0
 # 95 percent confidence interval:
-#   -8.105509 -3.911016
+#   -8.158983 -3.947873
 # sample estimates:
 #   mean difference 
-# -6.008262 
+# -6.053428 
 
 
 # data:  PH1m$`f_fea/m_ang` and PH1m$`f_ang/m_fea`
-# t = 5.7372, df = 34, p-value = 1.89e-06
+# t = 5.8506, df = 34, p-value = 1.346e-06
 # alternative hypothesis: true mean difference is not equal to 0
 # 95 percent confidence interval:
-#   3.639417 7.632014
+#   3.792349 7.829178
 # sample estimates:
 #   mean difference 
-# 5.635715
+# 5.810763 
 ##################################################
 
 #save results
@@ -138,15 +138,15 @@ b = tracedEzOut(a, print = TRUE, sph.cor = "HF", mau.p = 0.05, etasq = "partial"
 #N= 40 entered Analysis
 ##############################################################################
 # Effect                                     Text
-# 1     (Intercept) F(1, 39) = 978.239, p < .001, np2 = .962
-# 2       AdaptType F(1, 39) =   0.124, p = .726, np2 < .013
-# 3           SpSex F(1, 39) =   2.028, p = .162, np2 = .049
-# 4 AdaptType:SpSex F(1, 39) =  94.714, p < .001, np2 = .708
+# 1     (Intercept) F(1, 39) = 971.887, p < .001, np2 = .961
+# 2       AdaptType F(1, 39) =   0.124, p = .727, np2 < .013
+# 3           SpSex F(1, 39) =   2.025, p = .163, np2 = .049
+# 4 AdaptType:SpSex F(1, 39) =  97.801, p < .001, np2 = .715
 ##############################################################################
 
 capture.output(b, file= "output/Exp1_Resp_ANOVAII.txt")
 
-# Daten visualisieren (just f)
+# visualize data (just to check)
 ezPlot(data=E1_Resp, dv=.(Resp), wid=.(Participant), within = .(AdaptType, SpSex), x=SpSex, split=AdaptType)
 
 
@@ -174,22 +174,22 @@ AdaptType2 <- t.test(PH2m$`f_fea/m_ang`, PH2m$`f_ang/m_fea`, paired = TRUE)
 
 ##################################################
 # data:  PH2f$`f_fea/m_ang` and PH2f$`f_ang/m_fea`
-# t = 6.0342, df = 39, p-value = 4.643e-07
+# t = 6.1108, df = 39, p-value = 3.634e-07
 # alternative hypothesis: true mean difference is not equal to 0
 # 95 percent confidence interval:
-#   0.05312418 0.10669725
+#   0.05428967 0.10801252
 # sample estimates:
 #   mean difference 
-# 0.07991071  
+# 0.08115109   
 
 # data:  PH2m$`f_fea/m_ang` and PH2m$`f_ang/m_fea`
-# t = -5.0048, df = 39, p-value = 1.234e-05
+# t = -5.0404, df = 39, p-value = 1.102e-05
 # alternative hypothesis: true mean difference is not equal to 0
 # 95 percent confidence interval:
-#   -0.10092321 -0.04282679
+#   -0.10237456 -0.04373941
 # sample estimates:
 #   mean difference 
-# -0.071875 
+# -0.07305698 
 ##################################################
 
 #save results
@@ -230,47 +230,47 @@ m_test
 # Data: E1_Adapt
 # Df full model: 10
 # Effect df       Chisq p.value
-# 1                 tML_sc  1 4231.47 ***   <.001
-# 2                  SpSex  1        0.04    .844
-# 3              AdaptType  1        0.09    .761
-# 4           tML_sc:SpSex  1   10.86 ***   <.001
-# 5       tML_sc:AdaptType  1        2.07    .151
-# 6        SpSex:AdaptType  1   88.57 ***   <.001
-# 7 tML_sc:SpSex:AdaptType  1        0.86    .355
+# 1                 tML_sc  1 4247.13 ***   <.001
+# 2                  SpSex  1        0.04    .846
+# 3              AdaptType  1        0.14    .711
+# 4           tML_sc:SpSex  1    10.40 **    .001
+# 5       tML_sc:AdaptType  1        1.96    .161
+# 6        SpSex:AdaptType  1   91.16 ***   <.001
+# 7 tML_sc:SpSex:AdaptType  1        1.39    .239
 
 summary(m)
 
 ###########################################################################
 ## EXPECTED OUTPUT
-# Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+# Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) [glmerMod]
 # Family: binomial  ( logit )
 # Formula: Resp ~ tML_sc * SpSex * AdaptType + (1 | SpID) + (1 | Participant)
 # Data: E1_Adapt
 # Control: glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e+05))
 # 
 # AIC      BIC   logLik deviance df.resid 
-# 7657.3   7728.3  -3818.6   7637.3     8950 
+# 7600.4   7671.4  -3790.2   7580.4     8917 
 # 
 # Scaled residuals: 
 #   Min       1Q   Median       3Q      Max 
-# -10.6252  -0.4577  -0.1656   0.4611  11.1056 
+# -11.0820  -0.4564  -0.1604   0.4585  10.9862 
 # 
 # Random effects:
 #   Groups      Name        Variance Std.Dev.
-# Participant (Intercept) 0.4133   0.6429  
-# SpID        (Intercept) 0.3094   0.5562  
-# Number of obs: 8960, groups:  Participant, 40; SpID, 4
+# Participant (Intercept) 0.4224   0.6499  
+# SpID        (Intercept) 0.3110   0.5577  
+# Number of obs: 8927, groups:  Participant, 40; SpID, 4
 # 
 # Fixed effects:
 #   Estimate Std. Error z value Pr(>|z|)    
-# (Intercept)                        -0.80314    0.41016  -1.958   0.0502 .  
-# tML_sc                              1.81776    0.07334  24.784  < 2e-16 ***
-#   SpSexm                              0.66547    0.56162   1.185   0.2361    
-# AdaptTypef_fea/m_ang                0.57341    0.08263   6.940 3.93e-12 ***
-#   tML_sc:SpSexm                       0.31590    0.10750   2.939   0.0033 ** 
-#   tML_sc:AdaptTypef_fea/m_ang        -0.03724    0.09960  -0.374   0.7085    
-# SpSexm:AdaptTypef_fea/m_ang        -1.11069    0.11903  -9.331  < 2e-16 ***
-#   tML_sc:SpSexm:AdaptTypef_fea/m_ang -0.13513    0.14595  -0.926   0.3545
+# (Intercept)                        -0.79880    0.41141  -1.942  0.05218 .  
+# tML_sc                              1.82157    0.07349  24.785  < 2e-16 ***
+#   SpSexm                              0.67462    0.56329   1.198  0.23105    
+# AdaptTypef_fea/m_ang                0.58730    0.08293   7.082 1.42e-12 ***
+#   tML_sc:SpSexm                       0.33102    0.10815   3.061  0.00221 ** 
+#   tML_sc:AdaptTypef_fea/m_ang        -0.01635    0.10021  -0.163  0.87037    
+# SpSexm:AdaptTypef_fea/m_ang        -1.13049    0.11943  -9.465  < 2e-16 ***
+#   tML_sc:SpSexm:AdaptTypef_fea/m_ang -0.17296    0.14683  -1.178  0.23882  
 ###########################################################################
 
 # save models as R objects

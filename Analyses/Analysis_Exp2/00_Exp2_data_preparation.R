@@ -98,7 +98,12 @@ Check_Adapt <- E2_Adapt %>% group_by(Participant) %>% summarise(var = var(Resp))
 #"dd1685a2f" pressed only one key, so will be removed
 E2_Adapt <- E2_Adapt %>% filter(Participant != "d1685a2f")
 E2_Bline <- E2_Bline %>% filter(Participant != "d1685a2f")
-#44 participants left
+
+#"114de282" had 40 missings in the baseline and will be removed
+E2_Adapt <- E2_Adapt %>% filter(Participant != "114de282")
+E2_Bline <- E2_Bline %>% filter(Participant != "114de282")
+
+#43 participants left
 
 rm(Check_Bline, Check_Adapt)
 

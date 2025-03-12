@@ -98,10 +98,6 @@ rm(Check_Bline, Check_Adapt)
 #Save datasets
 save(E1_Bline, E1_Adapt, file ="input/Exp1_raw_data.RData")
 
-#CG_input <- mySummary(Adapt, Resp, Subject, AdaptType, SpSex, tML) # Input f?r jeden Probanden einzeln
-#CG_agg_input <- mySummary(CG_input, Resp, AdaptType, SpSex, tML) # input ?ber alle Probanden gemittelt
-#save(CG_input, CG_agg_input, CG_input_E1_Bline, file ="input/CG_input_data.RData")
-#CG_input_E1_Bline <- mySummary(E1_Bline, Resp, Subject, SpSex, tML)
 
 rm()
 ##################################################################################
