@@ -93,7 +93,9 @@ table(table(E3_Adapt$Stimulus, E3_Adapt$Participant)) #should give out only "2"s
 Check_Bline <- E3_Bline %>% group_by(Participant) %>% summarise(var = var(Resp)) # no one
 Check_Adapt <- E3_Adapt %>% group_by(Participant) %>% summarise(var = var(Resp)) # no one
 
-#no one has to be removes
+#"59095ef5" has too many missing and must be removed
+E3_Adapt <- E3_Adapt %>% filter(Participant != "59095ef5")
+E3_Bline <- E3_Bline %>% filter(Participant != "59095ef5")
 
 rm(Check_Bline, Check_Adapt)
 

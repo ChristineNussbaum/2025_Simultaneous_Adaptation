@@ -1,0 +1,28 @@
+$`--- ANOVA RESULTS     ---`
+                    Effect       MSE df1 df2        F     p petasq getasq
+1              (Intercept) 346.84644   1  40 2924.298 0.000  0.987  0.973
+2                AdaptType  48.24054   1  40    3.428 0.071  0.079  0.006
+3                 PW_Group  46.69133   1  40   11.237 0.002  0.219  0.018
+4                    SpSex 128.73905   1  40    0.005 0.946  0.000  0.000
+5       AdaptType:PW_Group  24.40972   1  40    3.156 0.083  0.073  0.003
+6          AdaptType:SpSex  52.23800   1  40    2.761 0.104  0.065  0.005
+7           PW_Group:SpSex  20.50797   1  40   26.383 0.000  0.397  0.019
+8 AdaptType:PW_Group:SpSex  47.30324   1  40    0.021 0.886  0.001  0.000
+
+$`--- SPHERICITY TESTS  ---`
+[1] "N/A"
+
+$`--- FORMATTED RESULTS ---`
+                    Effect                                     Text
+1              (Intercept) F(1,40) = 2924.298, p < .001, np2 = .987
+2                AdaptType F(1,40) =    3.428, p = .071, np2 = .079
+3                 PW_Group F(1,40) =   11.237, p = .002, np2 = .219
+4                    SpSex F(1,40) =    0.005, p = .946, np2 < .010
+5       AdaptType:PW_Group F(1,40) =    3.156, p = .083, np2 = .073
+6          AdaptType:SpSex F(1,40) =    2.761, p = .104, np2 = .065
+7           PW_Group:SpSex F(1,40) =   26.383, p < .001, np2 = .397
+8 AdaptType:PW_Group:SpSex F(1,40) =    0.021, p = .886, np2 < .011
+
+$`NOTE:`
+[1] "Reporting unadjusted p-values."
+
