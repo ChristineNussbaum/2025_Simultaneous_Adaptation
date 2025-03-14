@@ -69,6 +69,17 @@ E5_Adapt$AdaptType <- recode(E5_Adapt$AdaptType,
                              "WK01_angry/TL12_fearful" = "m3_fea/m4_ang")
 
 
+E5_Adapt$SpID <- recode(E5_Adapt$SpID , 
+                        "HO05" = "f1",
+                        "JW07" = "f2",
+                        "TL12" = "m3",
+                        "WK01" = "m4")
+
+E5_Bline$SpID <- recode(E5_Bline$SpID , 
+                        "HO05" = "f1",
+                        "JW07" = "f2",
+                        "TL12" = "m3",
+                        "WK01" = "m4")
 
 #---------------------------------------------------------------------------------
 #Check if everything is loaded correctly

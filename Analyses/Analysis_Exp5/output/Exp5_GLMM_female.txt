@@ -1,4 +1,4 @@
-Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) [glmerMod]
+Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
  Family: binomial  ( logit )
 Formula: Resp ~ tML_sc * SpID * AdaptType + (1 | Participant)
    Data: E5_Adapt_f
@@ -17,27 +17,27 @@ Random effects:
 Number of obs: 4794, groups:  Participant, 43
 
 Fixed effects:
-                                       Estimate Std. Error z value Pr(>|z|)    
-(Intercept)                             0.19789    0.11139   1.777   0.0756 .  
-tML_sc                                  0.71159    0.06592  10.795  < 2e-16 ***
-SpIDJW07                               -0.52485    0.09294  -5.647 1.63e-08 ***
-AdaptTypef1_fea/f2_ang                 -0.06733    0.08912  -0.755   0.4500    
-tML_sc:SpIDJW07                         0.40814    0.09907   4.120 3.79e-05 ***
-tML_sc:AdaptTypef1_fea/f2_ang          -0.05691    0.09226  -0.617   0.5373    
-SpIDJW07:AdaptTypef1_fea/f2_ang        -0.20517    0.13169  -1.558   0.1192    
-tML_sc:SpIDJW07:AdaptTypef1_fea/f2_ang -0.01620    0.13958  -0.116   0.9076    
+                                     Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                           0.19789    0.11139   1.777   0.0756 .  
+tML_sc                                0.71159    0.06592  10.795  < 2e-16 ***
+SpIDf2                               -0.52485    0.09294  -5.647 1.63e-08 ***
+AdaptTypef1_fea/f2_ang               -0.06733    0.08912  -0.755   0.4500    
+tML_sc:SpIDf2                         0.40814    0.09907   4.120 3.79e-05 ***
+tML_sc:AdaptTypef1_fea/f2_ang        -0.05691    0.09226  -0.617   0.5373    
+SpIDf2:AdaptTypef1_fea/f2_ang        -0.20517    0.13169  -1.558   0.1192    
+tML_sc:SpIDf2:AdaptTypef1_fea/f2_ang -0.01620    0.13958  -0.116   0.9076    
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Correlation of Fixed Effects:
-              (Intr) tML_sc SpIDJW07 AT1_/2 tML_s:SIDJW07 tML_:A SIDJW07:
-tML_sc         0.031                                                     
-SpIDJW07      -0.387 -0.041                                              
-AdptTy1_/2_   -0.403 -0.039  0.483                                       
-tML_s:SIDJW07 -0.020 -0.657 -0.041    0.025                              
-tML_:AT1_/2   -0.022 -0.709  0.027    0.044  0.471                       
-SIDJW07:AT1    0.273  0.025 -0.704   -0.677  0.028        -0.029         
-tML_:SIDJW07:  0.015  0.468  0.028   -0.029 -0.709        -0.661 -0.070  
+            (Intr) tML_sc SpIDf2 AT1_/2 tML_s:SID2 tML_:A SID2:A
+tML_sc       0.031                                              
+SpIDf2      -0.387 -0.041                                       
+AdptTy1_/2_ -0.403 -0.039  0.483                                
+tML_sc:SID2 -0.020 -0.657 -0.041  0.025                         
+tML_:AT1_/2 -0.022 -0.709  0.027  0.044  0.471                  
+SID2:AT1_/2  0.273  0.025 -0.704 -0.677  0.028     -0.030       
+tML_:SID2:A  0.015  0.468  0.028 -0.029 -0.709     -0.661 -0.070
 Mixed Model Anova Table (Type 3 tests, LRT-method)
 
 Model: Resp ~ tML_sc * SpID * AdaptType + (1 | Participant)

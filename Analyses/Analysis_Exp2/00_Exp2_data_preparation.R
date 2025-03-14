@@ -69,8 +69,17 @@ E2_Adapt$AdaptType <- recode(E2_Adapt$AdaptType,
                              "Identität3_angry/Identität4_fearful" = "m3_ang/m4_fea",
                              "Identität4_angry/Identität3_fearful" = "m3_fea/m4_ang")
 
+E2_Adapt$SpID <- recode(E2_Adapt$SpID , 
+                             "nf01" = "f1",
+                             "nf03" = "f2",
+                             "nm03" = "m3",
+                             "nm04" = "m4")
 
-
+E2_Bline$SpID <- recode(E2_Bline$SpID , 
+                        "nf01" = "f1",
+                        "nf03" = "f2",
+                        "nm03" = "m3",
+                        "nm04" = "m4")
 #---------------------------------------------------------------------------------
 #Check if everything is loaded correctly
 

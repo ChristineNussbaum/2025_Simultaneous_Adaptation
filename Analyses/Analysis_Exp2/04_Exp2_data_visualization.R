@@ -1,8 +1,8 @@
 ##########################################################################
-## File: 04_Exp1_data_visualization.R
-## Data Preparatation for Emotion-Adaptation-Experiment in Voices, BA Berges
-# author: Christine Nussbaum und Dorothea Berges
-# date 02/2022, revised 05/2024
+## File: 04_Exp2_data_visualization.R
+## Data Visualization for Exp 2: Adaptation of Emotion - speaker identities
+# author: Christine Nussbaum 
+# date 03/2025
 
 # clear directory
 rm(list=ls())
@@ -21,7 +21,7 @@ source("functions/mySummary.R")
 #---------------------------------------------------------------------------------
 #get the raw input data
 
-load(file ="input/Exp1_without_omissions.RData")
+load(file ="input/Exp2_without_omissions.RData")
 
 
 #-------------------------------------------------------------------------------#
@@ -29,32 +29,33 @@ load(file ="input/Exp1_without_omissions.RData")
 #-------------------------------------------------------------------------------# 
 
 #average raw data (for both Adapt and Baseline Blocks)
-E1_Adapt_plot <- mySummary(E1_Adapt, Resp, Participant, tML, SpSex, AdaptType)
-E1_Bline_plot <- mySummary(E1_Bline, Resp, Participant, tML, SpSex, Block)
-E1_Bline_plot <- E1_Bline_plot %>% rename(AdaptType= Block)
-E1_plot <- rbind(E1_Adapt_plot, E1_Bline_plot)
-rm(E1_Adapt_plot, E1_Bline_plot)
-E1_plot_agg<- mySummary(E1_plot, Resp, tML,  SpSex, AdaptType)
+E2_Adapt_plot <- mySummary(E2_Adapt, Resp, Participant, tML, SpSex, SpID, AdaptType)
+E2_Bline_plot <- mySummary(E2_Bline, Resp, Participant, tML, SpSex, SpID, Block)
+E2_Bline_plot <- E2_Bline_plot %>% rename(AdaptType= Block)
+E2_plot <- rbind(E2_Adapt_plot, E2_Bline_plot)
+rm(E2_Adapt_plot, E2_Bline_plot)
+E2_plot_agg<- mySummary(E2_plot, Resp, tML,  SpSex, SpID, AdaptType)
 
 
-#[1a] Response per tML, SpSex and AdaptType
+
+#[1a] Response per tML, SpID, SpSex and AdaptType
 yTitleStr = "Proportion of angry responses"
 xTitleStr = "Morphlevel"
-facetStr =  "splitted per SpSex and AdaptType"
+facetStr =  "splitted per SpID and AdaptType"
 
-title = paste0("Mean ", yTitleStr, " per ", xTitleStr, facetStr, " (N = 40)")
+title = paste0("Mean ", yTitleStr, " per ", xTitleStr, facetStr, " (N = 43)")
 
-filename = paste0("plots/01a_Resp_Exp1.png")
+filename = paste0("plots/01a_Resp_Exp2.png")
 
 #Plot
-p<-(ggplot(data= E1_plot_agg, aes(x = tML, y=Resp, color = AdaptType, group=AdaptType)) +
+p<-(ggplot(data= E2_plot_agg, aes(x = tML, y=Resp, color = AdaptType, group=AdaptType)) +
       geom_point() +
       geom_line() + 
       geom_errorbar(aes(ymin = (Resp-CI), ymax = (Resp+CI)), width = 0.1 ) + 
       labs(x = xTitleStr , y = yTitleStr, color = "Condition", title = title) +
-      facet_wrap(~ SpSex, ncol = 2) +
+      facet_wrap(~ SpID + SpSex, ncol = 2) +
       geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
-      scale_colour_manual(values=c("grey", "darkorange", "darkgreen")) + 
+      scale_colour_manual(values=c("grey", "darkorange", "darkgreen", "darkorange", "darkgreen")) + 
       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
             axis.text=element_text(size=14),
             axis.title=element_text(size=14), 
@@ -63,7 +64,7 @@ p<-(ggplot(data= E1_plot_agg, aes(x = tML, y=Resp, color = AdaptType, group=Adap
             strip.text.x = element_text(size = 14)) + 
       scale_y_continuous(limits=c(0,1.0), breaks = c( 0.0, 0.2, 0.4, 0.6, 0.8, 1.0)))
 #abspeichern
-ggsave(filename, width = 10, height = 4, dpi =300)
+ggsave(filename, width = 10, height = 10, dpi =300)
 
 #keep environment tidy
 remove(yTitleStr, xTitleStr, facetStr, title, filename, p)
@@ -72,21 +73,21 @@ remove(yTitleStr, xTitleStr, facetStr, title, filename, p)
 #[1b] Response per tML, SpSex and AdaptType (plotted the other way around and without Baseline)
 yTitleStr = "Proportion of angry responses"
 xTitleStr = "Morphlevel"
-facetStr =  "splitted per SpSex and AdaptType"
+facetStr =  "splitted per SpID and AdaptType"
 
-title = paste0("Mean ", yTitleStr, " per ", xTitleStr, facetStr, " (N = 40)")
+title = paste0("Mean ", yTitleStr, " per ", xTitleStr, facetStr, " (N = 43)")
 
-filename = paste0("plots/01b_Resp_Exp1.png")
+filename = paste0("plots/01b_Resp_Exp2.png")
 
 #Plot
-p<-(ggplot(data= E1_plot_agg[E1_plot_agg$AdaptType != "Baseline",], aes(x = tML, y=Resp, color = SpSex, group=SpSex)) +
+p<-(ggplot(data= E2_plot_agg[E2_plot_agg$AdaptType != "Baseline",], aes(x = tML, y=Resp, color = SpID, group=SpID)) +
       geom_point() +
       geom_line() + 
       geom_errorbar(aes(ymin = (Resp-CI), ymax = (Resp+CI)), width = 0.1 ) + 
       labs(x = xTitleStr , y = yTitleStr, color = "Speaker Sex", title = title) +
-      facet_wrap(~ AdaptType, ncol = 2) +
+      facet_wrap(~ SpSex + AdaptType, ncol = 2) +
       geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
-      scale_colour_manual(values=c("darkred", "darkblue")) + 
+      scale_colour_manual(values=c("darkred", "darkblue", "darkred", "darkblue")) + 
       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
             axis.text=element_text(size=14),
             axis.title=element_text(size=14), 
@@ -95,7 +96,7 @@ p<-(ggplot(data= E1_plot_agg[E1_plot_agg$AdaptType != "Baseline",], aes(x = tML,
             strip.text.x = element_text(size = 14)) + 
       scale_y_continuous(limits=c(0,1.0), breaks = c( 0.0, 0.2, 0.4, 0.6, 0.8, 1.0)))
 #abspeichern
-ggsave(filename, width = 10, height = 4, dpi =300)
+ggsave(filename, width = 10, height = 8, dpi =300)
 
 #keep environment tidy
 remove(yTitleStr, xTitleStr, facetStr, title, filename, p)
@@ -105,20 +106,21 @@ remove(yTitleStr, xTitleStr, facetStr, title, filename, p)
 #[1c] Plot the interaction averaged across tML
 yTitleStr = "Proportion of angry responses"
 xTitleStr =  "AdaptType"
-title = paste0("Mean ", yTitleStr, " per ", xTitleStr, " (N = 40)")
-filename = paste0("plots/01c_Resp_Exp1.png")
+title = paste0("Mean ", yTitleStr, " per ", xTitleStr, " (N = 43)")
+filename = paste0("plots/01c_Resp_Exp2.png")
 
-E1_plot_agg2<- mySummary(E1_plot, Resp,SpSex, AdaptType)
+E2_plot_agg2<- mySummary(E2_plot, Resp,SpID, SpSex, AdaptType)
 
 
 #Plot
-p<-(ggplot(data= E1_plot_agg2[E1_plot_agg2$AdaptType != "Baseline",], aes(x = AdaptType, y=Resp, color = SpSex, group=SpSex)) +
+p<-(ggplot(data= E2_plot_agg2[E2_plot_agg2$AdaptType != "Baseline",], aes(x = AdaptType, y=Resp, color = SpID, group=SpID)) +
       geom_point() +
       geom_line() + 
       geom_errorbar(aes(ymin = (Resp-CI), ymax = (Resp+CI)), width = 0.1 ) + 
-      labs(x = xTitleStr , y = yTitleStr, color = "Speaker Sex", title = title) +
+      labs(x = xTitleStr , y = yTitleStr, color = "Speaker ID", title = title) +
       geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
-      scale_colour_manual(values=c("darkred", "darkblue")) + 
+      scale_colour_manual(values=c("darkred", "darkblue", "darkred", "darkblue")) + 
+      facet_wrap(~ SpSex, ncol = 2, drop = TRUE, scales="free") +
       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
             axis.text=element_text(size=14),
             axis.title=element_text(size=14), 
@@ -127,7 +129,7 @@ p<-(ggplot(data= E1_plot_agg2[E1_plot_agg2$AdaptType != "Baseline",], aes(x = Ad
             strip.text.x = element_text(size = 14)) + 
       scale_y_continuous(limits=c(0,1.0), breaks = c( 0.0, 0.2, 0.4, 0.6, 0.8, 1.0)))
 #abspeichern
-ggsave(filename, width = 8, height = 8, dpi =300)
+ggsave(filename, width = 12, height = 8, dpi =300)
 
 #keep environment tidy
 remove(yTitleStr, xTitleStr, title, filename, p)
@@ -137,20 +139,21 @@ remove(yTitleStr, xTitleStr, title, filename, p)
 #[1d] Plot the interaction averaged across tML, the other way around and with Baseline
 yTitleStr = "Proportion of angry responses"
 xTitleStr =  "SpSex"
-title = paste0("Mean ", yTitleStr, " per ", xTitleStr, " (N = 40)")
-filename = paste0("plots/01d_Resp_Exp1.png")
+title = paste0("Mean ", yTitleStr, " per ", xTitleStr, " (N = 43)")
+filename = paste0("plots/01d_Resp_Exp2.png")
 
-E1_plot_agg2<- mySummary(E1_plot, Resp,SpSex, AdaptType)
+E2_plot_agg2<- mySummary(E2_plot, Resp, SpID, SpSex, AdaptType)
 
 
 #Plot
-p<-(ggplot(data= E1_plot_agg2, aes(x = SpSex, y=Resp, color = AdaptType, group=AdaptType)) +
+p<-(ggplot(data= E2_plot_agg2, aes(x = SpID, y=Resp, color = AdaptType, group=AdaptType)) +
       geom_point() +
       geom_line() + 
       geom_errorbar(aes(ymin = (Resp-CI), ymax = (Resp+CI)), width = 0.1 ) + 
       labs(x = xTitleStr , y = yTitleStr, color = "Condition", title = title) +
       geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
-      scale_colour_manual(values=c("grey", "darkorange", "darkgreen")) +
+      scale_colour_manual(values=c("grey", "darkorange", "darkgreen", "darkorange", "darkgreen")) +
+      facet_grid( cols= vars(SpSex), drop = TRUE, scales="free") +
       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
             axis.text=element_text(size=14),
             axis.title=element_text(size=14), 
@@ -159,21 +162,21 @@ p<-(ggplot(data= E1_plot_agg2, aes(x = SpSex, y=Resp, color = AdaptType, group=A
             strip.text.x = element_text(size = 14)) + 
       scale_y_continuous(limits=c(0,1.0), breaks = c( 0.0, 0.2, 0.4, 0.6, 0.8, 1.0)))
 #abspeichern
-ggsave(filename, width = 8, height = 8, dpi =300)
+ggsave(filename, width = 12, height = 8, dpi =300)
 
 #keep environment tidy
 remove(yTitleStr, xTitleStr, title, filename, p)
 
 
 #remove all files to keep environment tidy
-rm(E1_Adapt, E1_Bline, E1_plot, E1_plot_agg, E1_plot_agg2)
+rm(E2_Adapt, E2_Bline, E2_plot, E2_plot_agg, E2_plot_agg2)
 
 #-------------------------------------------------------------------------------#
 #                                2 - Plot CG data                               #
 #-------------------------------------------------------------------------------# 
 
 #load the data of the CG estimates
-load(file="input/Exp1_CG_estimates.RData")
+load(file="input/Exp2_CG_estimates.RData")
 
 #we dont need badfit
 rm(badFit)
@@ -186,21 +189,22 @@ rm(badFit)
 yTitleStr = "Proportion of angry responses"
 xTitleStr = "Morphlevel"
 facetStr =  "splitted per SpSex and AdaptType"
-title = paste0("Mean ", yTitleStr, " per ", xTitleStr, facetStr, " (N = 35)")
+title = paste0("Mean ", yTitleStr, " per ", xTitleStr, facetStr, " (N = 28)")
 
-filename = paste0("plots/02a_CG_Exp1.png")
+filename = paste0("plots/02a_CG_Exp2.png")
 
 
 # Data sampling: 
 plot_data <- 
-  pmap_df(CGagg[,1:4],
-          function(AdaptType, SpSex, PSE, SD) {
+  pmap_df(CGagg[,1:5],
+          function(AdaptType, SpID, SpSex, PSE, SD) {
             tibble(AdaptType = AdaptType,
+                   SpID = SpID,
                    SpSex = SpSex,
                    x = seq(20, 80, by = 1),
                    y = pnorm(x, PSE, SD))
           })
-# Check: 6 *61 = 366
+# Check: 12 *61 = 732
 
 
 
@@ -209,8 +213,8 @@ p<-(ggplot(CG_agg_input, aes(x=tML, y=Resp, colour=AdaptType)) +
       geom_errorbar(aes(ymin=Resp-SE, ymax=Resp+SE), width=2) +
       geom_point(mapping = aes(colour = AdaptType) ) + 
       labs(x = xTitleStr , y = yTitleStr, color = "Condition", title = title) + 
-      scale_colour_manual(values=c("grey", "darkorange", "darkgreen")) +
-      facet_wrap(~SpSex)+
+      scale_colour_manual(values=c("grey", "darkorange", "darkgreen", "darkorange", "darkgreen")) +
+      facet_wrap(~SpID + SpSex)+
       geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
             axis.text=element_text(size=14),
@@ -220,7 +224,7 @@ p<-(ggplot(CG_agg_input, aes(x=tML, y=Resp, colour=AdaptType)) +
             strip.text.x = element_text(size = 14)) + 
       geom_line(data = plot_data, aes(colour = AdaptType, x = x, y = y)) +
       scale_y_continuous(limits=c(0,1.0), breaks = c( 0.0, 0.2, 0.4, 0.6, 0.8, 1.0)))
- ggsave(filename, width = 10, height = 4, dpi =300)	
+ ggsave(filename, width = 10, height =  8, dpi =300)	
 
 
 
@@ -235,19 +239,19 @@ remove(p, xTitleStr, yTitleStr, filename, title)
 yTitleStr = "Proportion of angry responses"
 xTitleStr = "Morphlevel"
 facetStr =  " splitted per SpSex and AdaptType"
-title = paste0("Mean ", yTitleStr, " per ", xTitleStr, facetStr, " (N = 35)")
+title = paste0("Mean ", yTitleStr, " per ", xTitleStr, facetStr, " (N = 28)")
 
-filename = paste0("plots/02b_CG_Exp1.png")
+filename = paste0("plots/02b_CG_Exp2.png")
 
 
 
 #plot
-p<-(ggplot(CG_agg_input[CG_agg_input$AdaptType != "Baseline",], aes(x=tML, y=Resp, colour=SpSex)) + 
+p<-(ggplot(CG_agg_input[CG_agg_input$AdaptType != "Baseline",], aes(x=tML, y=Resp, colour=SpID)) + 
       geom_errorbar(aes(ymin=Resp-SE, ymax=Resp+SE), width=2) +
-      geom_point(mapping = aes(colour = SpSex) ) + 
-      labs(x = xTitleStr , y = yTitleStr, color = "Speaker Sex", title = title) + 
-      scale_colour_manual(values=c("darkred", "darkblue")) + 
-      facet_wrap(~AdaptType)+
+      geom_point(mapping = aes(colour = SpID) ) + 
+      labs(x = xTitleStr , y = yTitleStr, color = "Speaker ID", title = title) + 
+      scale_colour_manual(values=c("darkred", "darkblue", "darkred", "darkblue")) + 
+      facet_wrap(~ SpSex + AdaptType)+
       geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
             axis.text=element_text(size=14),
@@ -255,82 +259,49 @@ p<-(ggplot(CG_agg_input[CG_agg_input$AdaptType != "Baseline",], aes(x=tML, y=Res
             axis.text.x = element_text(color = "black", size = 14), # angle = 45, hjust = 1.2, vjust =  1.2
             axis.text.y = element_text(color = "black", size = 14), 
             strip.text.x = element_text(size = 14)) + 
-      geom_line(data = plot_data[plot_data$AdaptType!="Baseline",], aes(colour = SpSex, x = x, y = y)) +
+      geom_line(data = plot_data[plot_data$AdaptType!="Baseline",], aes(colour = SpID, x = x, y = y)) +
       scale_y_continuous(limits=c(0,1.0), breaks = c( 0.0, 0.2, 0.4, 0.6, 0.8, 1.0)))
-ggsave(filename, width = 10, height = 4, dpi =300)	
+ggsave(filename, width = 10, height = 8, dpi =300)	
 
 
 
 remove(p, xTitleStr, yTitleStr, filename, title, plot_data)
 
 
-#[2c] Plots for each individual participant
-yTitleStr = "Proportion of angry responses"
-xTitleStr = "Morphlevel"
-facetStr =  " splitted per SpSex and AdaptType, individual participants"
-title = paste0("Mean ", yTitleStr, " per ", xTitleStr, facetStr, " (N = 35)")
-
-filename = paste0("plots/02c_CG_Exp1.png")
-
-#generate the data to plot
-plot_data <- 
-  pmap_df(CGdata[,1:5],
-          function(AdaptType,SpSex, Participant, PSE, SD) {
-            tibble(AdaptType = AdaptType,
-                   SpSex = SpSex,
-                   Participant = Participant,
-                   x = seq(20, 80, by = 1),
-                   y = pnorm(x, PSE, SD))
-          })
-
-#check: 6 * 35 * 61 = 12810
-
-
-#plot
-p<-(ggplot(CG_input[CG_input$AdaptType != "Baseline",], aes(x=tML, y=Resp, colour=SpSex)) + 
-      geom_errorbar(aes(ymin=Resp-SE, ymax=Resp+SE), width=2) +
-      geom_point(mapping = aes(colour = SpSex) ) + 
-      labs(x = xTitleStr , y = yTitleStr, color = "Speaker Sex", title = title) + 
-      scale_colour_manual(values=c("darkred", "darkblue")) + 
-      facet_wrap(~Participant + AdaptType, ncol = 10)+
-      geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
-      theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
-            axis.text=element_text(size=14),
-            axis.title=element_text(size=14), 
-            axis.text.x = element_text(color = "black", size = 14), # angle = 45, hjust = 1.2, vjust =  1.2
-            axis.text.y = element_text(color = "black", size = 14), 
-            strip.text.x = element_text(size = 14)) + 
-      geom_line(data = plot_data[plot_data$AdaptType!="Baseline",], aes(colour = SpSex, x = x, y = y)) +
-      scale_y_continuous(limits=c(0,1.0), breaks = c( 0.0, 0.2, 0.4, 0.6, 0.8, 1.0)))
-ggsave(filename, width = 16, height = 12, dpi =300)	
-
-
-remove(p, xTitleStr, yTitleStr, filename, title, plot_data, facetStr)
-
-#remove all files to keep environment tidy
-rm(CG_agg_input, CG_input, CGagg, CGdata)
-
-
 #-------------------------------------------------------------------------------#
 #                  3 - Plot data of logistic regression                         #
 #-------------------------------------------------------------------------------#
 
-#load the models
-load(file= "input/E1_GLMs.RData")
-
 #load the adaptation data
-load(file ="input/Exp1_without_omissions.RData")
+load(file ="input/Exp2_without_omissions.RData")
 
-#remove what is not needed
-rm(m_test, E1_Bline) # we plot everything without the Baseline
+rm(E2_Bline)
 
+#split dataset into male and femake
+E2_Adapt_f <- E2_Adapt %>% filter(SpSex == "f")
+E2_Adapt_m <- E2_Adapt %>% filter(SpSex == "m")
+
+#load the model for female speakers only
+load(file= "input/E2_GLMs_female.RData")
 # extract fitted values
-E1_Adapt$fitted <- fitted(m)
+E2_Adapt_f$fitted <- fitted(m)
+#remove the model data
+rm(m_test, m) 
 
+#load the model for male speakers only
+load(file= "input/E2_GLMs_male.RData")
+# extract fitted values
+E2_Adapt_m$fitted <- fitted(m)
+#remove the model data
+rm(m_test, m)
 
-#average data (for both Adapt and Baseline Blocks)
-E1_Adapt_plot <- mySummary(E1_Adapt, fitted, Participant, tML, SpSex, AdaptType)
-E1_Adapt_plot_agg <- mySummary(E1_Adapt_plot, fitted, tML, SpSex, AdaptType)
+#glue them back together
+E2_Adapt <- rbind(E2_Adapt_f, E2_Adapt_m)
+rm(E2_Adapt_f, E2_Adapt_m)
+
+#average data
+E2_Adapt_plot <- mySummary(E2_Adapt, fitted, Participant, tML, SpID, SpSex, AdaptType)
+E2_Adapt_plot_agg <- mySummary(E2_Adapt_plot, fitted, tML, SpID, SpSex, AdaptType)
 
 
 #[3a] Response per tML, SpSex and AdaptType - without Baseline
@@ -338,19 +309,19 @@ yTitleStr = "Proportion of angry responses"
 xTitleStr = "Morphlevel"
 facetStr =  "splitted per SpSex and AdaptType"
 
-title = paste0("Mean ", yTitleStr, " per ", xTitleStr, facetStr, " (N = 40)")
+title = paste0("Mean ", yTitleStr, " per ", xTitleStr, facetStr, " (N = 43)")
 
-filename = paste0("plots/03a_Resp_Exp1.png")
+filename = paste0("plots/03a_Resp_Exp2.png")
 
 #Plot
-p<-(ggplot(data= E1_Adapt_plot_agg, aes(x = tML, y=fitted, color = AdaptType, group=AdaptType)) +
+p<-(ggplot(data= E2_Adapt_plot_agg, aes(x = tML, y=fitted, color = AdaptType, group=AdaptType)) +
       geom_point() +
       geom_line() + 
       geom_errorbar(aes(ymin = (fitted-CI), ymax = (fitted+CI)), width = 0.1 ) + 
       labs(x = xTitleStr , y = yTitleStr, color = "Condition", title = title) +
-      facet_wrap(~ SpSex, ncol = 2) +
+      facet_wrap(~ SpID + SpSex, ncol = 2) +
       geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
-      scale_colour_manual(values=c("darkorange", "darkgreen")) + 
+      scale_colour_manual(values=c("darkorange", "darkgreen", "darkorange", "darkgreen")) + 
       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
             axis.text=element_text(size=14),
             axis.title=element_text(size=14), 
@@ -359,7 +330,7 @@ p<-(ggplot(data= E1_Adapt_plot_agg, aes(x = tML, y=fitted, color = AdaptType, gr
             strip.text.x = element_text(size = 14)) + 
       scale_y_continuous(limits=c(0,1.0), breaks = c( 0.0, 0.2, 0.4, 0.6, 0.8, 1.0)))
 #abspeichern
-ggsave(filename, width = 10, height = 4, dpi =300)
+ggsave(filename, width = 10, height = 8, dpi =300)
 
 #keep environment tidy
 remove(yTitleStr, xTitleStr, facetStr, title, filename, p)
@@ -370,19 +341,19 @@ yTitleStr = "Proportion of angry responses"
 xTitleStr = "Morphlevel"
 facetStr =  "splitted per SpSex and AdaptType"
 
-title = paste0("Mean ", yTitleStr, " per ", xTitleStr, facetStr, " (N = 40)")
+title = paste0("Mean ", yTitleStr, " per ", xTitleStr, facetStr, " (N = 43)")
 
-filename = paste0("plots/03b_Resp_Exp1.png")
+filename = paste0("plots/03b_Resp_Exp2.png")
 
 #Plot
-p<-(ggplot(data= E1_Adapt_plot_agg, aes(x = tML, y=fitted, color = SpSex, group=SpSex)) +
+p<-(ggplot(data= E2_Adapt_plot_agg, aes(x = tML, y=fitted, color = SpID, group=SpID)) +
       geom_point() +
       geom_line() + 
       geom_errorbar(aes(ymin = (fitted-CI), ymax = (fitted+CI)), width = 0.1 ) + 
-      labs(x = xTitleStr , y = yTitleStr, color = "Speaker Sex", title = title) +
-      facet_wrap(~ AdaptType, ncol = 2) +
+      labs(x = xTitleStr , y = yTitleStr, color = "Speaker ID", title = title) +
+      facet_wrap(~ SpSex + AdaptType, ncol = 2) +
       geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
-      scale_colour_manual(values=c("darkred", "darkblue")) + 
+      scale_colour_manual(values=c("darkred", "darkblue", "darkred", "darkblue")) + 
       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
             axis.text=element_text(size=14),
             axis.title=element_text(size=14), 
@@ -391,7 +362,7 @@ p<-(ggplot(data= E1_Adapt_plot_agg, aes(x = tML, y=fitted, color = SpSex, group=
             strip.text.x = element_text(size = 14)) + 
       scale_y_continuous(limits=c(0,1.0), breaks = c( 0.0, 0.2, 0.4, 0.6, 0.8, 1.0)))
 #abspeichern
-ggsave(filename, width = 10, height = 4, dpi =300)
+ggsave(filename, width = 10, height = 8, dpi =300)
 
 #keep environment tidy
 remove(yTitleStr, xTitleStr, facetStr, title, filename, p)
@@ -402,23 +373,23 @@ yTitleStr = "Proportion of angry responses"
 xTitleStr = "Morphlevel"
 facetStr =  "splitted per SpSex and AdaptType"
 
-title = paste0("Mean ", yTitleStr, " per ", xTitleStr, facetStr, " (N = 40)")
+title = paste0("Mean ", yTitleStr, " per ", xTitleStr, facetStr, " (N = 43)")
 
-filename = paste0("plots/03c_Resp_Exp1.png")
+filename = paste0("plots/03c_Resp_Exp2.png")
 
 #for the original response info: 
-E1_Adapt_plot_resp <- mySummary(E1_Adapt, Resp, Participant, tML, SpSex, AdaptType)
+E2_Adapt_plot_resp <- mySummary(E2_Adapt, Resp, Participant, tML, SpID, SpSex, AdaptType)
 
 #Plot
-p<-(ggplot(data= E1_Adapt_plot, aes(x = tML, y=fitted, color = SpSex, group=SpSex)) +
+p<-(ggplot(data= E2_Adapt_plot, aes(x = tML, y=fitted, color = SpID, group=SpID)) +
       geom_point() +
       geom_line() + 
       geom_errorbar(aes(ymin = (fitted-CI), ymax = (fitted+CI)), width = 0.1 ) + 
-      geom_point(data= E1_Adapt_plot_resp, aes(x = tML, y=Resp, group=SpSex), color = "grey") +
-      labs(x = xTitleStr , y = yTitleStr, color = "Speaker Sex", title = title) +
-      facet_wrap(~Participant + AdaptType, ncol = 10)+
+      geom_point(data= E2_Adapt_plot_resp, aes(x = tML, y=Resp, group=SpSex), color = "grey") +
+      labs(x = xTitleStr , y = yTitleStr, color = "Speaker ID", title = title) +
+      facet_wrap(~Participant + AdaptType + SpSex, ncol = 16)+
       geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
-      scale_colour_manual(values=c("darkred", "darkblue")) + 
+      scale_colour_manual(values=c("darkred", "darkblue", "darkred", "darkblue")) + 
       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
             axis.text=element_text(size=14),
             axis.title=element_text(size=14), 
@@ -427,7 +398,7 @@ p<-(ggplot(data= E1_Adapt_plot, aes(x = tML, y=fitted, color = SpSex, group=SpSe
             strip.text.x = element_text(size = 14)) + 
       scale_y_continuous(limits=c(0,1.0), breaks = c( 0.0, 0.2, 0.4, 0.6, 0.8, 1.0)))
 #abspeichern
-ggsave(filename, width = 16, height = 12, dpi =300)
+ggsave(filename, width = 20, height = 20, dpi =300)
 
 #keep environment tidy
 remove(yTitleStr, xTitleStr, facetStr, title, filename, p)

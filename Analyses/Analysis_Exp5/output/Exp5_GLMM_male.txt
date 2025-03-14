@@ -1,0 +1,55 @@
+Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+ Family: binomial  ( logit )
+Formula: Resp ~ tML_sc * SpID * AdaptType + (1 | Participant)
+   Data: E5_Adapt_m
+Control: glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e+05))
+
+     AIC      BIC   logLik deviance df.resid 
+  4649.7   4708.0  -2315.9   4631.7     4787 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-6.2275 -0.5100  0.3162  0.5583  7.1860 
+
+Random effects:
+ Groups      Name        Variance Std.Dev.
+ Participant (Intercept) 0.4694   0.6851  
+Number of obs: 4796, groups:  Participant, 43
+
+Fixed effects:
+                                     Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                           1.45756    0.13050  11.169  < 2e-16 ***
+tML_sc                                0.59103    0.07731   7.645 2.09e-14 ***
+SpIDm4                               -1.61087    0.10699 -15.056  < 2e-16 ***
+AdaptTypem3_fea/m4_ang               -0.30429    0.10444  -2.914 0.003573 ** 
+tML_sc:SpIDm4                         0.93346    0.11526   8.099 5.56e-16 ***
+tML_sc:AdaptTypem3_fea/m4_ang        -0.07207    0.10504  -0.686 0.492616    
+SpIDm4:AdaptTypem3_fea/m4_ang        -0.51354    0.15457  -3.322 0.000892 ***
+tML_sc:SpIDm4:AdaptTypem3_fea/m4_ang  0.45978    0.17033   2.699 0.006948 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) tML_sc SpIDm4 AT3_/4 tML_s:SID4 tML_:A SID4:A
+tML_sc       0.169                                              
+SpIDm4      -0.439 -0.208                                       
+AdptTy3_/4_ -0.436 -0.205  0.532                                
+tML_sc:SID4 -0.100 -0.663  0.087  0.135                         
+tML_:AT3_/4 -0.120 -0.733  0.146  0.243  0.492                  
+SID4:AT3_/4  0.289  0.136 -0.673 -0.675 -0.072     -0.164       
+tML_:SID4:A  0.076  0.453 -0.070 -0.150 -0.670     -0.617 -0.061
+Mixed Model Anova Table (Type 3 tests, LRT-method)
+
+Model: Resp ~ tML_sc * SpID * AdaptType + (1 | Participant)
+Data: E5_Adapt_m
+Df full model: 9
+                 Effect df      Chisq p.value
+1                tML_sc  1 877.48 ***   <.001
+2                  SpID  1 642.83 ***   <.001
+3             AdaptType  1  53.87 ***   <.001
+4           tML_sc:SpID  1 197.35 ***   <.001
+5      tML_sc:AdaptType  1     3.45 +    .063
+6        SpID:AdaptType  1  11.10 ***   <.001
+7 tML_sc:SpID:AdaptType  1    7.35 **    .007
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘+’ 0.1 ‘ ’ 1
