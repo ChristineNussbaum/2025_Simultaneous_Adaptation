@@ -112,6 +112,17 @@ capture.output(b, file= "output/Exp3_Resp_ANOVAII.txt")
 ezPlot(data=E3_Resp, dv=.(Resp), wid=.(Participant), within = .(AdaptType, Word), split=Word, x=AdaptType)
 
 
+#prepare for JASP
+JASP <- E3_Resp
+
+JASP$PW_Group <- ifelse(JASP$Word == "w01" | JASP$Word == "w02", "pw12", "pw34")
+JASP$PW_Group <- ifelse(JASP$Word == "w01" | JASP$Word == "w02", "pw12", "pw34")
+
+JASP <- mySummary(JASP, Resp, Participant, AdaptType, PW_Group)
+
+JASP <- pivot_wider(JASP[,1:4], names_from = c(AdaptType, PW_Group), values_from = Resp)
+
+write.csv(JASP, file = "JASP/pw_analysis.csv")
 
 #-------------------------------------------------------------------------------#
 #                        Analysis 3: logistic regression                        #
@@ -137,7 +148,7 @@ m <- glmer(Resp ~ tML_sc * Word * AdaptType * SpSex + (1 | SpID)   + (1 | Partic
 m_test<- mixed(m, data = E3_Adapt, method = "LRT", family = "binomial") # takes a few minutes
 m_test
 
-Mixed Model Anova Table (Type 3 tests, LRT-method)
+#Mixed Model Anova Table (Type 3 tests, LRT-method)
 
 # Model: Resp ~ tML_sc * Word * AdaptType * SpSex + (1 | SpID) + (1 | 
 #                                                                   Model:     Participant)
