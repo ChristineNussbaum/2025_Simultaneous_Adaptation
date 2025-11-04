@@ -2,7 +2,7 @@
 ## File: 01_Exp1_sample_information.R
 ## This script gives me an overview of the sample in Exp1
 # author: Christine Nussbaum
-# date 03/2025
+# date 11/2025
 
 
 # clear directory

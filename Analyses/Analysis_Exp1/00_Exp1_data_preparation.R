@@ -2,7 +2,7 @@
 ## File: 00_Exp1_data_preparation.R
 ## Data Preparatation for Exp 1: Adaptation of Emotion - male/female voices 
 # author: Christine Nussbaum/Dorothea Berges
-# date 05/2024
+# date 11/2025
 
 # clear directory
 rm(list=ls())
@@ -24,7 +24,7 @@ source("functions/mySummary.R")
 D <- loadPTKExperimentData(relDirPath = "input/raw/")
 
 #number of participants
-print(paste("There are currently", length(unique(D$Subject)), "participants loaded."))
+print(paste("There are currently", length(unique(D$Participant)), "participants loaded."))
 
 #reorder columns - Subject Variablen zuerst
 D <- D[,c(18,17,16, 1:15)]
@@ -71,7 +71,7 @@ E1_Adapt$AdaptType <- ifelse(E1_Adapt$AdaptType == "w_angry/m_fearful", "f_ang/m
 
 #[1] N different stimuli per participant 
 table(E1_Bline$Participant) #should be 112 per participant
-table(E1_Adapt$Subject) #should be 224 per participant
+table(E1_Adapt$Participant) #should be 224 per participant
 
 #[2]Is every stimulus picked exactly once? - Baseline
 
@@ -94,12 +94,7 @@ Check_Adapt <- E1_Adapt %>% group_by(Participant) %>% summarise(var = var(Resp))
 
 rm(Check_Bline, Check_Adapt)
 
-#---------------------------------------------------------------------------------
-#Save datasets
-save(E1_Bline, E1_Adapt, file ="input/Exp1_raw_data.RData")
 
-
-rm()
 ##################################################################################
 ##################################################################################
 ##################################################################################
@@ -149,6 +144,24 @@ S1 <- S1 %>% select(!c(intro_question1_1,
          Eval6 = afterExp3RatingEvaluation_6,
          Eval7 = afterExp3RatingEvaluation_7,
          Eval8 = afterExp3RatingEvaluation_8)
+
+
+
+
+#---------------------------------------------------------------------------------
+# Remove the participant with >5% missings in either of the blocks
+# participant: bb74c208
+
+E1_Adapt <- E1_Adapt %>% filter(Participant != "bb74c208")
+E1_Bline <- E1_Bline %>% filter(Participant != "bb74c208")
+S1 <- S1 %>% filter(participant != "bb74c208")
+
+
+#---------------------------------------------------------------------------------
+#Save datasets
+save(E1_Bline, E1_Adapt, file ="input/Exp1_raw_data.RData")
+
+
 
 
 #save survey
