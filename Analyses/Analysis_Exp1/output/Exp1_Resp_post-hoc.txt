@@ -1,29 +1,80 @@
      SpSex AdaptType     Resp        SD          N    SE           CI          
-[1,] "f"   "f_ang/m_fea" "0.3886364" "0.1009720" "40" "0.01596507" "0.03229241"
-[2,] "f"   "f_fea/m_ang" "0.4697875" "0.1075820" "40" "0.01701021" "0.03440639"
-[3,] "m"   "f_ang/m_fea" "0.4852975" "0.1088386" "40" "0.01720889" "0.03480826"
-[4,] "m"   "f_fea/m_ang" "0.4122406" "0.1157397" "40" "0.01830006" "0.03701536"
+[1,] "f"   "f_ang/m_fea" "0.3894439" "0.1021610" "39" "0.01635885" "0.03311676"
+[2,] "f"   "f_fea/m_ang" "0.4749652" "0.1038166" "39" "0.01662397" "0.03365346"
+[3,] "m"   "f_ang/m_fea" "0.4867521" "0.1098668" "39" "0.01759277" "0.03561470"
+[4,] "m"   "f_fea/m_ang" "0.4136533" "0.1169028" "39" "0.01871943" "0.03789550"
+     SpSex Baseline    SD          N    SE           CI          
+[1,] "f"   "0.4032267" "0.1050368" "39" "0.01681935" "0.03404900"
+[2,] "m"   "0.4525426" "0.1116533" "39" "0.01787884" "0.03619382"
 
 	Paired t-test
 
-data:  PH2f$`f_fea/m_ang` and PH2f$`f_ang/m_fea`
-t = 6.1108, df = 39, p-value = 3.634e-07
+data:  PH1f$`f_fea/m_ang` and PH1f$`f_ang/m_fea`
+t = 6.647, df = 38, p-value = 7.415e-08
 alternative hypothesis: true mean difference is not equal to 0
 95 percent confidence interval:
- 0.05428967 0.10801252
+ 0.05947509 0.11156745
 sample estimates:
 mean difference 
-     0.08115109 
+     0.08552127 
 
 
 	Paired t-test
 
-data:  PH2m$`f_fea/m_ang` and PH2m$`f_ang/m_fea`
-t = -5.0404, df = 39, p-value = 1.102e-05
+data:  PH1m$`f_fea/m_ang` and PH1m$`f_ang/m_fea`
+t = -4.9156, df = 38, p-value = 1.728e-05
 alternative hypothesis: true mean difference is not equal to 0
 95 percent confidence interval:
- -0.10237456 -0.04373941
+ -0.10320314 -0.04299434
 sample estimates:
 mean difference 
-    -0.07305698 
+    -0.07309874 
+
+
+	Paired t-test
+
+data:  PH1f$Baseline and PH1f$`f_ang/m_fea`
+t = 1.0767, df = 38, p-value = 0.2884
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ -0.01213047  0.03969612
+sample estimates:
+mean difference 
+     0.01378282 
+
+
+	Paired t-test
+
+data:  PH1f$Baseline and PH1f$`f_fea/m_ang`
+t = -5.7674, df = 38, p-value = 1.187e-06
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ -0.09691902 -0.04655788
+sample estimates:
+mean difference 
+    -0.07173845 
+
+
+	Paired t-test
+
+data:  PH1m$Baseline and PH1m$`f_ang/m_fea`
+t = -2.5457, df = 38, p-value = 0.01508
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ -0.061413294 -0.007005662
+sample estimates:
+mean difference 
+    -0.03420948 
+
+
+	Paired t-test
+
+data:  PH1m$Baseline and PH1m$`f_fea/m_ang`
+t = 2.6202, df = 38, p-value = 0.01256
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ 0.008842663 0.068935859
+sample estimates:
+mean difference 
+     0.03888926 
 

@@ -102,6 +102,7 @@ E1_Bline <- E1_Bline %>% filter(RT != 3000) # 43 removed
 
 rm(missings_Bline, missings_Adapt)
 
+mean(missings_Bline$prop)
 #save datasets again
 save(E1_Bline, E1_Adapt, file ="input/Exp1_without_omissions.RData")
 

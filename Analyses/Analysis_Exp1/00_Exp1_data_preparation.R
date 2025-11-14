@@ -167,5 +167,4 @@ save(E1_Bline, E1_Adapt, file ="input/Exp1_raw_data.RData")
 #save survey
 save(S1, file="input/Exp1_survey.RData")
 
-
 ##End of Script
