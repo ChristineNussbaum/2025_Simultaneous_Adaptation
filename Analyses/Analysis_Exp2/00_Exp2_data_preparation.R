@@ -2,7 +2,7 @@
 ## File: 00_Exp2_data_preparation.R
 ## Data Preparatation for Exp 2: Adaptation of Emotion - speaker identities
 # author: Christine Nussbaum
-# date 03/2025
+# date 03/2025, updated 11/2025
 
 # clear directory
 rm(list=ls())
@@ -101,8 +101,8 @@ table(table(E2_Adapt$Stimulus, E2_Adapt$Participant)) #should give out only "2"s
 #Check if some participants only pressed one key during a whole block
 # if so -> remove
 
-Check_Bline <- E2_Bline %>% group_by(Participant) %>% summarise(var = var(Resp)) # no one
-Check_Adapt <- E2_Adapt %>% group_by(Participant) %>% summarise(var = var(Resp)) # no one
+Check_Bline <- E2_Bline %>% group_by(Participant) %>% summarise(var = var(Resp)) # d1685a2f
+Check_Adapt <- E2_Adapt %>% group_by(Participant) %>% summarise(var = var(Resp)) # d1685a2f
 
 #"dd1685a2f" pressed only one key, so will be removed
 E2_Adapt <- E2_Adapt %>% filter(Participant != "d1685a2f")
@@ -111,6 +111,11 @@ E2_Bline <- E2_Bline %>% filter(Participant != "d1685a2f")
 #"114de282" had 40 missings in the baseline and will be removed
 E2_Adapt <- E2_Adapt %>% filter(Participant != "114de282")
 E2_Bline <- E2_Bline %>% filter(Participant != "114de282")
+
+#"c742580d" had problems with the sound playback and will be removed
+E2_Adapt <- E2_Adapt %>% filter(Participant != "c742580d")
+E2_Bline <- E2_Bline %>% filter(Participant != "c742580d")
+
 
 #43 participants left
 
@@ -136,7 +141,7 @@ S2 <- read.csv(file ="input/data_Exp2.csv")
 S2$participant <- substr(S2$participant, 31,38)
 
 #keep only the ones with an experimental file
-S2 <- S2 %>% filter(participant %in% unique(E2_Adapt$Participant)) # check: N = 44
+S2 <- S2 %>% filter(participant %in% unique(E2_Adapt$Participant)) # check: N = 42
 
 S2$VPN_Code <- paste0(S2$LPartCode_1, S2$LPartCode_2, S2$LPartCode_3, S2$LPartCode_4, S2$LPartCode_5, S2$LPartCode_6)
 

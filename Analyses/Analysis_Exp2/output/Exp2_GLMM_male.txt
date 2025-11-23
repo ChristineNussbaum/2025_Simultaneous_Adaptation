@@ -1,55 +1,55 @@
-Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) [glmerMod]
+Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
  Family: binomial  ( logit )
 Formula: Resp ~ tML_sc * SpID * AdaptType + (1 | Participant)
    Data: E2_Adapt_m
 Control: glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e+05))
 
-     AIC      BIC   logLik deviance df.resid 
-  3932.7   3991.0  -1957.4   3914.7     4784 
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   3855.1    3913.2   -1918.5    3837.1      4695 
 
 Scaled residuals: 
     Min      1Q  Median      3Q     Max 
--8.6315 -0.4417 -0.1870  0.3995  8.5251 
+-8.4188 -0.4445 -0.1857  0.3952  8.7715 
 
 Random effects:
  Groups      Name        Variance Std.Dev.
- Participant (Intercept) 0.6218   0.7885  
-Number of obs: 4793, groups:  Participant, 43
+ Participant (Intercept) 0.6335   0.7959  
+Number of obs: 4704, groups:  Participant, 42
 
 Fixed effects:
-                                       Estimate Std. Error z value Pr(>|z|)    
-(Intercept)                            -1.36532    0.15003  -9.100  < 2e-16 ***
-tML_sc                                  1.50382    0.09574  15.707  < 2e-16 ***
-SpIDnm04                                1.85302    0.12668  14.627  < 2e-16 ***
-AdaptTypem3_fea/m4_ang                 -0.44887    0.13309  -3.373 0.000744 ***
-tML_sc:SpIDnm04                         0.92990    0.15556   5.978 2.26e-09 ***
-tML_sc:AdaptTypem3_fea/m4_ang          -0.09816    0.13822  -0.710 0.477575    
-SpIDnm04:AdaptTypem3_fea/m4_ang        -0.12709    0.17916  -0.709 0.478091    
-tML_sc:SpIDnm04:AdaptTypem3_fea/m4_ang -0.25745    0.21264  -1.211 0.226012    
+                                     Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                          -1.37954    0.15272  -9.033  < 2e-16 ***
+tML_sc                                1.49458    0.09657  15.477  < 2e-16 ***
+SpIDm4                                1.86560    0.12761  14.620  < 2e-16 ***
+AdaptTypem3_fea/m4_ang               -0.46880    0.13548  -3.460  0.00054 ***
+tML_sc:SpIDm4                         0.89303    0.15518   5.755 8.67e-09 ***
+tML_sc:AdaptTypem3_fea/m4_ang        -0.07894    0.14018  -0.563  0.57335    
+SpIDm4:AdaptTypem3_fea/m4_ang        -0.14815    0.18148  -0.816  0.41430    
+tML_sc:SpIDm4:AdaptTypem3_fea/m4_ang -0.20594    0.21435  -0.961  0.33669    
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Correlation of Fixed Effects:
-            (Intr) tML_sc SpID04 AT3_/4 tML_s:SID04 tML_:A SID04:
-tML_sc      -0.299                                               
-SpIDnm04    -0.427  0.360                                        
-AdptTy3_/4_ -0.389  0.317  0.460                                 
-tML_s:SID04  0.167 -0.592 -0.063 -0.200                          
-tML_:AT3_/4  0.199 -0.679 -0.237 -0.538  0.415                   
-SID04:AT3_/  0.293 -0.241 -0.693 -0.742  0.052       0.401       
-tML_:SID04: -0.127  0.439  0.054  0.350 -0.725      -0.650 -0.198
+            (Intr) tML_sc SpIDm4 AT3_/4 tML_s:SID4 tML_:A SID4:A
+tML_sc      -0.298                                              
+SpIDm4      -0.427  0.362                                       
+AdptTy3_/4_ -0.384  0.315  0.459                                
+tML_sc:SID4  0.168 -0.599 -0.068 -0.201                         
+tML_:AT3_/4  0.197 -0.675 -0.237 -0.544  0.417                  
+SID4:AT3_/4  0.291 -0.241 -0.689 -0.746  0.055      0.407       
+tML_:SID4:A -0.127  0.439  0.057  0.356 -0.718     -0.654 -0.211
 Mixed Model Anova Table (Type 3 tests, LRT-method)
 
 Model: Resp ~ tML_sc * SpID * AdaptType + (1 | Participant)
 Data: E2_Adapt_m
 Df full model: 9
                  Effect df       Chisq p.value
-1                tML_sc  1 1896.62 ***   <.001
-2                  SpID  1  443.83 ***   <.001
-3             AdaptType  1   33.12 ***   <.001
-4           tML_sc:SpID  1   57.20 ***   <.001
-5      tML_sc:AdaptType  1      4.56 *    .033
-6        SpID:AdaptType  1        0.50    .479
-7 tML_sc:SpID:AdaptType  1        1.47    .225
+1                tML_sc  1 1846.07 ***   <.001
+2                  SpID  1  433.77 ***   <.001
+3             AdaptType  1   36.31 ***   <.001
+4           tML_sc:SpID  1   54.60 ***   <.001
+5      tML_sc:AdaptType  1      2.88 +    .090
+6        SpID:AdaptType  1        0.66    .415
+7 tML_sc:SpID:AdaptType  1        0.93    .336
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘+’ 0.1 ‘ ’ 1

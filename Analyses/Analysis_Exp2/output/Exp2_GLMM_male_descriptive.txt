@@ -1,7 +1,7 @@
 # A tibble: 4 × 7
   SpID  AdaptType     fitted     SD     N     SE     CI
   <chr> <chr>          <dbl>  <dbl> <int>  <dbl>  <dbl>
-1 nm03  m3_ang/m4_fea  0.293 0.0986    43 0.0150 0.0303
-2 nm03  m3_fea/m4_ang  0.225 0.0886    43 0.0135 0.0273
-3 nm04  m3_ang/m4_fea  0.556 0.0850    43 0.0130 0.0262
-4 nm04  m3_fea/m4_ang  0.489 0.0953    43 0.0145 0.0293
+1 m3    m3_ang/m4_fea  0.290 0.1000    42 0.0154 0.0312
+2 m3    m3_fea/m4_ang  0.222 0.0891    42 0.0138 0.0278
+3 m4    m3_ang/m4_fea  0.557 0.0872    42 0.0134 0.0272
+4 m4    m3_fea/m4_ang  0.484 0.0956    42 0.0148 0.0298

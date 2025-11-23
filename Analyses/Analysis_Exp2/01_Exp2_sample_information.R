@@ -2,7 +2,7 @@
 ## File: 02_Exp1_sample_information.R
 ## This script gives me an overview of the sample in Exp2
 # author: Christine Nussbaum
-# date 03/2025
+# date 03/2025, updated 11/2025
 
 
 # clear directory
@@ -24,6 +24,8 @@ source("functions/mySummary.R")
 #S data
 load(file="input/Exp2_Survey.RData")
 
+#number of participants
+print(paste("There are currently", length(unique(E2_Adapt$Participant)), "participants loaded."))
 
 ## Meaning of Variables
 
@@ -95,8 +97,8 @@ missings_Bline <- E2_Bline %>%  group_by(Participant) %>% filter(RT == 3000) %>%
 capture.output(as.matrix(missings_Adapt), as.matrix(missings_Bline), file = "output/Exp2_omissions_summary.txt")
 
 #remove omissions from the data
-E2_Adapt <- E2_Adapt %>% filter(RT != 3000) # 33 removed
-E2_Bline <- E2_Bline %>% filter(RT != 3000) # 43 removed
+E2_Adapt <- E2_Adapt %>% filter(RT != 3000) # 20 removed
+E2_Bline <- E2_Bline %>% filter(RT != 3000) # 20 removed
 
 rm(missings_Bline, missings_Adapt)
 

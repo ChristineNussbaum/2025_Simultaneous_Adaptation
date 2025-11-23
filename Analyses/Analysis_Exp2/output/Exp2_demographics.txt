@@ -1,14 +1,14 @@
          LAge       SD  N        SE        CI
-[1,] 21.97674 2.939779 43 0.4483122 0.9047306
+[1,] 22.04762 2.937997 42 0.4533427 0.9155442
      range(LAge)
 [1,]          18
 [2,]          31
 
  1  2  3 
-35  6  2 
+34  6  2 
 
  1 
-43 
+42 
 
                    2. FS/ Psychologie B.sc.                         B. Sc Informatik, 8 
                                           1                                           1 
@@ -21,7 +21,7 @@ HF Erziehungswissenschaften, NF Psychologie                              HF Psyc
                           HF Psychologie, 4  Kommunikationswissenschaft, Psychologie, 2 
                                           1                                           1 
                                 Psychologie                        Psychologie (HF, 10) 
-                                          3                                           1 
+                                          2                                           1 
                         Psychologie (HF, 2)           Psychologie (HF, 2. Fachsemester) 
                                           1                                           2 
                          Psychologie (HF,4)                 Psychologie 6 Fachsemester  
@@ -52,12 +52,12 @@ HF Erziehungswissenschaften, NF Psychologie                              HF Psyc
                                           1 
 
  1  3 
-42  1 
+41  1 
 
                   leichten Tinnitus 
-               42                 1 
+               41                 1 
 
 1 
 1 
         Tmean min max
-[1,] 32.71429   0 132
+[1,] 32.78049   0 132
