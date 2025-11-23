@@ -14,6 +14,9 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 # load required packages
 library("tidyverse")
 library(ggsignif)
+library(gridExtra) # version 2.3
+library(ggpubr)    # version 0.6.0
+library(cowplot)   # version 1.1.1
 
 # load relevant functions
 source("functions/mySummary.R") 
@@ -40,19 +43,19 @@ E1_plot_agg<- mySummary(E1_plot, Resp, tML,  SpSex, AdaptType)
 
 #[1a] Response per tML, SpSex and AdaptType
 yTitleStr = "Proportion of angry responses"
-xTitleStr = "Morphlevel"
-facetStr =  "splitted per SpSex and AdaptType"
+xTitleStr = "Target Morphlevel (tML)"
+facetStr =  " splitted per SpSex and AdaptType"
 
-title = paste0("Mean ", yTitleStr, " per ", xTitleStr, facetStr, " (N = 40)")
+title = paste0("Mean ", yTitleStr, " per ", xTitleStr, facetStr)
 
 filename = paste0("plots/01a_Resp_Exp1.png")
 
 #Plot
-p<-(ggplot(data= E1_plot_agg, aes(x = tML, y=Resp, color = AdaptType, group=AdaptType)) +
+p1<-(ggplot(data= E1_plot_agg, aes(x = tML, y=Resp, color = AdaptType, group=AdaptType)) +
       geom_point() +
       geom_line() + 
       geom_errorbar(aes(ymin = (Resp-CI), ymax = (Resp+CI)), width = 0.1 ) + 
-      labs(x = xTitleStr , y = yTitleStr, color = "Condition", title = title) +
+      labs(x = xTitleStr , y = yTitleStr) + #, title = title
       facet_wrap(~ SpSex, ncol = 2) +
       geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
       scale_colour_manual(values=c("grey", "darkorange", "darkgreen")) + 
@@ -61,13 +64,14 @@ p<-(ggplot(data= E1_plot_agg, aes(x = tML, y=Resp, color = AdaptType, group=Adap
             axis.title=element_text(size=14), 
             axis.text.x = element_text(color = "black", size = 14), # angle = 45, hjust = 1.2, vjust =  1.2
             axis.text.y = element_text(color = "black", size = 14), 
-            strip.text.x = element_text(size = 14)) + 
+            strip.text.x = element_text(size = 14), 
+            legend.position = "none") + 
       scale_y_continuous(limits=c(0,1.0), breaks = c( 0.0, 0.2, 0.4, 0.6, 0.8, 1.0)))
 #abspeichern
 ggsave(filename, width = 10, height = 4, dpi =300)
 
 #keep environment tidy
-remove(yTitleStr, xTitleStr, facetStr, title, filename, p)
+remove(yTitleStr, xTitleStr, facetStr, title, filename)
 
 
 #-------------------------------------------------------------------------------#
@@ -88,37 +92,56 @@ annotation_df <- data.frame(
   SpSex= c("f","f","f", "m", "m","m"),
   start = c("f_ang/m_fea", "Baseline", "Baseline","f_ang/m_fea", "Baseline", "Baseline"),
   end = c("f_fea/m_ang", "f_ang/m_fea", "f_fea/m_ang", "f_fea/m_ang", "f_ang/m_fea", "f_fea/m_ang"),
-  y = c(0.65, 0.6, 0.55, 0.65, 0.6, 0.55),
-  label = c("*", "*","*","*","*","*")
+  y = c(0.55, 0.6, 0.65, 0.55, 0.6, 0.65),
+  label = c("***", "n.s.","***","***","*","*")
 )
 
-p<-ggplot(data= E1_plot_agg2) +
+p2<-ggplot(data= E1_plot_agg2) +
       geom_bar(aes(x = AdaptType, y=Resp, fill = AdaptType),stat = "identity") +
       geom_errorbar(aes(x = AdaptType, ymin = (Resp-CI), ymax = (Resp+CI)), width = 0.1 ) + 
-      labs(x = "Condition" , y = yTitleStr, color = "Condition") +
+      labs(y = yTitleStr, fill = NULL, x = NULL) + # x = "Condition" ,
       geom_signif(data = annotation_df,
                   aes(xmin = start, xmax = end, annotations = label, y_position = y),
                   textsize = 3, vjust = -0.2, manual = TRUE) + 
       facet_wrap(~ SpSex, ncol = 2) +
-      scale_fill_manual(values=c("grey", "darkorange", "darkgreen")) + 
+      scale_fill_manual(values=c("grey", "darkorange", "darkgreen"), 
+                        labels=c("Baseline" = "Baseline", 
+                                 "f_ang/m_fea" = "AdaptCondition1: f_ang | m_fea",
+                                 "f_fea/m_ang" = "AdaptCondition2: f_ang | m_fea")) + 
       coord_cartesian(ylim=c(0.3, 0.7)) +
       geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
             axis.text=element_text(size=14),
             axis.title=element_text(size=14), 
-            axis.text.x = element_text(color = "black", size = 14), # angle = 45, hjust = 1.2, vjust =  1.2
+            axis.text.x=element_blank(), # angle = 45, hjust = 1.2, vjust =  1.2
             axis.text.y = element_text(color = "black", size = 14), 
-            strip.text.x = element_text(size = 14)) + 
+            axis.ticks.x=element_blank(),
+            strip.text.x = element_text(size = 14), 
+            legend.text = element_text(size = 14), 
+            legend.position='bottom') + 
       scale_y_continuous(breaks = c(0.3, 0.4, 0.6))
 
-p
 
+p2
 
 #abspeichern
 ggsave(filename, width = 10, height = 4, dpi =300)
 
 #keep environment tidy
-remove(yTitleStr, xTitleStr, facetStr, title, filename, p)
+remove(yTitleStr, xTitleStr, facetStr, title, filename)
+
+
+#----------------------------------------------#
+#                Combining plots               #
+#----------------------------------------------#
+
+#-----------------------------------
+# Now we arrange these plots
+filename = paste0("plots/03_plots_combined.png")
+
+
+p <- plot_grid(p1, p2, nrow = 2, rel_widths = c(1,1), labels = c("A", "B"))
+ggsave(filename, width = 10, height = 10, dpi =300)
 
 
 

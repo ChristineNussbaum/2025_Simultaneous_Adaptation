@@ -202,7 +202,7 @@ PH1f <- merge(PH1f, Blinef)
 Blinem<- E1_Bline_Resp[,1:3] %>% filter(SpSex == "m")
 PH1m <- merge(PH1m, Blinem)
 
-rm(E1_Bline_Resp, E1_Bline_Resp, Blinef, Blinem)
+rm(E1_Bline_Resp, Blinef, Blinem)
 
 
 
@@ -212,6 +212,8 @@ rm(E1_Bline_Resp, E1_Bline_Resp, Blinef, Blinem)
 
 #Female: 
 AdaptTypef <- t.test(PH1f$`f_fea/m_ang`, PH1f$`f_ang/m_fea`, paired = TRUE)
+d_AdaptTypef <- t_to_d(AdaptTypef$statistic, AdaptTypef$parameter, paired = TRUE)
+
 
 ##################################################
 # data:  PH1f$`f_fea/m_ang` and PH1f$`f_ang/m_fea`
@@ -225,6 +227,7 @@ AdaptTypef <- t.test(PH1f$`f_fea/m_ang`, PH1f$`f_ang/m_fea`, paired = TRUE)
 
 
 AdaptBasef1 <- t.test(PH1f$Baseline, PH1f$`f_ang/m_fea`, paired = TRUE)
+d_AdaptBasef1 <- t_to_d(AdaptBasef1$statistic, AdaptBasef1$parameter, paired = TRUE)
 
 ##################################################
 # data:  PH1f$Baseline and PH1f$`f_ang/m_fea`
@@ -237,6 +240,7 @@ AdaptBasef1 <- t.test(PH1f$Baseline, PH1f$`f_ang/m_fea`, paired = TRUE)
 # 0.01378282 
 
 AdaptBasef2 <- t.test(PH1f$Baseline, PH1f$`f_fea/m_ang`, paired = TRUE)
+d_AdaptBasef2 <- t_to_d(AdaptBasef2$statistic, AdaptBasef2$parameter, paired = TRUE)
 
 ##################################################
 # data:  PH1f$Baseline and PH1f$`f_fea/m_ang`
@@ -251,7 +255,7 @@ AdaptBasef2 <- t.test(PH1f$Baseline, PH1f$`f_fea/m_ang`, paired = TRUE)
 #Male: 
 
 AdaptTypem <- t.test(PH1m$`f_fea/m_ang`, PH1m$`f_ang/m_fea`, paired = TRUE)
-
+d_AdaptTypem <- t_to_d(AdaptTypem$statistic, AdaptTypem$parameter, paired = TRUE)
 
 
 ##################################################
@@ -269,6 +273,7 @@ AdaptTypem <- t.test(PH1m$`f_fea/m_ang`, PH1m$`f_ang/m_fea`, paired = TRUE)
 
 
 AdaptBasem1 <- t.test(PH1m$Baseline, PH1m$`f_ang/m_fea`, paired = TRUE)
+d_AdaptBasem1 <- t_to_d(AdaptBasem1$statistic, AdaptBasem1$parameter, paired = TRUE)
 
 ##################################################
 # data:  PH1m$Baseline and PH1m$`f_ang/m_fea`
@@ -281,6 +286,7 @@ AdaptBasem1 <- t.test(PH1m$Baseline, PH1m$`f_ang/m_fea`, paired = TRUE)
 # -0.03420948
 
 AdaptBasem2 <- t.test(PH1m$Baseline, PH1m$`f_fea/m_ang`, paired = TRUE)
+d_AdaptBasem2 <- t_to_d(AdaptBasem2$statistic, AdaptBasem2$parameter, paired = TRUE)
 
 ##################################################
 # data:  PH1m$Baseline and PH1m$`f_fea/m_ang`
@@ -296,13 +302,15 @@ AdaptBasem2 <- t.test(PH1m$Baseline, PH1m$`f_fea/m_ang`, paired = TRUE)
 
 #save results
 capture.output(as.matrix(PH1_descriptive), as.matrix(Baseline_descriptive),
-               AdaptTypef, AdaptTypem,
-               AdaptBasef1, AdaptBasef2,
-               AdaptBasem1, AdaptBasem2,
+               AdaptTypef, d_AdaptTypef, AdaptTypem, d_AdaptTypem,
+               AdaptBasef1, d_AdaptBasef1,AdaptBasef2,d_AdaptBasef2,
+               AdaptBasem1, d_AdaptBasem1,AdaptBasem2,d_AdaptBasem2,
                file = "output/Exp1_Resp_post-hoc.txt")
 
 #keep environment tidy
-rm(PH2, PH2_descriptive, PH2f, PH2m, AdaptType1, AdaptType2)
+rm(PH2, PH2_descriptive, PH2f, PH2m, AdaptTypef, d_AdaptTypef, AdaptTypem, d_AdaptTypem,
+   AdaptBasef1, d_AdaptBasef1,AdaptBasef2,d_AdaptBasef2,
+   AdaptBasem1, d_AdaptBasem1,AdaptBasem2,d_AdaptBasem2)
 
 
 ##End of Script

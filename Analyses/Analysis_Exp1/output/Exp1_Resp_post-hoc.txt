@@ -18,6 +18,9 @@ sample estimates:
 mean difference 
      0.08552127 
 
+d    |       95% CI
+-------------------
+1.08 | [0.67, 1.47]
 
 	Paired t-test
 
@@ -30,6 +33,9 @@ sample estimates:
 mean difference 
     -0.07309874 
 
+d     |         95% CI
+----------------------
+-0.80 | [-1.16, -0.43]
 
 	Paired t-test
 
@@ -42,6 +48,9 @@ sample estimates:
 mean difference 
      0.01378282 
 
+d    |        95% CI
+--------------------
+0.17 | [-0.15, 0.49]
 
 	Paired t-test
 
@@ -54,6 +63,9 @@ sample estimates:
 mean difference 
     -0.07173845 
 
+d     |         95% CI
+----------------------
+-0.94 | [-1.31, -0.55]
 
 	Paired t-test
 
@@ -66,6 +78,9 @@ sample estimates:
 mean difference 
     -0.03420948 
 
+d     |         95% CI
+----------------------
+-0.41 | [-0.74, -0.08]
 
 	Paired t-test
 
@@ -78,3 +93,6 @@ sample estimates:
 mean difference 
      0.03888926 
 
+d    |       95% CI
+-------------------
+0.43 | [0.09, 0.75]
