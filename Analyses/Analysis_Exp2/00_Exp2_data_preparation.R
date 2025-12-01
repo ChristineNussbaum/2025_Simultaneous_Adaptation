@@ -117,7 +117,7 @@ E2_Adapt <- E2_Adapt %>% filter(Participant != "c742580d")
 E2_Bline <- E2_Bline %>% filter(Participant != "c742580d")
 
 
-#43 participants left
+#42 participants left
 
 rm(Check_Bline, Check_Adapt)
 
