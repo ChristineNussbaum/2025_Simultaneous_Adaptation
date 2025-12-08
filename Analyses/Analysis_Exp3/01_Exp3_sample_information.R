@@ -2,7 +2,7 @@
 ## File: 02_Exp3_sample_information.R
 ## This script gives me an overview of the sample in Exp3 - pseudowords
 # author: Christine Nussbaum
-# date 03/2025
+# date 03/2025, updated 12/2025
 
 
 # clear directory
@@ -96,8 +96,8 @@ missings_Bline <- E3_Bline %>%  group_by(Participant) %>% filter(RT == 3000) %>%
 capture.output(as.matrix(missings_Adapt), as.matrix(missings_Bline), file = "output/Exp3_omissions_summary.txt")
 
 #remove omissions from the data
-E3_Adapt <- E3_Adapt %>% filter(RT != 3000) # 45 removed
-E3_Bline <- E3_Bline %>% filter(RT != 3000) # 65 removed
+E3_Adapt <- E3_Adapt %>% filter(RT != 3000) # 37 removed
+E3_Bline <- E3_Bline %>% filter(RT != 3000) # 41 removed
 
 rm(missings_Bline, missings_Adapt)
 

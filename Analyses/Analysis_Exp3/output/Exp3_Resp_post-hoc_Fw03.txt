@@ -1,0 +1,59 @@
+     Word  AdaptType           Resp        SD          N    SE           CI          
+[1,] "w01" "pw12_ang/pw34_fea" "0.5558390" "0.1558062" "42" "0.02404141" "0.04855262"
+[2,] "w01" "pw12_fea/pw34_ang" "0.5340136" "0.1404307" "42" "0.02166893" "0.04376129"
+[3,] "w02" "pw12_ang/pw34_fea" "0.2711931" "0.1218548" "42" "0.01880261" "0.03797264"
+[4,] "w02" "pw12_fea/pw34_ang" "0.2581109" "0.1341242" "42" "0.02069581" "0.04179604"
+[5,] "w03" "pw12_ang/pw34_fea" "0.4035845" "0.1670503" "42" "0.02577641" "0.05205652"
+[6,] "w03" "pw12_fea/pw34_ang" "0.3963893" "0.1119386" "42" "0.01727251" "0.03488253"
+[7,] "w04" "pw12_ang/pw34_fea" "0.5141287" "0.1295423" "42" "0.01998881" "0.04036822"
+[8,] "w04" "pw12_fea/pw34_ang" "0.5122972" "0.1485218" "42" "0.02291742" "0.04628266"
+     Word  Baseline    SD          N    SE           CI          
+[1,] "w01" "0.5410126" "0.1510695" "42" "0.02331053" "0.04707658"
+[2,] "w02" "0.2766876" "0.1352794" "42" "0.02087407" "0.04215603"
+[3,] "w03" "0.3683935" "0.1283649" "42" "0.01980714" "0.04000133"
+[4,] "w04" "0.4714809" "0.1570213" "42" "0.02422891" "0.04893127"
+
+	Paired t-test
+
+data:  Fw03$`pw12_ang/pw34_fea` and Fw03$`pw12_fea/pw34_ang`
+t = 0.30943, df = 41, p-value = 0.7586
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ -0.03976489  0.05415526
+sample estimates:
+mean difference 
+    0.007195186 
+
+d    |        95% CI
+--------------------
+0.05 | [-0.26, 0.35]
+
+	Paired t-test
+
+data:  Fw03$Baseline and Fw03$`pw12_ang/pw34_fea`
+t = -1.3768, df = 41, p-value = 0.176
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ -0.08681006  0.01642807
+sample estimates:
+mean difference 
+      -0.035191 
+
+d     |        95% CI
+---------------------
+-0.22 | [-0.52, 0.10]
+
+	Paired t-test
+
+data:  Fw03$Baseline and Fw03$`pw12_fea/pw34_ang`
+t = -1.2831, df = 41, p-value = 0.2067
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ -0.07206089  0.01606927
+sample estimates:
+mean difference 
+    -0.02799581 
+
+d     |        95% CI
+---------------------
+-0.20 | [-0.51, 0.11]

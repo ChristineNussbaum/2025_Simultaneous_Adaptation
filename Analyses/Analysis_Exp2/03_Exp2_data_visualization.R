@@ -50,13 +50,17 @@ title = paste0("Mean ", yTitleStr, " per ", xTitleStr, facetStr)
 
 filename = paste0("plots/01a_Resp_Exp2_female.png")
 
+# New facet label names
+SpID.labs <- c("F1", "F2")
+names(SpID.labs) <- c("f1", "f2")
+
 #Plot
 p1<-(ggplot(data= E2_plot_agg, aes(x = tML, y=Resp, color = AdaptType, group=AdaptType)) +
       geom_point() +
       geom_line() + 
       geom_errorbar(aes(ymin = (Resp-CI), ymax = (Resp+CI)), width = 0.1 ) + 
       labs(x = xTitleStr , y = yTitleStr) + #, title = title
-      facet_wrap(~ SpID, ncol = 2) +
+      facet_wrap(~ SpID, ncol = 2, labeller = labeller(SpID = SpID.labs)) +
       geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
       scale_colour_manual(values=c("grey", "darkred", "chocolate4")) + 
       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
@@ -99,13 +103,17 @@ title = paste0("Mean ", yTitleStr, " per ", xTitleStr, facetStr)
 
 filename = paste0("plots/01b_Resp_Exp2_male.png")
 
+# New facet label names 
+SpID.labs <- c("M3", "M4")
+names(SpID.labs) <- c("m3", "m4")
+
 #Plot
 p1b<-(ggplot(data= E2_plot_agg, aes(x = tML, y=Resp, color = AdaptType, group=AdaptType)) +
        geom_point() +
        geom_line() + 
        geom_errorbar(aes(ymin = (Resp-CI), ymax = (Resp+CI)), width = 0.1 ) + 
        labs(x = xTitleStr , y = yTitleStr) + #, title = title
-       facet_wrap(~ SpID, ncol = 2) +
+       facet_wrap(~ SpID, ncol = 2, labeller = labeller(SpID = SpID.labs)) +
        geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
        scale_colour_manual(values=c("grey", "purple", "darkblue")) + 
        theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
@@ -140,6 +148,9 @@ yTitleStr = "Proportion of angry responses"
 
 filename = paste0("plots/0a_Resp_Barplot_female.png")
 
+# New facet label names
+SpID.labs <- c("F1", "F2")
+names(SpID.labs) <- c("f1", "f2")
 
 #add significance values
 annotation_df <- data.frame(
@@ -157,11 +168,11 @@ p2<-ggplot(data= E2_plot_agg2) +
       geom_signif(data = annotation_df,
                   aes(xmin = start, xmax = end, annotations = label, y_position = y),
                   textsize = 6, vjust = -0.2, manual = TRUE) + 
-      facet_wrap(~ SpID, ncol = 2) +
+      facet_wrap(~ SpID, ncol = 2, labeller = labeller(SpID = SpID.labs)) +
       scale_fill_manual(values=c("grey", "darkred", "chocolate4"), 
                         labels=c("Baseline" = "Baseline", 
-                                 "f1_ang/f2_fea" = "AdaptCond1: f1_ang | f2_fea",
-                                 "f1_fea/f2_ang" = "AdaptCond2: f1_fea | f2_ang")) + 
+                                 "f1_ang/f2_fea" = "AdaptCond1: F1 ang | F2 fea",
+                                 "f1_fea/f2_ang" = "AdaptCond2: F1 fea | F2 ang")) + 
       coord_cartesian(ylim=c(0.2, 0.7)) +
       geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
@@ -203,8 +214,12 @@ annotation_df <- data.frame(
   start = c("m3_ang/m4_fea", "Baseline", "Baseline","m3_ang/m4_fea", "Baseline", "Baseline"),
   end = c("m3_fea/m4_ang", "m3_ang/m4_fea", "m3_fea/m4_ang", "m3_fea/m4_ang", "m3_ang/m4_fea", "m3_fea/m4_ang"),
   y = c(0.36, 0.4, 0.44, 0.62, 0.66, 0.7),
-  label = c("***", "n.s.","**","***","n.s.","n.s.")
+  label = c("***", "n.s.","**","***","n.s.","**")
 )
+
+# New facet label names 
+SpID.labs <- c("M3", "M4")
+names(SpID.labs) <- c("m3", "m4")
 
 p2b<-ggplot(data= E2_plot_agg2) +
   geom_bar(aes(x = AdaptType, y=Resp, fill = AdaptType),stat = "identity") +
@@ -213,11 +228,11 @@ p2b<-ggplot(data= E2_plot_agg2) +
   geom_signif(data = annotation_df,
               aes(xmin = start, xmax = end, annotations = label, y_position = y),
               textsize = 6, vjust = -0.2, manual = TRUE) + 
-  facet_wrap(~ SpID, ncol = 2) +
+  facet_wrap(~ SpID, ncol = 2, labeller = labeller(SpID = SpID.labs)) +
   scale_fill_manual(values=c("grey", "purple", "darkblue"), 
                     labels=c("Baseline" = "Baseline", 
-                             "m3_ang/m4_fea" = "AdaptCond1: m3_ang | m4_fea",
-                             "m3_fea/m4_ang" = "AdaptCond2: m3_fea | m4_ang")) + 
+                             "m3_ang/m4_fea" = "AdaptCond3: M3 ang | M4 fea",
+                             "m3_fea/m4_ang" = "AdaptCond4: M3 fea | M4 ang")) + 
   coord_cartesian(ylim=c(0.2, 0.7)) +
   geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),

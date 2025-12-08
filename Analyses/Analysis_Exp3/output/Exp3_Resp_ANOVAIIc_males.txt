@@ -1,0 +1,22 @@
+$`--- ANOVA RESULTS     ---`
+          Effect         MSE df1 df2       F     p petasq getasq
+1    (Intercept) 0.096992588   1  41 622.299 0.000  0.938  0.897
+2      AdaptType 0.013188009   1  41   6.662 0.014  0.140  0.013
+3           Word 0.011940106   3 123  43.314 0.000  0.514  0.183
+4 AdaptType:Word 0.007546712   3 123   0.416 0.742  0.010  0.001
+
+$`--- SPHERICITY TESTS  ---`
+          Effect p_Mauchly GGEpsilon  p_GG HFEpsilon  p_HF
+1           Word     0.785     0.962 0.000     1.043 0.000
+2 AdaptType:Word     0.649     0.943 0.730     1.020 0.742
+
+$`--- FORMATTED RESULTS ---`
+          Effect                                     Text
+1    (Intercept)  F(1,41) = 622.299, p < .001, np2 = .938
+2      AdaptType  F(1,41) =   6.662, p = .014, np2 = .140
+3           Word F(3,123) =  43.314, p < .001, np2 = .514
+4 AdaptType:Word F(3,123) =   0.416, p = .742, np2 = .010
+
+$`NOTE:`
+[1] "No adjustments necessary (all p_Mauchly > 0.05)."
+

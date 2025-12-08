@@ -1,8 +1,8 @@
 ##########################################################################
 ## File: 00_Exp3_data_preparation.R
-## Data Preparation for Exp 2: Adaptation of Emotion - pseudowords
+## Data Preparation for Exp 3: Adaptation of Emotion - pseudowords
 # author: Christine Nussbaum
-# date 03/2025
+# date 03/2025, updates 12/2025
 
 # clear directory
 rm(list=ls())
@@ -42,7 +42,7 @@ E3_Adapt <- D %>% filter(V1 == "Antwort")
 
 #[2] Rename Variables
 names(E3_Bline) <- c("Participant", "Date", "Experiment","Block", "Duration", "SpID", "Word", "tML", "SpSex", "Resp","RT" )
-names(E3_Adapt) <- c("Participant", "Date", "Experiment", "Block", "Duration", "SpID", "Word", "tML", "SpSex", "Resp", "RT", "AdaptType", "Blockorder", "TopUp", "z", "TopupM", "TopupF")
+names(E3_Adapt) <- c("Participant", "Date", "Experiment", "Block", "Duration", "SpID", "Word", "tML", "SpSex", "Resp", "RT", "AdaptType", "Blockorder", "TopUp", "z", "Topup1", "Topup2")
 
 #[3] Adjust some settings of variables
 E3_Bline$Resp <- as.numeric(E3_Bline$Resp)
@@ -50,8 +50,8 @@ E3_Adapt$Resp <- as.numeric(E3_Adapt$Resp)
 
 #sort out all the counting variables responsible for the top-up E3_Adaptation: 
 E3_Adapt$z <- ifelse(E3_Adapt$TopUp != 0, NA, E3_Adapt$z)
-E3_Adapt$TopupM <- ifelse(E3_Adapt$TopUp != 0, NA, E3_Adapt$TopupM)
-E3_Adapt$TopupF <- ifelse(E3_Adapt$TopUp != 0, NA, E3_Adapt$TopupF)
+E3_Adapt$Topup1 <- ifelse(E3_Adapt$TopUp != 0, NA, E3_Adapt$Topup1)
+E3_Adapt$Topup2 <- ifelse(E3_Adapt$TopUp != 0, NA, E3_Adapt$Topup2)
 
 E3_Adapt$TopUp <- ifelse(E3_Adapt$TopUp == 0, "Yes", NA) #Code if this was a TopUp Trial
 
@@ -97,6 +97,29 @@ Check_Adapt <- E3_Adapt %>% group_by(Participant) %>% summarise(var = var(Resp))
 E3_Adapt <- E3_Adapt %>% filter(Participant != "59095ef5")
 E3_Bline <- E3_Bline %>% filter(Participant != "59095ef5")
 
+
+#"501e2935" has too many missing and must be removed
+E3_Adapt <- E3_Adapt %>% filter(Participant != "501e2935")
+E3_Bline <- E3_Bline %>% filter(Participant != "501e2935")
+
+
+#"1d53fae5" has too many missing and must be removed
+E3_Adapt <- E3_Adapt %>% filter(Participant != "1d53fae5")
+E3_Bline <- E3_Bline %>% filter(Participant != "1d53fae5")
+
+
+#we remove three participant who reported problems with stimulus playback (in the free text comments)
+#"26021dea", "678c9205", "3d663343"
+
+E3_Adapt <- E3_Adapt %>% filter(Participant != "26021dea")
+E3_Bline <- E3_Bline %>% filter(Participant != "26021dea")
+
+E3_Adapt <- E3_Adapt %>% filter(Participant != "678c9205")
+E3_Bline <- E3_Bline %>% filter(Participant != "678c9205")
+
+E3_Adapt <- E3_Adapt %>% filter(Participant != "3d663343")
+E3_Bline <- E3_Bline %>% filter(Participant != "3d663343")
+
 rm(Check_Bline, Check_Adapt)
 
 #---------------------------------------------------------------------------------
@@ -119,7 +142,7 @@ S3 <- read.csv(file ="input/data_Exp3.csv")
 S3$participant <- substr(S3$participant, 31,38)
 
 #keep only the ones with an experimental file
-S3 <- S3 %>% filter(participant %in% unique(E3_Adapt$Participant)) # check: N = 48
+S3 <- S3 %>% filter(participant %in% unique(E3_Adapt$Participant)) # check: N = 42
 
 S3$VPN_Code <- paste0(S3$LPartCode_1, S3$LPartCode_2, S3$LPartCode_3, S3$LPartCode_4, S3$LPartCode_5, S3$LPartCode_6)
 
