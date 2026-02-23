@@ -1,79 +1,54 @@
 Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
  Family: binomial  ( logit )
-Formula: Resp ~ tML_sc * Word * AdaptType * SpSex + (1 | SpID) + (1 |      Participant)
+Formula: Resp ~ tML_sc * Word * AdaptType + (1 | SpID) + (1 | Participant)
    Data: E3_Adapt
 Control: glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e+05))
 
       AIC       BIC    logLik -2*log(L)  df.resid 
-   7866.6    8109.5   -3899.3    7798.6      9337 
+   7932.7    8061.3   -3948.4    7896.7      9353 
 
 Scaled residuals: 
     Min      1Q  Median      3Q     Max 
--9.4099 -0.4556 -0.1402  0.4524 20.8072 
+-6.8728 -0.4594 -0.1602  0.4588 16.0167 
 
 Random effects:
  Groups      Name        Variance Std.Dev.
- Participant (Intercept) 0.4286   0.6546  
- SpID        (Intercept) 0.3582   0.5985  
+ Participant (Intercept) 0.4184   0.6469  
+ SpID        (Intercept) 0.3352   0.5790  
 Number of obs: 9371, groups:  Participant, 42; SpID, 4
 
 Fixed effects:
-                                                  Estimate Std. Error z value Pr(>|z|)    
-(Intercept)                                       0.355234   0.447999   0.793  0.42782    
-tML_sc                                            1.605994   0.127529  12.593  < 2e-16 ***
-Wordw02                                          -2.048059   0.185645 -11.032  < 2e-16 ***
-Wordw03                                          -1.042497   0.158239  -6.588 4.45e-11 ***
-Wordw05                                          -0.254298   0.155127  -1.639  0.10115    
-AdaptTypepw12_fea/pw34_ang                       -0.124246   0.151940  -0.818  0.41351    
-SpSexm                                           -0.070689   0.617688  -0.114  0.90889    
-tML_sc:Wordw02                                    0.237937   0.204586   1.163  0.24482    
-tML_sc:Wordw03                                    0.227798   0.189687   1.201  0.22978    
-tML_sc:Wordw05                                    0.341648   0.192012   1.779  0.07519 .  
-tML_sc:AdaptTypepw12_fea/pw34_ang                 0.114029   0.182748   0.624  0.53265    
-Wordw02:AdaptTypepw12_fea/pw34_ang               -0.127546   0.274789  -0.464  0.64253    
-Wordw03:AdaptTypepw12_fea/pw34_ang               -0.033612   0.231523  -0.145  0.88457    
-Wordw05:AdaptTypepw12_fea/pw34_ang                0.104351   0.215319   0.485  0.62794    
-tML_sc:SpSexm                                     0.104311   0.180957   0.576  0.56432    
-Wordw02:SpSexm                                    0.723612   0.245587   2.946  0.00321 ** 
-Wordw03:SpSexm                                   -0.013044   0.232035  -0.056  0.95517    
-Wordw05:SpSexm                                   -0.383039   0.232998  -1.644  0.10018    
-AdaptTypepw12_fea/pw34_ang:SpSexm                -0.227052   0.218487  -1.039  0.29871    
-tML_sc:Wordw02:AdaptTypepw12_fea/pw34_ang         0.110068   0.302307   0.364  0.71579    
-tML_sc:Wordw03:AdaptTypepw12_fea/pw34_ang         0.317152   0.286029   1.109  0.26751    
-tML_sc:Wordw05:AdaptTypepw12_fea/pw34_ang        -0.560687   0.262111  -2.139  0.03243 *  
-tML_sc:Wordw02:SpSexm                            -0.431414   0.272515  -1.583  0.11340    
-tML_sc:Wordw03:SpSexm                             0.393232   0.281027   1.399  0.16173    
-tML_sc:Wordw05:SpSexm                             0.836170   0.304794   2.743  0.00608 ** 
-tML_sc:AdaptTypepw12_fea/pw34_ang:SpSexm          0.031332   0.259992   0.121  0.90408    
-Wordw02:AdaptTypepw12_fea/pw34_ang:SpSexm         0.342318   0.356744   0.960  0.33728    
-Wordw03:AdaptTypepw12_fea/pw34_ang:SpSexm         0.249929   0.333056   0.750  0.45301    
-Wordw05:AdaptTypepw12_fea/pw34_ang:SpSexm         0.003428   0.325402   0.011  0.99160    
-tML_sc:Wordw02:AdaptTypepw12_fea/pw34_ang:SpSexm -0.447699   0.395975  -1.131  0.25821    
-tML_sc:Wordw03:AdaptTypepw12_fea/pw34_ang:SpSexm -0.704624   0.406844  -1.732  0.08329 .  
-tML_sc:Wordw05:AdaptTypepw12_fea/pw34_ang:SpSexm  0.025307   0.415307   0.061  0.95141    
+                                          Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                                0.31947    0.31560   1.012 0.311410    
+tML_sc                                     1.65041    0.09096  18.145  < 2e-16 ***
+Wordw02                                   -1.63681    0.11907 -13.747  < 2e-16 ***
+Wordw03                                   -1.04521    0.11574  -9.031  < 2e-16 ***
+Wordw04                                   -0.40783    0.11478  -3.553 0.000381 ***
+AdaptTypepw12_fea/pw34_ang                -0.23206    0.10882  -2.133 0.032960 *  
+tML_sc:Wordw02                            -0.03282    0.13280  -0.247 0.804767    
+tML_sc:Wordw03                             0.40863    0.13974   2.924 0.003453 ** 
+tML_sc:Wordw04                             0.68128    0.14718   4.629 3.68e-06 ***
+tML_sc:AdaptTypepw12_fea/pw34_ang          0.12286    0.12966   0.948 0.343350    
+Wordw02:AdaptTypepw12_fea/pw34_ang         0.09647    0.16917   0.570 0.568493    
+Wordw03:AdaptTypepw12_fea/pw34_ang         0.08822    0.16580   0.532 0.594677    
+Wordw04:AdaptTypepw12_fea/pw34_ang         0.12934    0.15945   0.811 0.417277    
+tML_sc:Wordw02:AdaptTypepw12_fea/pw34_ang -0.15860    0.19000  -0.835 0.403866    
+tML_sc:Wordw03:AdaptTypepw12_fea/pw34_ang -0.02220    0.20203  -0.110 0.912516    
+tML_sc:Wordw04:AdaptTypepw12_fea/pw34_ang -0.56679    0.19993  -2.835 0.004583 ** 
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 Mixed Model Anova Table (Type 3 tests, LRT-method)
 
-Model: Resp ~ tML_sc * Word * AdaptType * SpSex + (1 | SpID) + (1 | 
-Model:     Participant)
+Model: Resp ~ tML_sc * Word * AdaptType + (1 | SpID) + (1 | Participant)
 Data: E3_Adapt
-Df full model: 34
-                        Effect df       Chisq p.value
-1                       tML_sc  1 4175.47 ***   <.001
-2                         Word  3  453.41 ***   <.001
-3                    AdaptType  1     8.13 **    .004
-4                        SpSex  1        0.00    .963
-5                  tML_sc:Word  3   39.12 ***   <.001
-6             tML_sc:AdaptType  1        0.35    .552
-7               Word:AdaptType  3        0.52    .914
-8                 tML_sc:SpSex  1      5.31 *    .021
-9                   Word:SpSex  3   50.93 ***   <.001
-10             AdaptType:SpSex  1        0.39    .531
-11       tML_sc:Word:AdaptType  3      8.05 *    .045
-12           tML_sc:Word:SpSex  3   49.11 ***   <.001
-13      tML_sc:AdaptType:SpSex  1      2.80 +    .094
-14        Word:AdaptType:SpSex  3        1.42    .700
-15 tML_sc:Word:AdaptType:SpSex  3        4.20    .241
+Df full model: 18
+                 Effect df       Chisq p.value
+1                tML_sc  1 4111.70 ***   <.001
+2                  Word  3  452.31 ***   <.001
+3             AdaptType  1      6.52 *    .011
+4           tML_sc:Word  3   40.61 ***   <.001
+5      tML_sc:AdaptType  1        0.79    .375
+6        Word:AdaptType  3        0.73    .866
+7 tML_sc:Word:AdaptType  3      9.54 *    .023
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘+’ 0.1 ‘ ’ 1

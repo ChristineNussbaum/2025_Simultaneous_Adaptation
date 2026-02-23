@@ -64,11 +64,11 @@ p1<-(ggplot(data= E2_plot_agg, aes(x = tML, y=Resp, color = AdaptType, group=Ada
       geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
       scale_colour_manual(values=c("grey", "darkred", "chocolate4")) + 
       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
-            axis.text=element_text(size=14),
-            axis.title=element_text(size=14), 
-            axis.text.x = element_text(color = "black", size = 14), # angle = 45, hjust = 1.2, vjust =  1.2
-            axis.text.y = element_text(color = "black", size = 14), 
-            strip.text.x = element_text(size = 14), 
+            axis.text=element_text(size=16),
+            axis.title=element_text(size=16), 
+            axis.text.x = element_text(color = "black", size = 16), # angle = 45, hjust = 1.2, vjust =  1.2
+            axis.text.y = element_text(color = "black", size = 16), 
+            strip.text.x = element_text(size = 16), 
             legend.position = "none") + 
       scale_y_continuous(limits=c(0,1.0), breaks = c( 0.0, 0.2, 0.4, 0.6, 0.8, 1.0)))
 #abspeichern
@@ -117,11 +117,11 @@ p1b<-(ggplot(data= E2_plot_agg, aes(x = tML, y=Resp, color = AdaptType, group=Ad
        geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
        scale_colour_manual(values=c("grey", "purple", "darkblue")) + 
        theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
-             axis.text=element_text(size=14),
-             axis.title=element_text(size=14), 
-             axis.text.x = element_text(color = "black", size = 14), # angle = 45, hjust = 1.2, vjust =  1.2
-             axis.text.y = element_text(color = "black", size = 14), 
-             strip.text.x = element_text(size = 14), 
+             axis.text=element_text(size=16),
+             axis.title=element_text(size=16), 
+             axis.text.x = element_text(color = "black", size = 16), # angle = 45, hjust = 1.2, vjust =  1.2
+             axis.text.y = element_text(color = "black", size = 16), 
+             strip.text.x = element_text(size = 16), 
              legend.position = "none") + 
        scale_y_continuous(limits=c(0,1.0), breaks = c( 0.0, 0.2, 0.4, 0.6, 0.8, 1.0)))
 #abspeichern
@@ -176,13 +176,13 @@ p2<-ggplot(data= E2_plot_agg2) +
       coord_cartesian(ylim=c(0.2, 0.7)) +
       geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
-            axis.text=element_text(size=14),
-            axis.title=element_text(size=14), 
+            axis.text=element_text(size=16),
+            axis.title=element_text(size=16), 
             axis.text.x=element_blank(), # angle = 45, hjust = 1.2, vjust =  1.2
-            axis.text.y = element_text(color = "black", size = 14), 
+            axis.text.y = element_text(color = "black", size = 16), 
             axis.ticks.x=element_blank(),
-            strip.text.x = element_text(size = 14), 
-            legend.text = element_text(size = 14), 
+            strip.text.x = element_text(size = 16), 
+            legend.text = element_text(size = 16), 
             legend.position='bottom') + 
       scale_y_continuous(breaks = c(0.3, 0.4, 0.6))
 
@@ -236,13 +236,13 @@ p2b<-ggplot(data= E2_plot_agg2) +
   coord_cartesian(ylim=c(0.2, 0.7)) +
   geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
-        axis.text=element_text(size=14),
-        axis.title=element_text(size=14), 
+        axis.text=element_text(size=16),
+        axis.title=element_text(size=16), 
         axis.text.x=element_blank(), # angle = 45, hjust = 1.2, vjust =  1.2
-        axis.text.y = element_text(color = "black", size = 14), 
+        axis.text.y = element_text(color = "black", size = 16), 
         axis.ticks.x=element_blank(),
-        strip.text.x = element_text(size = 14), 
-        legend.text = element_text(size = 14), 
+        strip.text.x = element_text(size = 16), 
+        legend.text = element_text(size = 16), 
         legend.position='bottom') + 
   scale_y_continuous(breaks = c(0.3, 0.4, 0.6))
 

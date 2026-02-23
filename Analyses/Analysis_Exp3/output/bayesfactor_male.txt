@@ -1,0 +1,1 @@
+Estimated Bayes factor in favor of fullmodel over redmodel: 0.26299
