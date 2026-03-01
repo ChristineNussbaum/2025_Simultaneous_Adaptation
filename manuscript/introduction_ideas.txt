@@ -8,6 +8,7 @@ Intro:
 - key feature: they change in real time in the context of a conversation (unlixe extralinguistic cues)
 - timely and adequate reaction within a conversation, monitoring and efficient processing
 - what makes our processing so efficient: flexibility
+
 - our emotion perception is not static, but it tunes into contexts and speakers
 - for example, it has been shown that listeners rely on different acoustic cues to infer emotions, depending which are more informative at the moment
 - further, although speaker express emotion in very different ways, listeners are equally efficient in recognizing emotions
