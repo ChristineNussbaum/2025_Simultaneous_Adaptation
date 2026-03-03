@@ -22,6 +22,8 @@ Intro:
 - in what follows, first an overview over adaptation effects in multimodal contexts
 - afterwards specific to emotional adaptation
 
+
+
 2. Perceptual Adaptation - a universal phenomenon in visual and auditory perception
 
 - when this flexibility breaks down -> problematic
