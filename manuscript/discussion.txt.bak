@@ -1,4 +1,74 @@
-Limitations: 
+Discussion: 
 
-- check if idendity aftereffects are invariant to emotional changes
-- 
+(quick summary of pattern)
+- aim of the present study was to investigate etc... 
+- by means of simultaneous opposite adaptation
+- not only explore whether other voice cues interfere, but whether they modulate emotion adaptation in a sense that allows efficient tracking of relevant emotional changes from multiple sources simultaneously. 
+- Accordingly, predicted the effects for stable speaker cues such as gender and identity, but not for pseudoword. 
+- Indeed, there was a clear pattern for gender. And for pseudoword as well. For speaker identity, it was conflicting
+- in what follows, patterns are discussed in more detail, then limitations, then outlook for future reseach
+
+Recalibrating to stable speaker cues: 
+
+- clear pattern for voice gender
+- replication of the study of Bestelmeyer, but in the auditory domain, where it was never shown befpre
+- it was showsn before that gender interferes with emotion, but rather in terms of bias in certain emotional direction
+- this here is not a universal bias (i.e. female always fearful), but a context specific modulation in either direction
+
+- speaker identitiy, a completely different pictre: way more conflicting
+- it only worked for one female speaker, 
+- Why was the pattern so clear for speaker gender, and so conflicting for speaker identity? Why not a decisive answer, both theoretical and methodological consideration offer potential explanations 
+
+Theoretical: 
+
+- voice space theory (speakers are stored somewhere in a multidimensional voice space and represented by their deviation from each other a central midpoint, providing the global reference)
+- although its a model for representation of identity, not dynamic information such as emotion. Nevertheless, it provides useful for an understanding of the current data. 
+- there have been arguments for distinct voice spaces for male and female voices, with two different references
+- male and female voices are per se processed in relation to differenc reference frames, linked to different neural networks
+- build-in neural architecture for separate tracking of male and female voices
+- also allowing for separate recalibration to emotions (Nussbaum 2022) -> fits the reduction in emotion adaptation across gender
+- different speaker identities of the same speaker gender are processed in relation to the same reference frame, employing similar neural-circuits
+- which aggrevates separate recalibration to emotions
+- could explain why the effect is maybe much smaller, but does not have to absent completely (as it was also shown in the present data)
+
+
+Methodological 
+
+- acoustically difference between male and female voices: male version of anger and fear and female version of it
+
+- for simultaneous opposite aftereffects to work, there needs to be no classification ambiguity to voice dimensions
+- no problem of perception of gender (add a little info about timing etc) -> readily and easily, in unfamiliar speakers
+
+- for unfamiliar identities, this is less clear: perception of unfamiliar identities is invariant/prone to intraindividual variability introduced by the pseudowords and emotions
+- short utterances, and the only familiarization happened during the baseline task
+- thus, fear and angry voices by the same speaker could have been interpreted as different speaker identities, and then simulatenous opposite adaptation cant work
+
+- in familiar speakers, the story is entirely differen (Pinheiro): more stable, variability incorporated into the representation
+- and familiar with very idiosyncratic style of emotional expression
+- therefore: this should definitely be replicated with familiar voices
+ 
+- speaker identity which does not provide convincing evidence, but a promising starting point for future research
+
+Dynamic linguistic cues: 
+
+- no effect
+- note for pseudowords we did not only see an absence of effects, but actual strong evidence for the null-hypothesis
+- does not mean that words dont carry emotional meaning: when they have semantics, they do and that does interfere with emotional prosody
+- does also not mean that all linguistic features are equally well-suited to express emotions
+- there was an effect of pseudoword: /belam/, the only one starting with a plosive, was perceived as more angry, because plosive are effective to express emotional arousal such as in anger
+(check: link of swaring words and phonemes) Lev-Aris Papers
+- what the current data show is that for recalibration to the current emotional context, this linguistic information is averaged out.
+
+
+Limitations and outlook: 
+
+- strength of the study lies in the same stimuli for all experiments
+- study was powered after the vorbild of Bestelmeyer, but for speaker identity, is may be much smaller, and thus not enough for speaker identiy
+- problematic confounds between identities and emotional intensity (and to a lesser degree for pseudowords as well)
+- while that should not have been a KO-kriterium for simulaneous opposite adaptaion -> is results into main effects
+- it could have reduced statistical power substantially, and that in a paradigm where the effect was maybe smaller, render it non-detectable
+
+- increase linguistic variability: approximants for example
+- and yeah... personally familiar speakers
+
+
