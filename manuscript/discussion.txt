@@ -72,3 +72,22 @@ Limitations and outlook:
 - and yeah... personally familiar speakers
 
 
+Voice space papers: 
+Andics, A. et al. (2010) Neural mechanisms for voice recognition. Neuroimage 52, 1528–1540
+Latinus, M., McAleer, P., Bestelmeyer, P. E., & Belin, P. (2013). Norm-based coding of voice identity in human auditory cortex. Current Biology, 23(12), 1075-1080.
+Weston, P. S., Hunter, M. D., Sokhi, D. S., Wilkinson, I. D., & Woodruff, P. W. (2015). Discrimination of voice gender in the human auditory cortex. NeuroImage, 105, 208-214.
+Junger, J., Pauly, K., Bröhr, S., Birkholz, P., Neuschaefer-Rube, C., Kohler, C., ... & Habel, U. (2013). Sex matters: Neural correlates of voice gender perception. Neuroimage, 79, 275-287.
+Park, E., Kasuya, M., & Homae, F. (2025). Neural responses to male and female voices: an event-related potential study on listener and speaker differences. Neuroscience Research, 104942.
+
+For familiarization effect: 
+
+Lavan, N., Burston, L. F., & Garrido, L. (2019). How many voices did you hear? Natural variability disrupts identity perception from unfamiliar voices. British Journal of Psychology, 110(3), 576-593.
+
+Lavan, N., Knight, S., & McGettigan, C. (2019). Listeners form average-based representations of individual voice identities. Nature Communications, 10(1), 2404.
+
+Stevenage, S. V. (2018). Drawing a distinction between familiar and unfamiliar voice processing: A review of neuropsychological, clinical and empirical findings. Neuropsychologia, 116, 162-178.  -> check!
+Maguinness, C., Roswandowitz, C., & von Kriegstein, K. (2018). Understanding the mechanisms of familiar voice-identity recognition in the human brain. Neuropsychologia, 116, 179-193.
+
+
+Interplay Identity and Emotion: 
+Xu, H., & Armony, J. L. (2024). Arousal level and exemplar variability of emotional face and voice encoding influence expression-independent identity recognition. Motivation and Emotion, 48(3), 464-483.
