@@ -4,6 +4,7 @@ Discussion:
 - aim of the present study was to investigate etc... 
 - by means of simultaneous opposite adaptation
 - not only explore whether other voice cues interfere, but whether they modulate emotion adaptation in a sense that allows efficient tracking of relevant emotional changes from multiple sources simultaneously. 
+
 - Accordingly, predicted the effects for stable speaker cues such as gender and identity, but not for pseudoword. 
 - Indeed, there was a clear pattern for gender. And for pseudoword as well. For speaker identity, it was conflicting
 - in what follows, patterns are discussed in more detail, then limitations, then outlook for future reseach
@@ -70,6 +71,9 @@ Limitations and outlook:
 
 - increase linguistic variability: approximants for example
 - and yeah... personally familiar speakers
+
+
+- non-binary voices: 
 
 
 Voice space papers: 
