@@ -1,0 +1,54 @@
+Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+ Family: binomial  ( logit )
+Formula: Resp ~ tML_sc * Word * AdaptType + (1 | SpID) + (1 | Participant)
+   Data: E3_Adapt
+Control: glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e+05))
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   7932.7    8061.3   -3948.4    7896.7      9353 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-6.8728 -0.4594 -0.1602  0.4588 16.0167 
+
+Random effects:
+ Groups      Name        Variance Std.Dev.
+ Participant (Intercept) 0.4184   0.6469  
+ SpID        (Intercept) 0.3352   0.5790  
+Number of obs: 9371, groups:  Participant, 42; SpID, 4
+
+Fixed effects:
+                                          Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                                0.31947    0.31560   1.012 0.311410    
+tML_sc                                     1.65041    0.09096  18.145  < 2e-16 ***
+Wordw02                                   -1.63681    0.11907 -13.747  < 2e-16 ***
+Wordw03                                   -1.04521    0.11574  -9.031  < 2e-16 ***
+Wordw04                                   -0.40783    0.11478  -3.553 0.000381 ***
+AdaptTypepw12_fea/pw34_ang                -0.23206    0.10882  -2.133 0.032960 *  
+tML_sc:Wordw02                            -0.03282    0.13280  -0.247 0.804767    
+tML_sc:Wordw03                             0.40863    0.13974   2.924 0.003453 ** 
+tML_sc:Wordw04                             0.68128    0.14718   4.629 3.68e-06 ***
+tML_sc:AdaptTypepw12_fea/pw34_ang          0.12286    0.12966   0.948 0.343350    
+Wordw02:AdaptTypepw12_fea/pw34_ang         0.09647    0.16917   0.570 0.568493    
+Wordw03:AdaptTypepw12_fea/pw34_ang         0.08822    0.16580   0.532 0.594677    
+Wordw04:AdaptTypepw12_fea/pw34_ang         0.12934    0.15945   0.811 0.417277    
+tML_sc:Wordw02:AdaptTypepw12_fea/pw34_ang -0.15860    0.19000  -0.835 0.403866    
+tML_sc:Wordw03:AdaptTypepw12_fea/pw34_ang -0.02220    0.20203  -0.110 0.912516    
+tML_sc:Wordw04:AdaptTypepw12_fea/pw34_ang -0.56679    0.19993  -2.835 0.004583 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Mixed Model Anova Table (Type 3 tests, LRT-method)
+
+Model: Resp ~ tML_sc * Word * AdaptType + (1 | SpID) + (1 | Participant)
+Data: E3_Adapt
+Df full model: 18
+                 Effect df       Chisq p.value
+1                tML_sc  1 4111.70 ***   <.001
+2                  Word  3  452.31 ***   <.001
+3             AdaptType  1      6.52 *    .011
+4           tML_sc:Word  3   40.61 ***   <.001
+5      tML_sc:AdaptType  1        0.79    .375
+6        Word:AdaptType  3        0.73    .866
+7 tML_sc:Word:AdaptType  3      9.54 *    .023
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘+’ 0.1 ‘ ’ 1

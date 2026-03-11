@@ -1,0 +1,7 @@
+# A tibble: 4 × 7
+  SpID  AdaptType     fitted     SD     N     SE     CI
+  <chr> <chr>          <dbl>  <dbl> <int>  <dbl>  <dbl>
+1 f1    f1_ang/f2_fea  0.476 0.0884    42 0.0136 0.0276
+2 f1    f1_fea/f2_ang  0.478 0.0795    42 0.0123 0.0248
+3 f2    f1_ang/f2_fea  0.420 0.102     42 0.0158 0.0319
+4 f2    f1_fea/f2_ang  0.357 0.0916    42 0.0141 0.0285

@@ -1,0 +1,50 @@
+     AdaptType           Resp        SD           N    SE           CI          
+[1,] "pw12_ang/pw34_fea" "0.4361863" "0.11309918" "42" "0.01745158" "0.03524419"
+[2,] "pw12_fea/pw34_ang" "0.4252028" "0.09856886" "42" "0.01520951" "0.03071622"
+      Baseline        SD  N        SE         CI
+[1,] 0.4141104 0.1081027 42 0.0166806 0.03368716
+
+	Paired t-test
+
+data:  PH1$`pw12_ang/pw34_fea` and PH1$`pw12_fea/pw34_ang`
+t = 0.73018, df = 41, p-value = 0.4694
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ -0.01939478  0.04136190
+sample estimates:
+mean difference 
+     0.01098356 
+
+d    |        95% CI
+--------------------
+0.11 | [-0.19, 0.42]
+
+	Paired t-test
+
+data:  PH1$Baseline and PH1$`pw12_ang/pw34_fea`
+t = -1.3577, df = 41, p-value = 0.182
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ -0.05491251  0.01076065
+sample estimates:
+mean difference 
+    -0.02207593 
+
+d     |        95% CI
+---------------------
+-0.21 | [-0.52, 0.10]
+
+	Paired t-test
+
+data:  PH1$Baseline and PH1$`pw12_fea/pw34_ang`
+t = -0.74038, df = 41, p-value = 0.4633
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ -0.04134915  0.01916441
+sample estimates:
+mean difference 
+    -0.01109237 
+
+d     |        95% CI
+---------------------
+-0.12 | [-0.42, 0.19]

@@ -2,7 +2,7 @@
 ## File: 00_Exp2_data_preparation.R
 ## Data Preparatation for Exp 2: Adaptation of Emotion - speaker identities
 # author: Christine Nussbaum
-# date 03/2025, updated 11/2025
+# date 03/2026
 
 # clear directory
 rm(list=ls())
@@ -42,7 +42,8 @@ E2_Adapt <- D %>% filter(V1 == "Antwort")
 
 #[2] Rename Variables
 names(E2_Bline) <- c("Participant", "Date", "Experiment","Block", "Duration", "SpID", "Word", "tML", "SpSex", "Resp","RT" )
-names(E2_Adapt) <- c("Participant", "Date", "Experiment", "Block", "Duration", "SpID", "Word", "tML", "SpSex", "Resp", "RT", "AdaptType", "Blockorder", "TopUp", "z", "TopupM", "TopupF")
+names(E2_Adapt) <- c("Participant", "Date", "Experiment", "Block", "Duration", "SpID", "Word", "tML", "SpSex", "Resp", 
+                     "RT", "AdaptType", "Blockorder", "TopUp", "z", "Topup1", "Topup2")
 
 #[3] Adjust some settings of variables
 E2_Bline$Resp <- as.numeric(E2_Bline$Resp)
@@ -120,6 +121,22 @@ E2_Bline <- E2_Bline %>% filter(Participant != "c742580d")
 #42 participants left
 
 rm(Check_Bline, Check_Adapt)
+
+
+#---------------------------------------------------------------------------------
+# Remove unnecessary variables
+
+E2_Bline$Block <- NULL
+E2_Bline$Date <- NULL
+E2_Bline$Experiment<- NULL
+
+E2_Adapt$Block <- NULL
+E2_Adapt$Date <- NULL
+E2_Adapt$Experiment <- NULL
+E2_Adapt$TopUp <- NULL
+E2_Adapt$z <- NULL
+E2_Adapt$Topup1 <- NULL
+E2_Adapt$Topup2 <- NULL
 
 #---------------------------------------------------------------------------------
 #Save datasets

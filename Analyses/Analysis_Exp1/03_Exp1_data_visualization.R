@@ -1,8 +1,8 @@
 ##########################################################################
 ## File: 03_Exp1_data_visualization.R
-## Data Preparatation for Emotion-Adaptation-Experiment in Voices, BA Berges
-# author: Christine Nussbaum und Dorothea Berges
-# date 02/2022, revised 11/2025
+## Data Visualization for Exp 1: Adaptation of Emotion - male/female voices
+# author: Christine Nussbaum 
+# date 03/2026
 
 # clear directory
 rm(list=ls())
@@ -27,14 +27,16 @@ source("functions/mySummary.R")
 
 load(file ="input/Exp1_without_omissions.RData")
 
+#meaning of variables -> refer to Script "02_Exp1_data_analysis.R"
 
 #-------------------------------------------------------------------------------#
 #                      1 - Plot response data, for each tML                     #
 #-------------------------------------------------------------------------------# 
 
-#average raw data (for both Adapt and Baseline Blocks)
+#average data (for both Adapt and Baseline Blocks)
 E1_Adapt_plot <- mySummary(E1_Adapt, Resp, Participant, tML, SpSex, AdaptType)
-E1_Bline_plot <- mySummary(E1_Bline, Resp, Participant, tML, SpSex, Block)
+E1_Bline_plot <- mySummary(E1_Bline, Resp, Participant, tML, SpSex)
+E1_Bline_plot$Block <- "Baseline"
 E1_Bline_plot <- E1_Bline_plot %>% rename(AdaptType= Block)
 E1_plot <- rbind(E1_Adapt_plot, E1_Bline_plot)
 rm(E1_Adapt_plot, E1_Bline_plot)
@@ -67,7 +69,7 @@ p1<-(ggplot(data= E1_plot_agg, aes(x = tML, y=Resp, color = AdaptType, group=Ada
             strip.text.x = element_text(size = 14), 
             legend.position = "none") + 
       scale_y_continuous(limits=c(0,1.0), breaks = c( 0.0, 0.2, 0.4, 0.6, 0.8, 1.0)))
-#abspeichern
+#save plot
 ggsave(filename, width = 10, height = 4, dpi =300)
 
 #keep environment tidy
@@ -124,7 +126,7 @@ p2<-ggplot(data= E1_plot_agg2) +
 
 p2
 
-#abspeichern
+#save plot
 ggsave(filename, width = 10, height = 4, dpi =300)
 
 #keep environment tidy

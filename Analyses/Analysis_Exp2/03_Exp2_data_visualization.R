@@ -1,8 +1,8 @@
 ##########################################################################
 ## File: 03_Exp2_data_visualization.R
 ## Data Analysis for Exp 2: Adaptation of Emotion - speaker identities
-# author: Christine Nussbaum und Dorothea Berges
-# date 02/2022, revised 11/2025
+# author: Christine Nussbaum 
+# date 03/2026
 
 # clear directory
 rm(list=ls())
@@ -27,6 +27,8 @@ source("functions/mySummary.R")
 
 load(file ="input/Exp2_without_omissions.RData")
 
+#meaning of variables -> refer to Script "02_Exp2_data_analysis.R"
+
 
 #-------------------------------------------------------------------------------#
 #        1 - Plot response data, for each tML - females only                    #
@@ -34,7 +36,8 @@ load(file ="input/Exp2_without_omissions.RData")
 
 #average raw data (for both Adapt and Baseline Blocks)
 E2_Adapt_plot <- mySummary(E2_Adapt[E2_Adapt$SpSex == "f",], Resp, Participant, tML, SpID, AdaptType)
-E2_Bline_plot <- mySummary(E2_Bline[E2_Bline$SpSex == "f",], Resp, Participant, tML, SpID, Block)
+E2_Bline_plot <- mySummary(E2_Bline[E2_Bline$SpSex == "f",], Resp, Participant, tML, SpID)
+E2_Bline_plot$Block <- "Baseline"
 E2_Bline_plot <- E2_Bline_plot %>% rename(AdaptType= Block)
 E2_plot <- rbind(E2_Adapt_plot, E2_Bline_plot)
 rm(E2_Adapt_plot, E2_Bline_plot)
@@ -71,13 +74,13 @@ p1<-(ggplot(data= E2_plot_agg, aes(x = tML, y=Resp, color = AdaptType, group=Ada
             strip.text.x = element_text(size = 16), 
             legend.position = "none") + 
       scale_y_continuous(limits=c(0,1.0), breaks = c( 0.0, 0.2, 0.4, 0.6, 0.8, 1.0)))
-#abspeichern
+#save plot
 ggsave(filename, width = 10, height = 4, dpi =300)
 
 #keep environment tidy
 remove(yTitleStr, xTitleStr, facetStr, title, filename)
 
-
+#save data in different object
 E2_plot_f <- E2_plot
 E2_plot_agg_f <- E2_plot_agg
 
@@ -87,7 +90,8 @@ E2_plot_agg_f <- E2_plot_agg
 
 #average raw data (for both Adapt and Baseline Blocks)
 E2_Adapt_plot <- mySummary(E2_Adapt[E2_Adapt$SpSex == "m",], Resp, Participant, tML, SpID, AdaptType)
-E2_Bline_plot <- mySummary(E2_Bline[E2_Bline$SpSex == "m",], Resp, Participant, tML, SpID, Block)
+E2_Bline_plot <- mySummary(E2_Bline[E2_Bline$SpSex == "m",], Resp, Participant, tML, SpID)
+E2_Bline_plot$Block <- "Baseline"
 E2_Bline_plot <- E2_Bline_plot %>% rename(AdaptType= Block)
 E2_plot <- rbind(E2_Adapt_plot, E2_Bline_plot)
 rm(E2_Adapt_plot, E2_Bline_plot)
@@ -124,16 +128,15 @@ p1b<-(ggplot(data= E2_plot_agg, aes(x = tML, y=Resp, color = AdaptType, group=Ad
              strip.text.x = element_text(size = 16), 
              legend.position = "none") + 
        scale_y_continuous(limits=c(0,1.0), breaks = c( 0.0, 0.2, 0.4, 0.6, 0.8, 1.0)))
-#abspeichern
+#save plot
 ggsave(filename, width = 10, height = 4, dpi =300)
 
 #keep environment tidy
 remove(yTitleStr, xTitleStr, facetStr, title, filename)
 
-
+#save data in different object
 E2_plot_m <- E2_plot
 E2_plot_agg_m <- E2_plot_agg
-
 
 
 #-------------------------------------------------------------------------------#
@@ -189,7 +192,7 @@ p2<-ggplot(data= E2_plot_agg2) +
 
 p2
 
-#abspeichern
+#save plot
 ggsave(filename, width = 10, height = 4, dpi =300)
 
 #keep environment tidy
@@ -249,7 +252,7 @@ p2b<-ggplot(data= E2_plot_agg2) +
 
 p2b
 
-#abspeichern
+#save plot
 ggsave(filename, width = 10, height = 4, dpi =300)
 
 #keep environment tidy

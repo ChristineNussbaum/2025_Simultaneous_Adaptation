@@ -1,7 +1,7 @@
 ##########################################################################
 ## File: 00_Exp1_data_preparation.R
 ## Data Preparatation for Exp 1: Adaptation of Emotion - male/female voices 
-# author: Christine Nussbaum/Dorothea Berges
+# author: Christine Nussbaum
 # date 11/2025
 
 # clear directory
@@ -158,8 +158,24 @@ S1 <- S1 %>% filter(participant != "bb74c208")
 
 
 #---------------------------------------------------------------------------------
+# Remove unnecessary variables
+
+E1_Bline$Block <- NULL
+E1_Bline$Date <- NULL
+E1_Bline$Experiment<- NULL
+
+E1_Adapt$Block <- NULL
+E1_Adapt$Date <- NULL
+E1_Adapt$Experiment <- NULL
+E1_Adapt$TopUp <- NULL
+E1_Adapt$y <- NULL
+E1_Adapt$z <- NULL
+E1_Adapt$TopupM <- NULL
+E1_Adapt$TopupF <- NULL
+
+#---------------------------------------------------------------------------------
 #Save datasets
-save(E1_Bline, E1_Adapt, file ="input/Exp1_raw_data.RData")
+save(E1_Bline, E1_Adapt, file ="input/Exp1_data.RData")
 
 
 

@@ -1,9 +1,9 @@
 ##########################################################################
 ## File: 03c_Exp3_data_analysis_males_only.R
-## Data Analysis for Exp 3: Adaptation of Emotion - pseudowords
+## Data Analysis for Exp 3: Adaptation of Emotion - pseudowords, male speakers only
 # male voices only
 # author: Christine Nussbaum 
-# date 03/2025, updated 02/2026
+# date 02/2026
 
 # clear directory
 rm(list=ls())
@@ -25,13 +25,14 @@ source("functions/mySummary.R")
 source("functions/tracedEzOut.R")
 
 #set seed
-set.seed(42)
+set.seed(32) #to make Bayes calculation replicable
 
 #---------------------------------------------------------------------------------
 #get the input data:
 
 #load the data
 load(file ="input/Exp3_without_omissions.RData")
+#meaning of variables -> refer to Script "02_Exp2_data_analysis.R"
 
 #select female voices only
 
@@ -104,8 +105,7 @@ capture.output(summary(m), m_test, file= "output/Exp3_GLMM_males.txt")
 
 ############
 #Full Model
-#note: specified with all possible interaction combinations
-#note: we have convergence problems, therefore I estimated a much simpler Model
+#note: due to convergence problems, therefore I estimated a much simpler Model
 
 ##get default priors first
 default_prior <- default_prior(Resp ~ tML_sc +  Word + AdaptType + Word:AdaptType + (1|SpID) + (1 | Participant),
@@ -120,14 +120,12 @@ fullmodel <- brm(Resp ~ tML_sc +  Word + AdaptType + Word:AdaptType + (1|SpID) +
   chains = 4, iter = 2000, warmup = 1000, cores = 4, #set to recommended values
   save_pars = save_pars(all = TRUE)) # to allow Bayes factor estimation later
 
-#Note: the model gives me 39 divergent transitions after warmup. 
-#this is a problem that I need to attend to... meh...
+#Note: the model gives me 85 divergent transitions after warmup. 
+#not ideal, but acceptable
 
 
 ######################################################
 #Reduced Model without the interaction of Word and AdaptType
-
-#note: the three-way interaction of tML_sc:Word:AdaptType remained in the model, because it was significant
 
 ##get default priors again
 default_prior2 <- default_prior(Resp ~ tML_sc +  Word + AdaptType + (1|SpID) + (1 | Participant),
@@ -142,11 +140,12 @@ redmodel <- brm(Resp ~ tML_sc +  Word + AdaptType +  (1|SpID) + (1 | Participant
                  chains = 4, iter = 2000, warmup = 1000, cores = 4, 
                 save_pars = save_pars(all = TRUE))
 
-#61 divergent transitions
-# thats acceptable as well
+#79 divergent transitions
+#also not ideal, but thats acceptable as well
 
 BF <-bayes_factor(fullmodel, redmodel)
 
+#BF is 0.19, which indicated moderate evidence for the Null Hypothesis (<0.33)
 
 #save the models and the bayes_factors
 save(fullmodel, redmodel, file = "input/bayesmodels_male.RData")

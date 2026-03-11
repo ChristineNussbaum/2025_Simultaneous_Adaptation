@@ -1,0 +1,56 @@
+Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
+ Family: binomial  ( logit )
+Formula: Resp ~ tML_sc * SpSex * AdaptType + (1 | SpID) + (1 | Participant)
+   Data: E1_Adapt
+Control: glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e+05))
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   7433.4    7504.1   -3706.7    7413.4      8693 
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-10.9071  -0.4574  -0.1587   0.4593  10.8293 
+
+Random effects:
+ Groups      Name        Variance Std.Dev.
+ Participant (Intercept) 0.4208   0.6487  
+ SpID        (Intercept) 0.3007   0.5483  
+Number of obs: 8703, groups:  Participant, 39; SpID, 4
+
+Fixed effects:
+                                    Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                        -0.790808   0.405817  -1.949  0.05133 .  
+tML_sc                              1.814958   0.074220  24.454  < 2e-16 ***
+SpSexm                              0.678636   0.554600   1.224  0.22108    
+AdaptTypef_fea/m_ang                0.615444   0.083845   7.340 2.13e-13 ***
+tML_sc:SpSexm                       0.323329   0.109079   2.964  0.00303 ** 
+tML_sc:AdaptTypef_fea/m_ang        -0.003524   0.101538  -0.035  0.97231    
+SpSexm:AdaptTypef_fea/m_ang        -1.156331   0.120616  -9.587  < 2e-16 ***
+tML_sc:SpSexm:AdaptTypef_fea/m_ang -0.187233   0.148297  -1.263  0.20675    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) tML_sc SpSexm AdT_/_ tML_s:SS tML_:A SS:AT_
+tML_sc      -0.053                                            
+SpSexm      -0.683  0.039                                     
+AdptTypf_/_ -0.111  0.254  0.081                              
+tML_sc:SpSx  0.035 -0.662 -0.029 -0.167                       
+tML_s:AT_/_  0.037 -0.705 -0.027 -0.212  0.481                
+SpSxm:AT_/_  0.077 -0.181 -0.112 -0.696  0.126    0.147       
+tML_:SS:AT_ -0.025  0.481  0.021  0.145 -0.712   -0.685 -0.181
+Mixed Model Anova Table (Type 3 tests, LRT-method)
+
+Model: Resp ~ tML_sc * SpSex * AdaptType + (1 | SpID) + (1 | Participant)
+Data: E1_Adapt
+Df full model: 10
+                  Effect df       Chisq p.value
+1                 tML_sc  1 4130.01 ***   <.001
+2                  SpSex  1        0.03    .856
+3              AdaptType  1        0.38    .536
+4           tML_sc:SpSex  1     9.02 **    .003
+5       tML_sc:AdaptType  1        1.72    .190
+6        SpSex:AdaptType  1   93.59 ***   <.001
+7 tML_sc:SpSex:AdaptType  1        1.59    .207
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘+’ 0.1 ‘ ’ 1

@@ -2,7 +2,7 @@
 ## File: 00_Exp3_data_preparation.R
 ## Data Preparation for Exp 3: Adaptation of Emotion - pseudowords
 # author: Christine Nussbaum
-# date 03/2025, updates 12/2025
+# date 03/2026
 
 # clear directory
 rm(list=ls())
@@ -121,6 +121,22 @@ E3_Adapt <- E3_Adapt %>% filter(Participant != "3d663343")
 E3_Bline <- E3_Bline %>% filter(Participant != "3d663343")
 
 rm(Check_Bline, Check_Adapt)
+
+#---------------------------------------------------------------------------------
+# Remove unnecessary variables
+
+E3_Bline$Block <- NULL
+E3_Bline$Date <- NULL
+E3_Bline$Experiment<- NULL
+
+E3_Adapt$Block <- NULL
+E3_Adapt$Date <- NULL
+E3_Adapt$Experiment <- NULL
+E3_Adapt$TopUp <- NULL
+E3_Adapt$z <- NULL
+E3_Adapt$Topup1 <- NULL
+E3_Adapt$Topup2 <- NULL
+
 
 #---------------------------------------------------------------------------------
 #Save datasets

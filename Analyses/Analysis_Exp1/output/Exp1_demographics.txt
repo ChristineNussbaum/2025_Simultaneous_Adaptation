@@ -1,0 +1,61 @@
+         LAge       SD  N        SE       CI
+[1,] 22.89744 3.582082 39 0.5735921 1.161177
+     range(LAge)
+[1,]          19
+[2,]          39
+
+ 1  2 
+25 14 
+
+ 1 
+39 
+
+                                 Angewandte Informatik/Psychologie, 10                                   Angewandte Informatik/Psychologie, 2 
+                                                                     1                                                                      1 
+                                                Augenoptik, 4.Semester                                 Augenoptik/Optometrie, 4. Fachsemester 
+                                                                     1                                                                      1 
+                                      Ausbildung zum Physiotherapeuten                                                      B.Sc. Psychologie 
+                                                                     1                                                                      1 
+                                   B.Sc. Psychologie, 6. Fachsemseter                                         Biotechnologie, 2. Fachsemester 
+                                                                     1                                                                      1 
+                                           Biotechnologie, 4. Semester                                                Business Administration 
+                                                                     1                                                                      1 
+                                         Ergotherapie, 3. Fachsemester                                     Erziehungswissenschaft/Psychologie 
+                                                                     1                                                                      1 
+                                 Erziehungswissenschaft/Psychologie, 2                                Erziehungswissenschaft/Psychologie, 4/2 
+                                                                     1                                                                      1 
+                                  Erziehungswissenschaft/Psychologie,2                                          Geschichte/Geographie, 8./6.  
+                                                                     1                                                                      1 
+                                         HF soziologie, NF Psychologie              Kinderkrnakenschwester/ B.s.c Pflege/Pflegeleitung 5.Sem. 
+                                                                     1                                                                      1 
+                                 Kommunikationswissenschaft/Psychology                             Laser- und Optotechnologie 6. Fachsemester 
+                                                                     1                                                                      1 
+Lehramt (Politikwissenschaften, Englische Philologie, 6. Fachsemester)                                                            Psychologie 
+                                                                     1                                                                      2 
+                                         Psychologie (HF, 6. Semester)                                                     Psychologie (HF,6) 
+                                                                     1                                                                      1 
+                                                  Psychologie B.Sc., 8                                                      Psychologie HF, 2 
+                                                                     1                                                                      1 
+                                              Psychologie, 4. Semester                                                Psychologie, HF, 10. FS 
+                                                                     1                                                                      1 
+                                      Psychologie, HF, 6. Fachsemester                                             Psychologie,4.Fachsemester 
+                                                                     1                                                                      1 
+                                                 Soziale Arbeit, 6. FS                                           Soziologie/Psychologie 2. FS 
+                                                                     1                                                                      1 
+                                             Soziologie/Psychologie, 2                           Student (Psychologie B.Sc., 4. Fachsemester) 
+                                                                     1                                                                      1 
+                                            Studentin Optometrie 6. FS                                                        Verwaltungswirt 
+                                                                     1                                                                      1 
+                                        Werkstofftechnik (6. Semester)                                   Werkstofftechnik Master, 4. Semester 
+                                                                     1                                                                      1 
+
+ 1  2  3 
+37  1  1 
+
+           Tinnitus Tinnitus  
+       37         1         1 
+
+1 
+2 
+        Tmean min max
+[1,] 29.12821  21  48

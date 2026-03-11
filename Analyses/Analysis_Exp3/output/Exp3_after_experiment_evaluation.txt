@@ -6,7 +6,7 @@
 
  2  3  4  5 
 17 20  4  1 
-[1] "Bei den meisten Stimmen hatte ich gar keine Ahnung, was ich dr?cken sollte."
+[1] "Bei den meisten Stimmen hatte ich gar keine Ahnung, was ich drücken sollte."
 
  1  2  3  4 
 13 20  6  3 

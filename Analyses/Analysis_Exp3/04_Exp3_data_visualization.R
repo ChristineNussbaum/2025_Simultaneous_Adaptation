@@ -2,7 +2,7 @@
 ## File: 03_Exp2_data_visualization.R
 ## Data Analysis for Exp 2: Adaptation of Emotion  - pseudowords
 # author: Christine Nussbaum 
-# date 02/2022, revised 12/2025
+# date 03/2026
 
 # clear directory
 rm(list=ls())
@@ -27,6 +27,8 @@ source("functions/mySummary.R")
 
 load(file ="input/Exp3_without_omissions.RData")
 
+#meaning of variables -> refer to Script "02_Exp3_data_analysis.R"
+
 
 #rename "w5" into "w4"
 E3_Adapt$Word <- ifelse(E3_Adapt$Word == "w05", "w04", E3_Adapt$Word)
@@ -39,7 +41,8 @@ E3_Bline$Word <- ifelse(E3_Bline$Word == "w05", "w04", E3_Bline$Word)
 
 #average raw data (for both Adapt and Baseline Blocks)
 E3_Adapt_plot <- mySummary(E3_Adapt, Resp, Participant, tML, Word, AdaptType)
-E3_Bline_plot <- mySummary(E3_Bline, Resp, Participant, tML, Word, Block)
+E3_Bline_plot <- mySummary(E3_Bline, Resp, Participant, tML, Word)
+E3_Bline_plot$Block <- "Baseline"
 E3_Bline_plot <- E3_Bline_plot %>% rename(AdaptType= Block)
 E3_plot <- rbind(E3_Adapt_plot, E3_Bline_plot)
 rm(E3_Adapt_plot, E3_Bline_plot)
@@ -76,7 +79,7 @@ p1<-(ggplot(data= E3_plot_agg, aes(x = tML, y=Resp, color = AdaptType, group=Ada
             strip.text.x = element_text(size = 18), 
             legend.position = "none") + 
       scale_y_continuous(limits=c(0,1.0), breaks = c( 0.0, 0.2, 0.4, 0.6, 0.8, 1.0)))
-#abspeichern
+#save plot
 ggsave(filename, width = 15, height = 4, dpi =300)
 
 #keep environment tidy
@@ -129,7 +132,7 @@ p2<-ggplot(data= E3_plot_agg2) +
 
 p2
 
-#abspeichern
+#save plot
 ggsave(filename, width = 15, height = 4, dpi =300)
 
 #keep environment tidy
