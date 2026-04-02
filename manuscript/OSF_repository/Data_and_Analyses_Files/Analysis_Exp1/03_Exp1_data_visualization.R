@@ -77,7 +77,7 @@ remove(yTitleStr, xTitleStr, facetStr, title, filename)
 
 
 #-------------------------------------------------------------------------------#
-#                      1 - Boxplots, for each                                   #
+#                    1 - Boxplots, for each speaker gender                      #
 #-------------------------------------------------------------------------------# 
 
 E1_plot_agg2<- mySummary(E1_plot, Resp, Participant, SpSex, AdaptType)

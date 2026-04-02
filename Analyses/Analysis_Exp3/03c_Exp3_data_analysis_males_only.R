@@ -32,7 +32,7 @@ set.seed(32) #to make Bayes calculation replicable
 
 #load the data
 load(file ="input/Exp3_without_omissions.RData")
-#meaning of variables -> refer to Script "02_Exp2_data_analysis.R"
+#meaning of variables -> refer to Script "02_Exp3_data_analysis.R"
 
 #select female voices only
 
@@ -100,7 +100,7 @@ capture.output(summary(m), m_test, file= "output/Exp3_GLMM_males.txt")
 
 
 #-------------------------------------------------------------------------------#
-#   Analysis 1b: run the same with brms for estimation of the Baysian effect    #
+#   Analysis 1b: run the same with brms for estimation of the Bayesian effect   #
 #-------------------------------------------------------------------------------#
 
 ############

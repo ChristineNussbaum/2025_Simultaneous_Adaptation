@@ -60,12 +60,12 @@ names(SpID.labs) <- c("f1", "f2")
 #Plot
 p1<-(ggplot(data= E2_plot_agg, aes(x = tML, y=Resp, color = AdaptType, group=AdaptType)) +
       geom_point() +
-      geom_line() + 
+      geom_line(size = 1.2) + 
       geom_errorbar(aes(ymin = (Resp-CI), ymax = (Resp+CI)), width = 0.1 ) + 
       labs(x = xTitleStr , y = yTitleStr) + #, title = title
       facet_wrap(~ SpID, ncol = 2, labeller = labeller(SpID = SpID.labs)) +
       geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
-      scale_colour_manual(values=c("grey", "darkred", "chocolate4")) + 
+      scale_colour_manual(values=c("grey", "#CD4F39", "#8B7355")) + 
       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
             axis.text=element_text(size=16),
             axis.title=element_text(size=16), 
@@ -114,7 +114,7 @@ names(SpID.labs) <- c("m3", "m4")
 #Plot
 p1b<-(ggplot(data= E2_plot_agg, aes(x = tML, y=Resp, color = AdaptType, group=AdaptType)) +
        geom_point() +
-       geom_line() + 
+       geom_line(size = 1.2) + 
        geom_errorbar(aes(ymin = (Resp-CI), ymax = (Resp+CI)), width = 0.1 ) + 
        labs(x = xTitleStr , y = yTitleStr) + #, title = title
        facet_wrap(~ SpID, ncol = 2, labeller = labeller(SpID = SpID.labs)) +
@@ -172,7 +172,7 @@ p2<-ggplot(data= E2_plot_agg2) +
                   aes(xmin = start, xmax = end, annotations = label, y_position = y),
                   textsize = 6, vjust = -0.2, manual = TRUE) + 
       facet_wrap(~ SpID, ncol = 2, labeller = labeller(SpID = SpID.labs)) +
-      scale_fill_manual(values=c("grey", "darkred", "chocolate4"), 
+      scale_fill_manual(values=c("grey", "#CD4F39", "#8B7355"), 
                         labels=c("Baseline" = "Baseline", 
                                  "f1_ang/f2_fea" = "AdaptCond1: F1 ang | F2 fea",
                                  "f1_fea/f2_ang" = "AdaptCond2: F1 fea | F2 ang")) + 

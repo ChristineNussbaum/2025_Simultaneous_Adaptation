@@ -1,5 +1,5 @@
 ##########################################################################
-## File: 02_Exp1_sample_information.R
+## File: 01_Exp2_sample_information.R
 ## This script gives an overview of the sample demographics in Exp 2
 # author: Christine Nussbaum
 # date 03/2026

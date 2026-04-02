@@ -1,6 +1,6 @@
 ##########################################################################
-## File: 03_Exp2_data_visualization.R
-## Data Analysis for Exp 2: Adaptation of Emotion  - pseudowords
+## File: 04_Exp3_data_visualization.R
+## Data Analysis for Exp 3: Adaptation of Emotion  - pseudowords
 # author: Christine Nussbaum 
 # date 03/2026
 
@@ -65,7 +65,7 @@ names(Word.labs) <- c("w01", "w02", "w03", "w04")
 #Plot
 p1<-(ggplot(data= E3_plot_agg, aes(x = tML, y=Resp, color = AdaptType, group=AdaptType)) +
       geom_point() +
-      geom_line() + 
+      geom_line(size = 1.2) + 
       geom_errorbar(aes(ymin = (Resp-CI), ymax = (Resp+CI)), width = 0.1 ) + 
       labs(x = xTitleStr , y = yTitleStr) + #, title = title
       facet_wrap(~ Word, ncol = 4, labeller = labeller(Word = Word.labs)) +

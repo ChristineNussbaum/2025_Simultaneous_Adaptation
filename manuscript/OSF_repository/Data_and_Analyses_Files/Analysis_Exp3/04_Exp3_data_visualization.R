@@ -1,6 +1,6 @@
 ##########################################################################
-## File: 04_Exp2_data_visualization.R
-## Data Analysis for Exp 2: Adaptation of Emotion  - pseudowords
+## File: 04_Exp3_data_visualization.R
+## Data Analysis for Exp 3: Adaptation of Emotion  - pseudowords
 # author: Christine Nussbaum 
 # date 03/2026
 
