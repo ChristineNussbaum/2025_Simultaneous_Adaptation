@@ -1,0 +1,40 @@
+[1] "Hap"
+[1] "ML100 vs Ml75"
+
+	Paired t-test
+
+data:  Int_RESP by Int
+t = 10.816, df = 19, p-value = 1.467e-09
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.4360061 0.6452439
+sample estimates:
+mean of the differences 
+               0.540625 
+
+[1] "ML75 vs Ml50"
+
+	Paired t-test
+
+data:  Int_RESP by Int
+t = 14.889, df = 19, p-value = 6.269e-12
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.6862001 0.9106749
+sample estimates:
+mean of the differences 
+              0.7984375 
+
+[1] "ML50 vs Ml25"
+
+	Paired t-test
+
+data:  Int_RESP by Int
+t = 6.8427, df = 19, p-value = 1.572e-06
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.2396895 0.4509355
+sample estimates:
+mean of the differences 
+              0.3453125 
+

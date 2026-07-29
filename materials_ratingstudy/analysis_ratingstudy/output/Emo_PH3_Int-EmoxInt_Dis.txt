@@ -1,0 +1,40 @@
+[1] "Dis"
+[1] "ML100 vs Ml75"
+
+	Paired t-test
+
+data:  Emo_ACC by Int
+t = 7.0764, df = 19, p-value = 9.856e-07
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.1485477 0.2733273
+sample estimates:
+mean of the differences 
+              0.2109375 
+
+[1] "ML75 vs Ml50"
+
+	Paired t-test
+
+data:  Emo_ACC by Int
+t = 6.9435, df = 19, p-value = 1.284e-06
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.1451706 0.2704544
+sample estimates:
+mean of the differences 
+              0.2078125 
+
+[1] "ML50 vs Ml25"
+
+	Paired t-test
+
+data:  Emo_ACC by Int
+t = 4.508, df = 19, p-value = 0.0002408
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.07114872 0.19447628
+sample estimates:
+mean of the differences 
+              0.1328125 
+

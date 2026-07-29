@@ -1,0 +1,24 @@
+$Sex
+
+female   male 
+    13      7 
+
+$Age
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.      SD 
+19.0000 19.0000 20.0000 21.2500 21.5000 30.0000  3.2424 
+
+$Handeness
+
+ left right 
+    3    17 
+
+$Bildung
+
+  Abitur Bachelor 
+      19        1 
+
+$Hoerschaedigung
+
+Nein 
+  20 
+

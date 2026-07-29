@@ -1,0 +1,23 @@
+$`--- ANOVA RESULTS     ------------------------------------`
+       Effect        MSE df1 df2        F     p petasq getasq
+1 (Intercept) 1.34022731   1  19 2530.640 0.000  0.993  0.985
+2         Emo 0.10138475   6 114    6.277 0.000  0.248  0.070
+3         Int 0.09245358   3  57  506.016 0.000  0.964  0.734
+4     Emo:Int 0.02488580  18 342   22.780 0.000  0.545  0.167
+
+$`--- SPHERICITY TESTS  ------------------------------------`
+   Effect p_Mauchly GGEpsilon  p_GG HFEpsilon  p_HF
+1     Emo     0.019     0.613 0.000     0.778 0.000
+2     Int     0.000     0.436 0.000     0.455 0.000
+3 Emo:Int     0.013     0.464 0.000     0.862 0.000
+
+$`--- FORMATTED RESULTS ------------------------------------`
+       Effect                                        Text
+1 (Intercept)   F(1, 19) = 2530.640, p < .001, np2 = .993
+2         Emo  F(6, 114) =    6.277, p < .001, np2 = .248
+3         Int   F(3, 57) =  506.016, p < .001, np2 = .964
+4     Emo:Int F(18, 342) =   22.780, p < .001, np2 = .545
+
+$`NOTE:`
+[1] "p-values for the following effects were HF-adjusted (p_Mauchly <= 0.05): Emo; Int; Emo:Int. Reporting uncorrected degrees of freedom."
+

@@ -1,0 +1,36 @@
+
+{Begin Comments
+
+}
+{Begin Filters
+mType
+f0	full	tbr
+
+}
+{Begin Rows
+emotion	1
+Sex	1
+}
+{Begin Cols
+mType	1
+}
+{Begin Data
+Age	2
+}
+{Begin Options
+0
+0
+1
+0
+2
+2
+1
+1
+1
+0
+50
+1
+Age:Count by emotion, Sex and mType
+1
+Age:Count
+}

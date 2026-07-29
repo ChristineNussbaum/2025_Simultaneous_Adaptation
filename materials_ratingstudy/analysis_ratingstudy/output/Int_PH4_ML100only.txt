@@ -1,0 +1,87 @@
+[1] "HapPle"
+
+	Paired t-test
+
+data:  Int_RESP by Emo
+t = 9.5669, df = 19, p-value = 1.069e-08
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.4125835 0.6436665
+sample estimates:
+mean of the differences 
+               0.528125 
+
+[1] "HapFea"
+
+	Paired t-test
+
+data:  Int_RESP by Emo
+t = 5.1779, df = 19, p-value = 5.352e-05
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.2317937 0.5463313
+sample estimates:
+mean of the differences 
+              0.3890625 
+
+[1] "HapSad"
+
+	Paired t-test
+
+data:  Int_RESP by Emo
+t = 8.2751, df = 19, p-value = 1.011e-07
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.4634164 0.7772086
+sample estimates:
+mean of the differences 
+              0.6203125 
+
+[1] "PleFea"
+
+	Paired t-test
+
+data:  Int_RESP by Emo
+t = -2.1221, df = 19, p-value = 0.0472
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.276218298 -0.001906702
+sample estimates:
+mean of the differences 
+             -0.1390625 
+
+[1] "PleSad"
+
+	Paired t-test
+
+data:  Int_RESP by Emo
+t = 1.3046, df = 19, p-value = 0.2076
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.05571082  0.24008582
+sample estimates:
+mean of the differences 
+              0.0921875 
+
+[1] "FeaSad"
+
+	Paired t-test
+
+data:  Int_RESP by Emo
+t = 6.5787, df = 19, p-value = 2.686e-06
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 0.1576776 0.3048224
+sample estimates:
+mean of the differences 
+                0.23125 
+
+[1] "Descriptive Data"
+     Emo   Int_RESP   SD          N    SE           CI         
+[1,] "hap" "3.403125" "0.2643691" "20" "0.05911473" "0.1237286"
+[2,] "ple" "2.875000" "0.3283794" "20" "0.07342788" "0.1536863"
+[3,] "fea" "3.014063" "0.2683395" "20" "0.06000253" "0.1255867"
+[4,] "sad" "2.782812" "0.3174728" "20" "0.07098907" "0.1485818"
+[5,] "dis" "2.978125" "0.2800780" "20" "0.06262734" "0.1310805"
+[6,] "sur" "3.225000" "0.2883069" "20" "0.06446739" "0.1349318"
+[7,] "ang" "3.553125" "0.3024876" "20" "0.06763829" "0.1415686"
