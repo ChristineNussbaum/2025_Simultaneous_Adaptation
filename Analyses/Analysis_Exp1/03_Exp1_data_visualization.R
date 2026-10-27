@@ -109,7 +109,7 @@ p2<-ggplot(data= E1_plot_agg2) +
       scale_fill_manual(values=c("grey", "darkorange", "darkgreen"), 
                         labels=c("Baseline" = "Baseline", 
                                  "f_ang/m_fea" = "AdaptCondition1: f_ang | m_fea",
-                                 "f_fea/m_ang" = "AdaptCondition2: f_ang | m_fea")) + 
+                                 "f_fea/m_ang" = "AdaptCondition2: f_fea | m_ang")) + 
       coord_cartesian(ylim=c(0.3, 0.7)) +
       geom_hline(yintercept = 0.5, linetype = 4) + theme_bw()+
       theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
